@@ -1,0 +1,18 @@
+<?php
+/**
+ * 活动模型
+ * @createTime 2017/4/4 10:25
+ */
+
+namespace app\common\model;
+
+use think\Model;
+
+class Activity extends Model {
+
+    /**
+     * 定义主键
+     * @var string
+     */
+    protected $pk = 'activity_id';
+}

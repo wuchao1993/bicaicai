@@ -1,0 +1,1863 @@
+---------------------------------------------------------------
+[ 2018-01-26T15:39:16+08:00 ] 127.0.0.1 GET /api/Home/activityList
+[ info ] kosun.com/api/Home/activityList [运行时间：1.180000s][吞吐率：0.85req/s] [内存消耗：2,831.81kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.050000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9a385283-56e1-44dc-9542-e1c00013a2f1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.009000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.013000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.012000s ]
+[ info ] [ RUN ] app\api\controller\Home->activityList[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:47:58+08:00 ] 127.0.0.1 GET /api/Home/activityInfo?activityId=11
+[ info ] kosun.com/api/Home/activityInfo?activityId=11 [运行时间：0.606000s][吞吐率：1.65req/s] [内存消耗：2,836.74kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activityInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ad30213e-3bb9-49c8-8e82-1cde5194b73a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '11',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Home->activityInfo[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:48:09+08:00 ] 127.0.0.1 GET /api/Home/activityInfo?activityId=8
+[ info ] kosun.com/api/Home/activityInfo?activityId=8 [运行时间：0.348000s][吞吐率：2.87req/s] [内存消耗：2,853.38kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activityInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5f844a7-6e61-48a5-a311-bbfb02e9820a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Home->activityInfo[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T15:58:34+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.107000s][吞吐率：9.35req/s] [内存消耗：2,785.56kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9b2fc307-7f24-4491-a0ed-ec9e529723ed',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.028000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Class 'app\api\logic\Config' not found[D:\xampp\htdocs\service\application\api\logic\Activity.php:104]
+---------------------------------------------------------------
+[ 2018-01-26T16:00:15+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.754000s][吞吐率：1.33req/s] [内存消耗：2,882.21kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a2858a93-82f8-40aa-826e-433c844b7e25',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:05:29+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.730000s][吞吐率：1.37req/s] [内存消耗：2,882.98kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a610e3a-141b-4335-b7d3-28f0b2d408be',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:10:51+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.862000s][吞吐率：1.16req/s] [内存消耗：2,882.98kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b9e99e7-56e2-4c9b-972e-fec6268b2bf8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:31:30+08:00 ] 127.0.0.1 GET /api/Home/activity?activityCategoryId=8
+[ info ] kosun.com/api/Home/activity?activityCategoryId=8 [运行时间：0.343000s][吞吐率：2.92req/s] [内存消耗：2,792.06kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e88247b0-6a79-4d45-96e9-1288a5bd577e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Home->activity[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: request[D:\xampp\htdocs\service\application\api\controller\Home.php:35]
+[ error ] [0]致命错误: Call to a member function param() on null[D:\xampp\htdocs\service\application\api\controller\Home.php:35]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:00+08:00 ] 127.0.0.1 GET /api/Home/activity?activityCategoryId=8
+[ info ] kosun.com/api/Home/activity?activityCategoryId=8 [运行时间：0.520000s][吞吐率：1.92req/s] [内存消耗：2,871.41kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b50ea93-ea06-4cb1-b6e4-9a839c54267a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Home->activity[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\api\logic\Activity.php:34]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:07+08:00 ] 127.0.0.1 GET /api/Home/activity
+[ info ] kosun.com/api/Home/activity [运行时间：0.336000s][吞吐率：2.98req/s] [内存消耗：2,870.41kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '324ba671-3648-470a-a4d3-b4ec2f46e908',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Home->activity[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\api\logic\Activity.php:34]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:14+08:00 ] 127.0.0.1 GET /api/Home/activity?activityCategoryId=8
+[ info ] kosun.com/api/Home/activity?activityCategoryId=8 [运行时间：0.341000s][吞吐率：2.93req/s] [内存消耗：2,871.41kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd177fa99-7932-41d3-aceb-648bf8c894a3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Home->activity[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\api\logic\Activity.php:34]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:22+08:00 ] 127.0.0.1 GET /api/Home/activity
+[ info ] kosun.com/api/Home/activity [运行时间：0.345000s][吞吐率：2.90req/s] [内存消耗：2,870.41kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Home',
+    2 => 'activity',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a9292657-b1d2-4988-ad98-8899bad68b43',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Home->activity[ D:\xampp\htdocs\service\application\api\controller\Home.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\api\logic\Activity.php:34]
+---------------------------------------------------------------
+[ 2018-01-26T16:37:14+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.918000s][吞吐率：1.09req/s] [内存消耗：2,882.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d721a65-1554-4e7c-aefc-86921fda5e1a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:39:34+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.763000s][吞吐率：1.31req/s] [内存消耗：2,883.32kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d280192-9969-4b27-b859-6fd96f4f80c5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:39:49+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.463000s][吞吐率：2.16req/s] [内存消耗：2,883.32kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a52bfd0-86b4-45e6-9534-e09f46848e3f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:40:05+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.467000s][吞吐率：2.14req/s] [内存消耗：2,883.32kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0633c1a5-f526-4554-a6be-623875b9b737',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:40:44+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,701.92kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0b6b63f9-0b41-47a4-a39e-7b8db9002c12',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:42:30+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?activityCategoryId=8 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,701.98kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6750e068-20d0-4a90-854a-e622b9cec155',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityCategoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:42:49+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?categoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?categoryId=8 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,701.91kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5a03b304-e184-4d0a-9f3d-9d74d29cf0ab',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'categoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:43:04+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?categoryId=8
+[ info ] kosun.com/api/Activity/getPcActivityList?categoryId=8 [运行时间：0.808000s][吞吐率：1.24req/s] [内存消耗：2,831.06kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c1a9ace6-e999-4f54-a62e-b01c870d8819',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'categoryId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:43:19+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.482000s][吞吐率：2.07req/s] [内存消耗：2,882.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ae7b254e-1227-47f6-8f72-bd8d0948ffe0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:47:15+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.849000s][吞吐率：1.18req/s] [内存消耗：2,890.03kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bfead005-125d-4be5-a3fb-68308c853012',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类的属性不存在:app\common\model\Activity->finish_time[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:587]
+---------------------------------------------------------------
+[ 2018-01-26T16:47:43+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.621000s][吞吐率：1.61req/s] [内存消耗：2,890.03kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ff4ce38b-6a8e-45eb-8e5e-3569ffbffd4f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类的属性不存在:app\common\model\Activity->finish_time[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:587]
+---------------------------------------------------------------
+[ 2018-01-26T16:48:20+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.658000s][吞吐率：1.52req/s] [内存消耗：2,883.70kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ef94de25-3ef2-420e-8b4e-6cbd5c4f88e4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:55:59+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailedById
+[ info ] kosun.com/api/Activity/getPcActivityDetailedById [运行时间：0.070000s][吞吐率：14.29req/s] [内存消耗：1,840.16kb] [文件加载：67]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailedById',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee8f6b30-a8d0-4c2c-a75e-eb2ef4271070',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T16:59:08+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed
+[ info ] kosun.com/api/Activity/getPcActivityDetailed [运行时间：0.543000s][吞吐率：1.84req/s] [内存消耗：2,872.27kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '677bd27f-8fa1-462f-981f-d8d9ff4728db',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:12+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.334000s][吞吐率：2.99req/s] [内存消耗：2,872.98kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0a9874d4-c948-4ef4-8010-3d5a2c5cfa01',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:42+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.336000s][吞吐率：2.98req/s] [内存消耗：2,873.23kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2d06489-5776-4267-a32a-3eff3349b273',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:46+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.334000s][吞吐率：2.99req/s] [内存消耗：2,873.23kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '00b673fb-20de-432f-856e-34021e048427',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+---------------------------------------------------------------
+[ 2018-01-26T17:00:16+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.545000s][吞吐率：1.83req/s] [内存消耗：2,873.23kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0c76e314-f8c2-42b1-ab8f-e3e108a180a7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+---------------------------------------------------------------
+[ 2018-01-26T17:00:22+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.414000s][吞吐率：2.42req/s] [内存消耗：2,873.23kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '39760432-f431-4c91-a2b2-a6ab31e593d7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:36]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:03+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.336000s][吞吐率：2.98req/s] [内存消耗：2,873.39kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0a7e4a32-08ec-4152-8f91-af292b454fb8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:06+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.347000s][吞吐率：2.88req/s] [内存消耗：2,873.39kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2fdca326-6467-4b73-869d-09ec60ad9438',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:45+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：1.348000s][吞吐率：0.74req/s] [内存消耗：2,873.39kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '05667281-c79b-4fea-a50a-eb36efab7b1b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:37]
+[ error ] [8]未定义变量: actLogic[D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+[ error ] [8]Trying to get property of non-object[D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\api\controller\Activity.php:38]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:59+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.337000s][吞吐率：2.97req/s] [内存消耗：2,775.78kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '333edfcf-cbe7-42a1-8edc-405788d910b9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:02:16+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.334000s][吞吐率：2.99req/s] [内存消耗：2,775.84kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3e9e96eb-e003-428a-9bad-cd22c576c517',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:02:28+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.329000s][吞吐率：3.04req/s] [内存消耗：2,775.80kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd780232c-11a5-438e-b82a-cf4ec007f9e2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:02:37+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.337000s][吞吐率：2.97req/s] [内存消耗：2,834.86kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f038efa-6227-4991-b572-2833e10023ad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:16+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f6c10815-b659-487f-a5b9-e7e67afb09f8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:18+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'abc34091-c80b-4cbc-b0cd-f40f6639445e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:19+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '57d689d4-fb9a-4158-bbb4-a0de082d8e16',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:19+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '427d73e9-5050-4c46-ab58-602bae8ea9c9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:20+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cc39daaf-e409-41b0-ac9f-9a5430e55731',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:20+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3ad9f734-0f39-4f50-a5ae-14e4b1524abf',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:21+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8147521-5385-48b7-af74-07176925cec3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:21+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e4d206b-0d9d-45d2-823d-9738b372b10e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:03:32+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,776.60kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '645584d9-ba8c-4b44-ae0a-fd85b9a7c082',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->getPcActivityDetailedById[D:\xampp\htdocs\service\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-01-26T17:04:07+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.036000s][吞吐率：27.78req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1218083c-7dbe-4c14-aa13-205ba633ad7c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:04:08+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：2,696.21kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e848da28-0356-46bf-a9ac-5ba27d07399d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:04:27+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?activityId=8 [运行时间：0.449000s][吞吐率：2.23req/s] [内存消耗：2,835.22kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5b178c9-ce33-4904-81c1-5c3bbbaa8c76',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'activityId' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:04:50+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?id=8 [运行时间：0.351000s][吞吐率：2.85req/s] [内存消耗：2,852.34kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '75b6cd3d-8e25-4f94-bdd5-d699c55a3b67',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:05:09+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?id=8 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：2,696.14kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c53db89-2d27-4b99-9e9a-3dc2bc43e5a5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:05:25+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?id=8 [运行时间：0.344000s][吞吐率：2.91req/s] [内存消耗：2,867.73kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'aa84b75c-4858-4233-bc61-fb0c8de69939',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:05:40+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?id=8 [运行时间：0.422000s][吞吐率：2.37req/s] [内存消耗：2,851.67kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9cbe8704-ad65-43ba-9007-09445aeab899',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:12:07+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ info ] kosun.com/api/Activity/getPcActivityList [运行时间：0.879000s][吞吐率：1.14req/s] [内存消耗：2,887.17kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a525db48-28d8-4428-a75b-13260b953ef8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityList[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-26T17:15:04+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ info ] kosun.com/api/Activity/getPcActivityDetailed?id=8 [运行时间：0.732000s][吞吐率：1.37req/s] [内存消耗：2,851.67kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Activity',
+    2 => 'getPcActivityDetailed',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5f310ff2-76cd-446f-8227-66e2cbcfed77',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '8',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Activity->getPcActivityDetailed[ D:\xampp\htdocs\service\application\api\controller\Activity.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,1747 @@
+---------------------------------------------------------------
+[ 2018-03-27T09:39:20+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/editPayTypeGroup?groupName=%E6%88%9123&status=1&orderIndex=1&groupId=8
+[ info ] kosun.com/admin/PayCenterRechargeType/editPayTypeGroup?groupName=%E6%88%9123&status=1&orderIndex=1&groupId=8 [运行时间：0.866000s][吞吐率：1.15req/s] [内存消耗：2,862.41kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'editPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '352ca8d2-5fda-4a4c-b843-634e224143b7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------686994282193440350074634',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => '我23',
+  'status' => '1',
+  'orderIndex' => '1',
+  'groupId' => '8',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->editPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T10:52:41+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：1.034500s][吞吐率：0.97req/s] [内存消耗：2,861.86kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '13f2a2a5-4150-40e6-a28a-77f9bc584783',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------181023663543645311952642',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T10:52:47+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ info ] kosun.com/admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1 [运行时间：0.581500s][吞吐率：1.72req/s] [内存消耗：2,862.23kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'addPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ce3b5e7-445b-4ca9-81ef-be2f7bfdf012',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------416284901633728032597257',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => 'www',
+  'status' => '1',
+  'orderIndex' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->addPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T10:52:51+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：0.668000s][吞吐率：1.50req/s] [内存消耗：2,861.86kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '21e9a962-ad28-4691-ba37-2e4dfd488564',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------504858713328679960793779',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T10:52:56+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ info ] kosun.com/admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1 [运行时间：0.710500s][吞吐率：1.41req/s] [内存消耗：2,862.23kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'addPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bfe9c3b1-4ae1-4c9a-b019-941c58cdaa5f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------183856680659354200789738',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => 'www',
+  'status' => '1',
+  'orderIndex' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->addPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T10:53:30+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：0.479500s][吞吐率：2.09req/s] [内存消耗：2,861.86kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b15c6a3d-afd9-4569-a749-54d568becfe0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------723354568922825347493495',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T10:53:41+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenterChannel/getChannelMerchantList [运行时间：0.653500s][吞吐率：1.53req/s] [内存消耗：2,863.48kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dbacc39d-6fa5-4c62-b1ee-d6468fa0f61c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------424883614027792353849397',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:27:53+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1&mobileImage=1&image=1
+[ info ] kosun.com/admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1&mobileImage=1&image=1 [运行时间：0.615500s][吞吐率：1.62req/s] [内存消耗：2,863.12kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'addPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '29856e05-41a2-42e0-aff0-b334f93eb9a8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------591695813493845868608721',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => 'www',
+  'status' => '1',
+  'orderIndex' => '1',
+  'mobileImage' => '1',
+  'image' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->addPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:27:56+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：0.491500s][吞吐率：2.03req/s] [内存消耗：2,862.58kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5fdb3128-9f3e-47f5-91dc-c649abfd0705',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------796250463042565224806662',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:29:33+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：0.656500s][吞吐率：1.52req/s] [内存消耗：2,862.58kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'db49206c-09b2-44b1-b721-44e16165fcca',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------908621986763112956053144',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:29:41+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupDetail?groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupDetail?groupId=10 [运行时间：0.484000s][吞吐率：2.07req/s] [内存消耗：2,862.87kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8b33c8e9-4185-4f08-9c79-8025bf6acd3c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------391464468755679056511649',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:29:49+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/editPayTypeGroup?groupName=%E6%88%9123&status=1&orderIndex=1&groupId=10&mobileImage=&image=
+[ info ] kosun.com/admin/PayCenterRechargeType/editPayTypeGroup?groupName=%E6%88%9123&status=1&orderIndex=1&groupId=10&mobileImage=&image= [运行时间：0.485000s][吞吐率：2.06req/s] [内存消耗：2,863.76kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'editPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '21294537-4327-4e42-8304-70c962160cea',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------685629293699123041946098',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => '我23',
+  'status' => '1',
+  'orderIndex' => '1',
+  'groupId' => '10',
+  'mobileImage' => '',
+  'image' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->editPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:30:01+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1&mobileImage=1&image=1
+[ info ] kosun.com/admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1&mobileImage=1&image=1 [运行时间：0.497000s][吞吐率：2.01req/s] [内存消耗：2,863.12kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'addPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c365ee56-86af-4021-8f11-2df0ade7851f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------371452993270708195331687',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => 'www',
+  'status' => '1',
+  'orderIndex' => '1',
+  'mobileImage' => '1',
+  'image' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->addPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:30:09+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=1&shortName=
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?groupId=1&shortName= [运行时间：0.577500s][吞吐率：1.73req/s] [内存消耗：2,862.82kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd855f876-6d14-49a0-ba1a-d12a223275d6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------293168172755708851171795',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '1',
+  'shortName' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:30:22+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName= [运行时间：0.913500s][吞吐率：1.09req/s] [内存消耗：2,862.82kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0e02fc5d-9482-400f-9152-6037b7672b01',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------403925146184812373372729',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '10',
+  'shortName' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:30:28+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.509000s][吞吐率：1.96req/s] [内存消耗：2,862.66kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '26c341d8-0f67-49e0-890a-b8ce32eddb4d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------328674956115395825020633',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:30:38+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10 [运行时间：0.653500s][吞吐率：1.53req/s] [内存消耗：2,862.87kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7cb3f166-7fa4-43da-ab00-05ba0b0eeaca',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------650831177578009030422375',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:33:03+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10 [运行时间：0.734000s][吞吐率：1.36req/s] [内存消耗：2,863.24kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44166e65-2183-47f2-a8d4-5eabcf549ce7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------212646527532460364869008',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:33:16+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName= [运行时间：0.575500s][吞吐率：1.74req/s] [内存消耗：2,863.20kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c7110714-92a8-4e9d-9e55-1688194a65c9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------549598379661563230815802',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '10',
+  'shortName' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:33:24+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=wechat_app
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=wechat_app [运行时间：0.565500s][吞吐率：1.77req/s] [内存消耗：2,863.24kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '354e7298-ded9-4fa8-8069-69ffd96bb4de',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------671615188303603003898890',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '10',
+  'shortName' => 'wechat_app',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:33:50+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app [运行时间：0.562500s][吞吐率：1.78req/s] [内存消耗：2,863.20kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '35693e8c-b100-43f3-ab74-4f3a79e0ece4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------065176144868729296375609',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:34:23+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10 [运行时间：0.568500s][吞吐率：1.76req/s] [内存消耗：2,863.24kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '33f17632-3a39-433b-b547-242f8ea93da9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------638757056202867185231680',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:34:31+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app [运行时间：0.482000s][吞吐率：2.07req/s] [内存消耗：2,806.99kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5e8c535-a98e-4caa-b866-03ad57eeeeb7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------794964725927926941829814',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:34:59+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app [运行时间：0.489500s][吞吐率：2.04req/s] [内存消耗：2,863.20kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '816b4e08-12d2-4d46-9ab4-9674563d509d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------061364988711735172207257',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T11:35:03+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10 [运行时间：0.751000s][吞吐率：1.33req/s] [内存消耗：2,859.04kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a511af7-3067-4d3c-9a64-8dd5dbe34fd3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------472798607785874398689244',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:19:26+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：1.275000s][吞吐率：0.78req/s] [内存消耗：2,891.16kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '218ef126-d304-4466-8720-854b3b8b5295',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------956478435204021458222231',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:19]
+---------------------------------------------------------------
+[ 2018-03-27T16:21:39+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.696000s][吞吐率：1.44req/s] [内存消耗：2,900.63kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a537e04a-b979-429d-9408-4f84c9bb14f1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------934291910346537577711312',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php:19]
+---------------------------------------------------------------
+[ 2018-03-27T16:22:12+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.760000s][吞吐率：1.32req/s] [内存消耗：2,900.63kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b392fc5-13b2-4aac-b5b7-c219d5a08c89',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------178942123932091004235347',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php:19]
+---------------------------------------------------------------
+[ 2018-03-27T16:22:28+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.486000s][吞吐率：2.06req/s] [内存消耗：2,900.63kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eac3eab7-fa16-45e0-9cf5-ea6491ee26ad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------299148842173068871807964',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php:19]
+---------------------------------------------------------------
+[ 2018-03-27T16:22:46+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.725000s][吞吐率：1.38req/s] [内存消耗：2,900.63kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '76d2570e-eaf8-4759-89b9-3503371efe78',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------034298955354070470847625',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php:19]
+---------------------------------------------------------------
+[ 2018-03-27T16:23:40+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.529000s][吞吐率：1.89req/s] [内存消耗：2,863.43kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b2af6723-3289-4df0-94ec-57fd5d597ecc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------477391489340291733764498',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:29:20+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10 [运行时间：0.759000s][吞吐率：1.32req/s] [内存消耗：2,863.64kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'updatePayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '71fd15bf-5f7d-41fe-ba24-0103ebcd0354',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------158230662643373869028861',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->updatePayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:37:49+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app [运行时间：0.910500s][吞吐率：1.10req/s] [内存消耗：2,863.53kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1aef3150-8e9c-4b5e-af93-9af68abeb9e2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------432747519653429340329165',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'shortName' => 'wechat_app',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:39:14+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：0.662500s][吞吐率：1.51req/s] [内存消耗：2,863.29kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '17db159a-2276-4ad1-b700-d4ca18faa940',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------168017073385829395769488',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:45:01+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupDetail?groupId=10
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupDetail?groupId=10 [运行时间：0.802500s][吞吐率：1.25req/s] [内存消耗：2,863.58kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cab799f3-61a1-4cb1-8d24-a737e8fa88f3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------114994355224830198066994',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '10',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:48:04+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ info ] kosun.com/admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1 [运行时间：0.840500s][吞吐率：1.19req/s] [内存消耗：2,863.66kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'addPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9608e1d3-3473-49a4-b208-cecc871c3794',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------939330531069893164310086',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => 'www',
+  'status' => '1',
+  'orderIndex' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->addPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:57:19+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.709500s][吞吐率：1.41req/s] [内存消耗：2,854.25kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '78ada9b7-f2c7-4906-9d9f-92fc6137ecea',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------960552328089282506785090',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T16:57:24+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1 [运行时间：0.477500s][吞吐率：2.09req/s] [内存消耗：2,855.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b48d25c3-6c9f-40d3-b37a-52a5f31794e7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------432917240984782712465132',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'weixin',
+  'qrCodeUrl' => 'http://',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:01:21+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1 [运行时间：1.169000s][吞吐率：0.86req/s] [内存消耗：2,855.93kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '850a10d6-5c5b-48e5-97cd-006f882c18d0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------353809394776513092823711',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'weixin',
+  'qrCodeUrl' => 'http://',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:12:30+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountTypeList [运行时间：0.945500s][吞吐率：1.06req/s] [内存消耗：2,891.66kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5fa9bed2-3c78-4fe9-8abb-edded867203c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------349480053920419495208049',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php:106]
+---------------------------------------------------------------
+[ 2018-03-27T17:18:24+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：1.100500s][吞吐率：0.91req/s] [内存消耗：2,853.91kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9abbedda-d72a-4b27-a0bd-80314e29cd37',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------589590120465176252167082',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:18:31+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount [运行时间：1.097000s][吞吐率：0.91req/s] [内存消耗：2,853.78kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'efc9fc9a-56f2-40b8-a28b-1ee6c0c64abb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------209839448520976786671136',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:18:53+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&userName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&userName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.507000s][吞吐率：1.97req/s] [内存消耗：2,855.34kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8cf3e9a7-451f-435d-9667-8db71f8cde49',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------745160783987238114931135',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'userName' => '2222',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:24:14+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：1.166000s][吞吐率：0.86req/s] [内存消耗：2,855.34kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9f2c308c-fa9f-4712-a7c4-1e235c12fd63',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------869806763003169086752958',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'realName' => '2222',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:24:23+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E7%9C%8B%E7%9C%8B&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E7%9C%8B%E7%9C%8B&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.591000s][吞吐率：1.69req/s] [内存消耗：2,855.46kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b4ea81d5-5ef2-41b7-b766-a27dfd4be5a9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------791843703116762421317361',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'realName' => '看看',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-27T17:30:01+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountBankList [运行时间：0.669000s][吞吐率：1.49req/s] [内存消耗：2,891.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountBankList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '075f1e07-5abc-47ca-ae2e-242e9fe678cf',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------500252284830131450742356',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountBankList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:108]

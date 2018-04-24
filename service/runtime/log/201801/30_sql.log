@@ -1,0 +1,1176 @@
+---------------------------------------------------------------
+[ 2018-01-30T09:51:01+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?payChannelId=77&payTypeId=18&redirectDomain=https://api.rechargecenter.cc&account=10204&desc&md5Key=6dff993989e77a41f3f3b922cef40e0a&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=7?payChannelId=77&payTypeId=18&redirectDomain=https://api.rechargecenter.cc&account=10204&desc=&md5Key=6dff993989e77a41f3f3b922cef40e0a&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.363000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 18 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T09:57:40+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?payChannelId=77&payTypeId=18&redirectDomain=https://api.rechargecenter.cc&account=%E5%9C%B0%E6%96%B9%E7%AB%8B%E6%B3%95%E7%A7%91%E6%8A%80%E5%A4%A7%E5%8E%A6&desc&md5Key=6dff993989e77a41f3f3b922cef40e0a&terminalId=%E5%8F%91%E8%BE%BE%E6%98%AF%E5%90%A6&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=7?payChannelId=77&payTypeId=18&redirectDomain=https://api.rechargecenter.cc&account=%E5%9C%B0%E6%96%B9%E7%AB%8B%E6%B3%95%E7%A7%91%E6%8A%80%E5%A4%A7%E5%8E%A6&desc=&md5Key=6dff993989e77a41f3f3b922cef40e0a&terminalId=%E5%8F%91%E8%BE%BE%E6%98%AF%E5%90%A6&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.298000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 18 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T09:57:43+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?payChannelId=77&payTypeId=18&redirectDomain=https://api.rechargecenter.cc&account=%E5%9C%B0%E6%96%B9%E7%AB%8B%E6%B3%95%E7%A7%91%E6%8A%80%E5%A4%A7%E5%8E%A6&desc&md5Key=6dff993989e77a41f3f3b922cef40e0a&terminalId=%E5%8F%91%E8%BE%BE%E6%98%AF%E5%90%A6&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=7?payChannelId=77&payTypeId=18&redirectDomain=https://api.rechargecenter.cc&account=%E5%9C%B0%E6%96%B9%E7%AB%8B%E6%B3%95%E7%A7%91%E6%8A%80%E5%A4%A7%E5%8E%A6&desc=&md5Key=6dff993989e77a41f3f3b922cef40e0a&terminalId=%E5%8F%91%E8%BE%BE%E6%98%AF%E5%90%A6&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 18 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:01:24+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.260000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.101000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.097000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:01:48+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.111000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.108000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:02:45+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.298000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.097000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.109000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.102000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.121000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:07:11+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.221000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.116000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.106000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.127000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.142000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.142000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.123000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:07:23+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.124000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.117000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.102000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.092000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:07:53+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-26
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-25 00:00:00' AND `urr_confirm_time` <= '2018-01-26 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.107000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:09:03+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.316000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:10:21+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.229000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.101000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-30 23:59:59' ) LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:11:19+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-30 23:59:59' ) LIMIT 1 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:12:02+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.301000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-30 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:10+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=5&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.310000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 5 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 5  AND `status` = 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:31+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=1&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 8  AND `status` = 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:38+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=2&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 2 LIMIT 1 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 2  AND `status` = 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:42+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=3&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=4&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 4 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 4  AND `status` = 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:53+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 6 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 7  AND `status` = 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:15:57+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 1  AND `status` = 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.083000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:16:26+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.234000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id` FROM `ds_pay_center_account_user_level_relation` WHERE  `user_level_id` IS NULL [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('')  AND `pay_type_id` = 1  AND `status` = 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pc_id` FROM `ds_pay_center_channel_bank_relation` WHERE  `bank_id` = 3 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:19:27+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.286000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:19:40+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:20:52+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?endDate=2018-01-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.240000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN ('') [ RunTime:0.110000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN ('') [ RunTime:0.118000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN ('') [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:21:14+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?endDate=2018-01-29
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:21:39+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?endDate=2018-01-29&dateType=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_confirm_time` >= '2018-01-30 00:00:00' AND `urr_confirm_time` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:22:09+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.418000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-30 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:22:24+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.101000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:22:39+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:23:15+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.319000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:26:57+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.419000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:27:34+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.104000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:29:25+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:32:19+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.604000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:38:14+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.322000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-30T11:39:18+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.224000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.092000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:06:43+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.418000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:07:26+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.101000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_site_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `sc_name`,`sc_type`,`sc_value` FROM `ds_site_config` WHERE  `sc_lottery_type` = 2  AND `sc_group` = 1  AND `sc_status` = 1  AND `sc_name` = 'pay_center_status' [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:08:00+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_site_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `sc_name`,`sc_type`,`sc_value` FROM `ds_site_config` WHERE  `sc_lottery_type` = 2  AND `sc_group` = 1  AND `sc_status` = 1  AND `sc_name` = 'pay_center_status' [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:08:39+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:11:07+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.331000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:12:18+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.228000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.097000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_site_config` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `sc_name`,`sc_type`,`sc_value` FROM `ds_site_config` WHERE  `sc_lottery_type` = 2  AND `sc_group` = 1  AND `sc_status` = 1  AND `sc_name` = 'pay_center_status' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:13:22+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.229000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_site_config` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `sc_name`,`sc_type`,`sc_value` FROM `ds_site_config` WHERE  `sc_lottery_type` = 2  AND `sc_group` = 1  AND `sc_status` = 1  AND `sc_name` = 'pay_center_status' [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.094000s ]
+---------------------------------------------------------------
+[ 2018-01-30T15:15:01+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-29&dateType=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.225000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) ORDER BY urr_id desc LIMIT 0,10 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id`,`user_pid` FROM `ds_user` WHERE  `user_id` IN (4) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `bank_id`,`bank_name` FROM `ds_bank` WHERE  `bank_id` IN (0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `ul_id`,`ul_name` FROM `ds_user_level` WHERE  `ul_id` IN (1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_member` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `uid`,`nickname` FROM `ds_member` WHERE  `uid` IN (0) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pp_id`,`pay_type_id`,`pp_category_id` FROM `ds_pay_platform` WHERE  `pp_id` IN (86,93,87) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `pay_type_id`,`pay_type_name` FROM `ds_pay_type` WHERE  `pay_type_id` IN ('') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `channel_merchant_id`,`pay_channel_id`,`pay_type_id` FROM `ds_pay_center_channel_merchant` WHERE  `channel_merchant_id` IN (86,93,87) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` WHERE  `pay_channel_id` IN (77,86,84) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_code`,`recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` WHERE  `recharge_type_code` <> '' [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_site_config` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT `sc_name`,`sc_type`,`sc_value` FROM `ds_site_config` WHERE  `sc_lottery_type` = 2  AND `sc_group` = 1  AND `sc_status` = 1  AND `sc_name` = 'pay_center_status' [ RunTime:0.102000s ]
+[ sql ] [ SQL ] SELECT count(*) as order_count,sum(urr_amount) as amount,sum(urr_recharge_discount) as rechargeDiscount,sum(urr_total_amount) as totalAmount FROM `ds_user_recharge_record` WHERE  `urr_type` = 1  AND ( `urr_createtime` >= '2018-01-25 00:00:00' AND `urr_createtime` <= '2018-01-29 23:59:59' ) LIMIT 1 [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-30T17:55:12+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.478000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300611222180625' , 0 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 17:55:12') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 0 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T17:56:36+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.302000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300619611780756' , 0 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 17:56:36') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 0 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-30T17:57:48+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.260000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300626804080701' , 0 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 17:57:48') [ RunTime:0.092000s ]
+---------------------------------------------------------------
+[ 2018-01-30T17:57:59+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300627895580512' , 0 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 17:57:58') [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:00:25+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.309000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300642498280075' , 0 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 18:00:24') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 0 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:00:28+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300642778580974' , 0 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 18:00:27') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 0 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:01:35+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.412000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300649470980603' , 5351 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 18:01:34') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 5351 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:02:04+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300652397480057' , 1 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 18:02:03') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:02:16+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300653591780804' , 1 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 18:02:15') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark`) VALUES (1 , 11 , 2 , 1 , 1 , 100 , 234368 , 234468 , '特殊代理在线充值') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_status`=1  WHERE  `urr_id` = 11 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:02:28+08:00 ] 127.0.0.1 GET /api/Recharge/specialAgentPay?amount=100&payTypeId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801300654787680067' , 1 , 0 , 1 , 100 , 0 , 100 , 0 , 0 , '127.0.0.1' , 0 , '2018-01-30 18:02:27') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+100.000,`ue_discount_amount`=ue_discount_amount+0,`ue_recharge_amount`=ue_recharge_amount+100,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark`) VALUES (1 , 12 , 2 , 1 , 1 , 100 , 234368 , 234468 , '特殊代理在线充值') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_status`=1  WHERE  `urr_id` = 12 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:47:37+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.291000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:47:46+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:48:37+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.515000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.097000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:48:50+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.094000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:49:13+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.328000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801300935293580460' , 1 , 100 , 0 , 234268 , 3 , '2018-01-30 18:49:12') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 234368 , 234268 , '在线出款' , 0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:50:31+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.318000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801300943083780082' , 1 , 100 , 0 , 234268 , 3 , '2018-01-30 18:50:30') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 234368 , 234268 , '在线出款' , 0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:52:44+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.320000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:54:31+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.315000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:55:51+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.295000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801300975083980267' , 1 , 100 , 0 , 234068 , 3 , '2018-01-30 18:55:50') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 234168 , 234068 , '在线出款' , 0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:56:13+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801300977287280018' , 1 , 100 , 0 , 234068 , 3 , '2018-01-30 18:56:12') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 234168 , 234068 , '在线出款' , 0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:56:40+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:58:15+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.509000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:58:26+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801300990602880617' , 1 , 100 , 0 , 233768 , 3 , '2018-01-30 18:58:26') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 233868 , 233768 , '在线出款' , 0) [ RunTime:0.089000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:59:29+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.298000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:59:33+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:59:50+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T18:59:53+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:03:01+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.308000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301018143180398' , 1 , 100 , 0 , 233768 , 3 , '2018-01-30 19:03:01') [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:03:27+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301020739580789' , 1 , 100 , 0 , 233768 , 3 , '2018-01-30 19:03:27') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 233868 , 233768 , '在线出款' , 0) [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:04:13+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.497000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301025347880587' , 1 , 100 , 0 , 233768 , 3 , '2018-01-30 19:04:13') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 233868 , 233768 , '在线出款' , 0) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:04:35+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=100&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+100.000,`ue_account_balance`=ue_account_balance-100.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301027458580515' , 1 , 100 , 0 , 233768 , 3 , '2018-01-30 19:04:34') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 100 , 233868 , 233768 , '在线出款' , 0) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-100,`ue_account_balance`=ue_account_balance+100,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:04:39+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=1000&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+1000.000,`ue_account_balance`=ue_account_balance-1000.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301027858780869' , 1 , 1000 , 0 , 232868 , 3 , '2018-01-30 19:04:38') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 1000 , 233868 , 232868 , '在线出款' , 0) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount-1000,`ue_account_balance`=ue_account_balance+1000,`ue_withdraw_count`=ue_withdraw_count-1  WHERE  `user_id` = 1 [ RunTime:0.094000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:06:22+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=1000&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.498000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+1000.000,`ue_account_balance`=ue_account_balance-1000.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301038196980510' , 1 , 1000 , 0 , 232868 , 3 , '2018-01-30 19:06:21') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 1000 , 233868 , 232868 , '在线出款' , 0) [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:06:56+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=1000&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+1000.000,`ue_account_balance`=ue_account_balance-1000.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301041624080462' , 1 , 1000 , 0 , 231868 , 3 , '2018-01-30 19:06:56') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 1000 , 232868 , 231868 , '在线出款' , 0) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-30T19:07:02+08:00 ] 127.0.0.1 GET /api/Withdraw/specialAgentWithdraw?amount=1000&fundsPassword=111111
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=try_dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_withdraw_amount`=ue_withdraw_amount+1000.000,`ue_account_balance`=ue_account_balance-1000.000,`ue_withdraw_count`=ue_withdraw_count+1  WHERE  `user_id` = 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_withdraw_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_withdraw_record` (`user_id` , `uwr_no` , `uwr_type` , `uwr_apply_amount` , `uwr_handling_charge` , `uwr_account_balance` , `uwr_status` , `uwr_createtime`) VALUES (1 , '201801301042174880947' , 1 , 1000 , 0 , 230868 , 3 , '2018-01-30 19:07:01') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_action_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_status`) VALUES (1 , 1 , 3 , 8 , 2 , 1000 , 231868 , 230868 , '在线出款' , 0) [ RunTime:0.088000s ]

@@ -1,0 +1,1012 @@
+---------------------------------------------------------------
+[ 2018-02-06T11:58:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：1.577000s][吞吐率：0.63req/s] [内存消耗：19,737.26kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0bd0c21c-6ac7-4fc3-9e22-01038f49d45a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:09:18+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：3.124000s][吞吐率：0.32req/s] [内存消耗：15,002.32kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd666a6e0-3d8b-4483-b3ca-77a3f4501cf0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:11:52+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：3.226000s][吞吐率：0.31req/s] [内存消耗：15,013.50kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e5be0db4-17d0-456a-9f69-e92fd67b1cd2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:15:36+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.468000s][吞吐率：0.41req/s] [内存消耗：15,013.64kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e9234c31-9588-4d5e-a7b7-15ee13444f0a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:15:48+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.066000s][吞吐率：0.48req/s] [内存消耗：20,474.88kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8ce4251f-a44d-41cc-8bd6-083940b67346',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:16:24+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.231000s][吞吐率：0.45req/s] [内存消耗：17,062.86kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0982076f-639e-445c-9315-bef1d5d4136d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:19:01+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.801000s][吞吐率：0.36req/s] [内存消耗：41,515.79kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '73801677-a577-4cf0-9952-118c4af3969d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T14:33:06+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：0.064000s][吞吐率：15.62req/s] [内存消耗：3,077.01kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.010000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a0cbd59f-35c1-41a5-b3d7-a6bade6b9e68',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\logic\SportsOrders[D:\xampp\htdocs\service\thinkphp\library\think\Loader.php:437]
+---------------------------------------------------------------
+[ 2018-02-06T14:33:39+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：1.526000s][吞吐率：0.66req/s] [内存消耗：3,091.13kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd21da65a-998c-4c03-a968-c4aaa7d09cda',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T14:41:13+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：4.269000s][吞吐率：0.23req/s] [内存消耗：16,853.37kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '46e52222-4a39-4cd7-8bbc-924a0fef4c87',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:693]
+---------------------------------------------------------------
+[ 2018-02-06T14:41:29+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666
+[ info ] kosun.com/admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666 [运行时间：0.962000s][吞吐率：1.04req/s] [内存消耗：3,702.30kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '35e2cab5-b5ad-402d-82b0-212bcbe6b2a1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'eventType' => 'today',
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+  'userName' => 'tiny666',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: orderList[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T14:41:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.073000s][吞吐率：0.48req/s] [内存消耗：16,853.37kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3aa02f1d-dd9d-4013-b3b6-975188516b00',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:693]
+---------------------------------------------------------------
+[ 2018-02-06T14:42:36+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.392000s][吞吐率：0.42req/s] [内存消耗：16,645.30kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cf6bb5d7-142a-4a9a-86d5-8a708437b8f2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:693]
+---------------------------------------------------------------
+[ 2018-02-06T14:47:19+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：3.111000s][吞吐率：0.32req/s] [内存消耗：6,684.98kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '18e1ff77-f55d-42cf-9887-40d6f9b60688',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+[ error ] [8]未定义变量: list[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:697]
+[ error ] [2]fopen(uploads\-足球注单列表-2018-01-30——2018-02-06.xls): failed to open stream: No such file or directory[D:\xampp\htdocs\service\vendor\phpoffice\phpexcel\Classes\PHPExcel\Shared\OLE\PPS\Root.php:90]
+---------------------------------------------------------------
+[ 2018-02-06T14:49:37+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：3.495000s][吞吐率：0.29req/s] [内存消耗：16,817.48kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '94e2f6de-73d2-4766-9cf1-9254c55a2c15',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T14:50:23+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：3.575000s][吞吐率：0.28req/s] [内存消耗：16,817.48kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd92e09cb-6c99-4011-b7fb-8d6774a07227',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T14:52:05+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.460000s][吞吐率：0.41req/s] [内存消耗：9,765.55kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '01c855e4-9e0e-489d-9ced-4f83c4cfd8b4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+[ error ] [2]fopen(uploads\-足球注单列表-2018-01-30——2018-02-06.xls): failed to open stream: No such file or directory[D:\xampp\htdocs\service\vendor\phpoffice\phpexcel\Classes\PHPExcel\Shared\OLE\PPS\Root.php:90]
+---------------------------------------------------------------
+[ 2018-02-06T14:53:08+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.747000s][吞吐率：0.36req/s] [内存消耗：9,765.55kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0e15ce80-57a8-4f6e-94ad-36bbed6a3ee7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+[ error ] [2]fopen(uploads\-足球注单列表-2018-01-30——2018-02-06.xls): failed to open stream: No such file or directory[D:\xampp\htdocs\service\vendor\phpoffice\phpexcel\Classes\PHPExcel\Shared\OLE\PPS\Root.php:90]
+---------------------------------------------------------------
+[ 2018-02-06T14:53:31+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.565000s][吞吐率：0.39req/s] [内存消耗：9,766.39kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e6d8b9a5-6ece-413d-865c-1c799d0d6551',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T14:54:24+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.782000s][吞吐率：0.36req/s] [内存消耗：22,477.88kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df5d6b25-6ac1-4768-ba2b-fb4020297c42',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.006000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T15:01:13+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：4.078000s][吞吐率：0.25req/s] [内存消耗：9,765.49kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0c2b4c83-3a0c-4ec4-b9f3-b3d219ebd508',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+[ error ] [2]fopen(uploads\-足球注单列表-2018-01-30——2018-02-06.xls): failed to open stream: Resource temporarily unavailable[D:\xampp\htdocs\service\vendor\phpoffice\phpexcel\Classes\PHPExcel\Shared\OLE\PPS\Root.php:90]
+---------------------------------------------------------------
+[ 2018-02-06T15:01:39+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.485000s][吞吐率：0.40req/s] [内存消耗：22,477.82kb] [文件加载：140]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf1179bd-ab3f-4dd4-80b6-28edee2d4fe8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T15:02:04+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.594000s][吞吐率：0.39req/s] [内存消耗：9,767.02kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ab695959-aa17-4cdc-845a-d422acc8d7ad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+[ error ] [8]未定义变量: reportUrl[D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php:205]
+[ error ] [8]未定义变量: reportUrl[D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php:207]
+---------------------------------------------------------------
+[ 2018-02-06T15:02:58+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：2.520000s][吞吐率：0.40req/s] [内存消耗：9,766.25kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4704698b-f0ae-4abc-8f16-c30872aeeca5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:694]
+---------------------------------------------------------------
+[ 2018-02-06T15:09:03+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1 [运行时间：3.855000s][吞吐率：0.26req/s] [内存消耗：9,771.18kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e82d061-d482-4641-aee4-562a9c727e41',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+[ error ] [8]未定义变量: evenType[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:697]
+---------------------------------------------------------------
+[ 2018-02-06T15:09:09+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1&userName=tiny666
+[ info ] kosun.com/admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1&userName=tiny666 [运行时间：0.900000s][吞吐率：1.11req/s] [内存消耗：3,711.08kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '859a7a79-ea39-436e-8a90-94dd8a2d6323',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+  'userName' => 'tiny666',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T15:09:30+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1 [运行时间：1.182000s][吞吐率：0.85req/s] [内存消耗：6,947.45kb] [文件加载：143]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a9924b35-7f17-4791-9f65-861d199d0809',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'eventType' => 'today',
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->exportOrder[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: sports[D:\xampp\htdocs\service\thinkphp\library\think\db\Connection.php:237]
+---------------------------------------------------------------
+[ 2018-02-06T16:32:28+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,904.02kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0044f4ea-4e9d-441f-aca8-3ca6c04c40b4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'eventType' => 'today',
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-02-06T16:52:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1
+[ info ] kosun.com/admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1 [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：1,904.02kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'exportOrder',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '40123eb5-988c-40e5-8ea1-c68910592564',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'eventType' => 'today',
+  'startTime' => '',
+  'endTime' => '',
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File

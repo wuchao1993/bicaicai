@@ -1,0 +1,295 @@
+---------------------------------------------------------------
+[ 2018-03-15T16:10:20+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=17
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=17 [运行时间：1.648500s][吞吐率：0.61req/s] [内存消耗：3,038.30kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.058500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '76de3fde-cd23-4b27-8cb0-04f790c023af',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'transactionType' => 
+  array (
+    0 => '18',
+    1 => '17',
+  ),
+  'dateType' => '1',
+  'endDate' => '2018-03-14',
+  'startDate' => '2018-03-14',
+  'num' => '100',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.013000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:11:06+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType= [运行时间：0.808500s][吞吐率：1.24req/s] [内存消耗：3,021.46kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3c5c8f49-c3f1-4ae1-bb81-985a2235fd53',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-14',
+  'startDate' => '2018-03-14',
+  'num' => '10',
+  'actionType' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:11:17+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1 [运行时间：0.813500s][吞吐率：1.23req/s] [内存消耗：3,021.46kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '258c99ff-3b87-4c5b-aab2-cb39f7b3a0be',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-14',
+  'startDate' => '2018-03-14',
+  'num' => '10',
+  'actionType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:21:17+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1 [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,858.84kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '025ab60b-6d50-48cf-84ce-8e9165e84646',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-14',
+  'startDate' => '2018-03-14',
+  'num' => '10',
+  'actionType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.003000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:22:52+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1 [运行时间：2.030000s][吞吐率：0.49req/s] [内存消耗：3,021.46kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.009000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a69f6a7a-3042-46c7-ac51-077dff003db6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-14',
+  'startDate' => '2018-03-14',
+  'num' => '10',
+  'actionType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:23:54+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=10&actionType=1 [运行时间：1.986500s][吞吐率：0.50req/s] [内存消耗：2,978.06kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '114b3402-fd7c-4a70-96c9-e04ab6c330d5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-14',
+  'startDate' => '2018-03-14',
+  'num' => '10',
+  'actionType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:25:36+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-11&startDate=2018-03-05&num=10&actionType=1
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-11&startDate=2018-03-05&num=10&actionType=1 [运行时间：1.186000s][吞吐率：0.84req/s] [内存消耗：2,976.01kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '639df6fd-3add-4bab-9731-ab9fe1cfa6d6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-11',
+  'startDate' => '2018-03-05',
+  'num' => '10',
+  'actionType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-15T16:26:19+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-11&startDate=2018-03-05&num=10&actionType=2
+[ info ] kosun.com/admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-11&startDate=2018-03-05&num=10&actionType=2 [运行时间：0.818500s][吞吐率：1.22req/s] [内存消耗：2,978.06kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c5ccfff9-45b6-4610-ba76-cac047ac25c4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+  'endDate' => '2018-03-11',
+  'startDate' => '2018-03-05',
+  'num' => '10',
+  'actionType' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getAccountList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,421 @@
+---------------------------------------------------------------
+[ 2018-01-10T09:10:18+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.293000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.096000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:11:29+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.302000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:12:01+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.152000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:12:15+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:12:42+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.308000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:13:57+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:14:07+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:14:19+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,10 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 20,10 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:15:18+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.223000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:20:12+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.303000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 20,10 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:20:34+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 20,10 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:21:43+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.402000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:21:57+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 2,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 4,2 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 6,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 8,2 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 10,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 12,2 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 14,2 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 16,2 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-10T09:51:03+08:00 ] 127.0.0.1 GET /admin/PayCenter/getChannelList?page=1&pageSize=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.306000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,2 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-10T10:22:19+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.300000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:01:17+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.318000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:01:40+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_bank` (`bank_id` , `bank_name` , `bank_code`) SELECT 1,'中国工商银行','icbc' UNION ALL SELECT 2,'中国建设银行','ccb' UNION ALL SELECT 3,'招商银行','cmb' UNION ALL SELECT 4,'中国农业银行','abc' UNION ALL SELECT 5,'交通银行','bcom' UNION ALL SELECT 6,'广发银行','gdb' UNION ALL SELECT 7,'中国银行','boc' UNION ALL SELECT 8,'中国民生银行','cmbc' UNION ALL SELECT 9,'华夏银行','hxb' UNION ALL SELECT 12,'中信银行','citicb' UNION ALL SELECT 13,'北京银行','bob' UNION ALL SELECT 14,'兴业银行','cib' UNION ALL SELECT 15,'平安银行','pinganbank' UNION ALL SELECT 16,'中国邮政储蓄银行','psbs' UNION ALL SELECT 17,'上海银行','shb666' UNION ALL SELECT 18,'浦发银行','spdb' UNION ALL SELECT 19,'中国光大银行','ceb' [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:01:59+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_bank` (`bank_id` , `bank_name` , `bank_code`) SELECT 1,'中国工商银行','icbc' UNION ALL SELECT 2,'中国建设银行','ccb' UNION ALL SELECT 3,'招商银行','cmb' UNION ALL SELECT 4,'中国农业银行','abc' UNION ALL SELECT 5,'交通银行','bcom' UNION ALL SELECT 6,'广发银行','gdb' UNION ALL SELECT 7,'中国银行','boc' UNION ALL SELECT 8,'中国民生银行','cmbc' UNION ALL SELECT 9,'华夏银行','hxb' UNION ALL SELECT 12,'中信银行','citicb' UNION ALL SELECT 13,'北京银行','bob' UNION ALL SELECT 14,'兴业银行','cib' UNION ALL SELECT 15,'平安银行','pinganbank' UNION ALL SELECT 16,'中国邮政储蓄银行','psbs' UNION ALL SELECT 17,'上海银行','shb666' UNION ALL SELECT 18,'浦发银行','spdb' UNION ALL SELECT 19,'中国光大银行','ceb' [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:02:13+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_bank` (`bank_id` , `bank_name` , `bank_code`) SELECT 1,'中国工商银行','icbc' UNION ALL SELECT 2,'中国建设银行','ccb' UNION ALL SELECT 3,'招商银行','cmb' UNION ALL SELECT 4,'中国农业银行','abc' UNION ALL SELECT 5,'交通银行','bcom' UNION ALL SELECT 6,'广发银行','gdb' UNION ALL SELECT 7,'中国银行','boc' UNION ALL SELECT 8,'中国民生银行','cmbc' UNION ALL SELECT 9,'华夏银行','hxb' UNION ALL SELECT 12,'中信银行','citicb' UNION ALL SELECT 13,'北京银行','bob' UNION ALL SELECT 14,'兴业银行','cib' UNION ALL SELECT 15,'平安银行','pinganbank' UNION ALL SELECT 16,'中国邮政储蓄银行','psbs' UNION ALL SELECT 17,'上海银行','shb666' UNION ALL SELECT 18,'浦发银行','spdb' UNION ALL SELECT 19,'中国光大银行','ceb' [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:11:36+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.128000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:12:33+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:14:33+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.303000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:15:58+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.095000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:16:29+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:16:39+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:17:10+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:17:42+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:18:15+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.318000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:18:46+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:19:04+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:22:55+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_bank` (`bank_id` , `bank_name` , `bank_code`) SELECT 1,'中国工商银行','icbc' UNION ALL SELECT 2,'中国建设银行','ccb' UNION ALL SELECT 3,'招商银行','cmb' UNION ALL SELECT 4,'中国农业银行','abc' UNION ALL SELECT 5,'交通银行','bcom' UNION ALL SELECT 6,'广发银行','gdb' UNION ALL SELECT 7,'中国银行','boc' UNION ALL SELECT 8,'中国民生银行','cmbc' UNION ALL SELECT 9,'华夏银行','hxb' UNION ALL SELECT 12,'中信银行','citicb' UNION ALL SELECT 13,'北京银行','bob' UNION ALL SELECT 14,'兴业银行','cib' UNION ALL SELECT 15,'平安银行','pinganbank' UNION ALL SELECT 16,'中国邮政储蓄银行','psbs' UNION ALL SELECT 17,'上海银行','shb666' UNION ALL SELECT 18,'浦发银行','spdb' UNION ALL SELECT 19,'中国光大银行','ceb' [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:23:43+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.427000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:24:04+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_channel` (`pay_channel_id` , `name`) SELECT 85,'天赋云' UNION ALL SELECT 84,'汇合' UNION ALL SELECT 83,'多宝' UNION ALL SELECT 82,'元宝' UNION ALL SELECT 81,'金阳' UNION ALL SELECT 80,'智汇付' UNION ALL SELECT 78,'香蕉' UNION ALL SELECT 77,'高通' UNION ALL SELECT 76,'Ak47' UNION ALL SELECT 70,'佰付' UNION ALL SELECT 69,'云安付' UNION ALL SELECT 54,'金安付' UNION ALL SELECT 41,'多得宝' UNION ALL SELECT 40,'智付' UNION ALL SELECT 24,'仁信' [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-10T11:24:59+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_bank` (`bank_id` , `bank_name` , `bank_code`) SELECT 1,'中国工商银行','icbc' UNION ALL SELECT 2,'中国建设银行','ccb' UNION ALL SELECT 3,'招商银行','cmb' UNION ALL SELECT 4,'中国农业银行','abc' UNION ALL SELECT 5,'交通银行','bcom' UNION ALL SELECT 6,'广发银行','gdb' UNION ALL SELECT 7,'中国银行','boc' UNION ALL SELECT 8,'中国民生银行','cmbc' UNION ALL SELECT 9,'华夏银行','hxb' UNION ALL SELECT 12,'中信银行','citicb' UNION ALL SELECT 13,'北京银行','bob' UNION ALL SELECT 14,'兴业银行','cib' UNION ALL SELECT 15,'平安银行','pinganbank' UNION ALL SELECT 16,'中国邮政储蓄银行','psbs' UNION ALL SELECT 17,'上海银行','shb666' UNION ALL SELECT 18,'浦发银行','spdb' UNION ALL SELECT 19,'中国光大银行','ceb' [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-10T14:54:09+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.273000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 5 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T14:56:23+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.359000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 5 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:00:28+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=5&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.404000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 5 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.098000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:01:21+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=7&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=7&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.107000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.108000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:01:40+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=3&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=3&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.239000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:02:40+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=18&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=18&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 18 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:07:52+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.296000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:15:43+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.327000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:21:26+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.305000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-10T15:51:18+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.303000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-10T18:08:08+08:00 ] 127.0.0.1 GET /admin/SportsSchedules?sportType=basketball&page=1&clearingStatus=no&num=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.321000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_basketball_schedules` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_basketball_schedules` `s` WHERE  `sbs_clearing` = 0 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_schedules` `s` WHERE  `sbs_clearing` = 0 ORDER BY sbs_id desc LIMIT 0,20 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_basketball_matches` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `sbm_id`,`sbm_name` FROM `ds_sports_basketball_matches` WHERE  `sbm_id` IN (37,29,6,7,17,18,26) [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3717,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.181000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3717 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_basketball_results` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349223 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3716,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.175000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3716 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350525 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3715,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.176000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3715 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350609 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3714,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.171000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3714 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349111 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3713,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.172000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3713 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350588 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3712,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.172000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3712 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350567 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3711,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.173000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3711 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350546 LIMIT 1 [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3710,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.170000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3710 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350679 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3709,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.169000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3709 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350721 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3708,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.171000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3708 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350700 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3707,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.175000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3707 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349216 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3706,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.172000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3706 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349209 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3705,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.174000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3705 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349202 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3704,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.170000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3704 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349195 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3703,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.170000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3703 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349125 LIMIT 1 [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3702,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.178000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3702 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2349118 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3701,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.169000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3701 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350329 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3700,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.170000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3700 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350322 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3699,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.172000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3699 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350315 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3698,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.169000s ]
+[ sql ] [ SQL ] SELECT `sbs_master_game_id` FROM `ds_sports_basketball_schedules` WHERE  `sbs_id` = 3698 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_results` WHERE  `sbr_game_id` = 2350308 LIMIT 1 [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-10T18:10:29+08:00 ] 127.0.0.1 GET /admin/SportsSchedules?sportType=basketball&page=1&clearingStatus=no&num=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.621000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_basketball_schedules` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_basketball_schedules` `s` WHERE  `sbs_clearing` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_basketball_schedules` `s` WHERE  `sbs_clearing` = 0 ORDER BY sbs_id desc LIMIT 0,20 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_basketball_matches` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `sbm_id`,`sbm_name` FROM `ds_sports_basketball_matches` WHERE  `sbm_id` IN (37,29,6,7,17,18,26) [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(3717,so_source_ids) )  AND `so_st_id` = 2 LIMIT 1 [ RunTime:0.184000s ]
+---------------------------------------------------------------
+[ 2018-01-10T18:10:47+08:00 ] 127.0.0.1 GET /admin/SportsSchedules?sportType=football&page=1&clearingStatus=no&num=20
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_football_schedules` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_football_schedules` `s` WHERE  `sfs_clearing` = 0 LIMIT 1 [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_football_schedules` `s` WHERE  `sfs_clearing` = 0 ORDER BY sfs_id desc LIMIT 0,20 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_football_matches` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `sfm_id`,`sfm_name` FROM `ds_sports_football_matches` WHERE  `sfm_id` IN (119,181,427,122,155,430,145) [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `sfs_master_game_id` FROM `ds_sports_football_schedules` WHERE  `sfs_id` = 8715 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_football_results` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `sfr_home_score`,`sfr_guest_score`,`sfr_home_score_1h`,`sfr_guest_score_1h` FROM `ds_sports_football_results` WHERE  `sfr_game_id` = 3043866 LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT sum(so_bet_amount) AS `so_bet_amount`,sum(so_bonus) AS `so_bonus`,count(so_id) AS `order_total` FROM `ds_sports_orders` WHERE  (  FIND_IN_SET(8715,so_source_ids) )  AND `so_st_id` = 1 LIMIT 1 [ RunTime:0.273000s ]

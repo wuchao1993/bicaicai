@@ -1,0 +1,229 @@
+PROD_PATH_SPORTS=/srv/www/site
+
+############################## 正 式 库 ###################################
+
+############# 采 集 模 块 ##########
+#滚球数据
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 6; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 12; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 18; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 24; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 36; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 42; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 48; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+* * * * * sleep 54; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow >/dev/null 2>&1
+
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 6; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 12; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 18; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 24; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 36; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 42; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 48; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+* * * * * sleep 54; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow >/dev/null 2>&1
+
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 6; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 12; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 18; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 24; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 36; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 42; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 48; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+* * * * * sleep 54; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow >/dev/null 2>&1
+
+#今日
+*/2 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/today >/dev/null 2>&1
+*/2 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/today >/dev/null 2>&1
+*/2 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/today >/dev/null 2>&1
+
+#早盘
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/early >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/early >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/early >/dev/null 2>&1
+
+#冠军
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/outright >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/outright >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/outright >/dev/null 2>&1
+
+#足球赛果
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/results >/dev/null 2>&1
+* * * * * sleep 15; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/results >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/results >/dev/null 2>&1
+* * * * * sleep 45; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/results >/dev/null 2>&1
+
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/repairResults >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/outrightResults >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/repairOutrightResults >/dev/null 2>&1
+
+#篮球赛果
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/results >/dev/null 2>&1
+* * * * * sleep 15; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/results >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/results >/dev/null 2>&1
+* * * * * sleep 45; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/results >/dev/null 2>&1
+
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/repairResults >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/outrightResults >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/repairOutrightResults >/dev/null 2>&1
+
+#网球赛果
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/results >/dev/null 2>&1
+* * * * * sleep 15; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/results >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/results >/dev/null 2>&1
+* * * * * sleep 45; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/results >/dev/null 2>&1
+
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/repairResults >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/outrightResults >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/repairOutrightResults >/dev/null 2>&1
+
+#公告
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Notice >/dev/null 2>&1
+
+#采集维护状态
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/System >/dev/null 2>&1
+
+############ 订 单 模 块 #############
+#算奖
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballOutright >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules >/dev/null 2>&1
+* * * * * sleep 10; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules >/dev/null 2>&1
+* * * * * sleep 20; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules >/dev/null 2>&1
+* * * * * sleep 40; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules >/dev/null 2>&1
+* * * * * sleep 50; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules >/dev/null 2>&1
+
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballOutright >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules >/dev/null 2>&1
+* * * * * sleep 10; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules >/dev/null 2>&1
+* * * * * sleep 20; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules >/dev/null 2>&1
+* * * * * sleep 40; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules >/dev/null 2>&1
+* * * * * sleep 50; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules >/dev/null 2>&1
+
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateTennisOutright >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateTennisSchedules >/dev/null 2>&1
+* * * * * sleep 20; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateTennisSchedules >/dev/null 2>&1
+* * * * * sleep 40; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateTennisSchedules >/dev/null 2>&1
+
+#危险球验证和撤单
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 5; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 10; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 15; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 20; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 25; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 35; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 40; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 45; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 50; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+* * * * * sleep 55; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCancel >/dev/null 2>&1
+
+#派奖
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute >/dev/null 2>&1
+* * * * * sleep 10; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute >/dev/null 2>&1
+* * * * * sleep 20; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute >/dev/null 2>&1
+* * * * * sleep 40; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute >/dev/null 2>&1
+* * * * * sleep 50; cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute >/dev/null 2>&1
+
+#撤销标记等待撤单的比赛
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/cancelFootballMarkedOrders >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/cancelBasketballMarkedOrders >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/cancelTennisMarkedOrders >/dev/null 2>&1
+
+#撤销标记等待撤销结算的比赛
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/cancelClearingFootballMarkedOrders >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/cancelClearingBasketballMarkedOrders >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/cancelClearingTennisMarkedOrders >/dev/null 2>&1
+
+#结算标记等待结算的比赛
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/clearFootballMarkedOrders >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/clearBasketballMarkedOrders >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/clearTennisMarkedOrders >/dev/null 2>&1
+
+#用户与代理日数据统计
+* 1 * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/AgentDayStatistics/statistics >/dev/null 2>&1
+
+############ 充值中心 #############
+01 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/PayCenter/updateChannelList >/dev/null 2>&1
+01 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/PayCenter/updateChannelMerchantList >/dev/null 2>&1
+0 */2 * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/PayCenter/updateChannelMerchantBank >/dev/null 2>&1
+
+
+############################## 试 玩 库 #################################
+
+############# 采 集 模 块 ##########
+
+#滚球数据
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow/identity/guest >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/inPlayNow/identity/guest >/dev/null 2>&1
+
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow/identity/guest >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/inPlayNow/identity/guest >/dev/null 2>&1
+
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow/identity/guest >/dev/null 2>&1
+* * * * * sleep 30; cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/inPlayNow/identity/guest >/dev/null 2>&1
+
+#今日
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/today/identity/guest >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/today/identity/guest >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/today/identity/guest >/dev/null 2>&1
+
+#早盘
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/early/identity/guest >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/early/identity/guest >/dev/null 2>&1
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/early/identity/guest >/dev/null 2>&1
+
+#冠军
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/outright/identity/guest >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/outright/identity/guest >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/outright/identity/guest >/dev/null 2>&1
+
+#赛果
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/results/identity/guest >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/repairResults/identity/guest >/dev/null 2>&1
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/outrightResults/identity/guest >/dev/null 2>&1
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/repairOutrightResults/identity/guest >/dev/null 2>&1
+
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/results/identity/guest >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/repairResults/identity/guest >/dev/null 2>&1
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Basketball/outrightResults/identity/guest >/dev/null 2>&1
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/repairOutrightResults/identity/guest >/dev/null 2>&1
+
+*/3 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/results/identity/guest >/dev/null 2>&1
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/repairResults/identity/guest >/dev/null 2>&1
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Tennis/outrightResults/identity/guest >/dev/null 2>&1
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Football/repairOutrightResults/identity/guest >/dev/null 2>&1
+
+#公告
+*/10 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/Notice/index/identity/guest >/dev/null 2>&1
+
+#采集维护状态
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /collect/System/index/identity/guest >/dev/null 2>&1
+
+############ 订 单 模 块 #############
+
+#算奖
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballOutright/identity/guest >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateFootballSchedules/identity/guest >/dev/null 2>&1
+
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballOutright/identity/guest >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateBasketballSchedules/identity/guest >/dev/null 2>&1
+
+0 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateTennisOutright/identity/guest >/dev/null 2>&1
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusCalculate/calculateTennisSchedules/identity/guest >/dev/null 2>&1
+
+#危险球验证和撤单
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCheck/identity/guest >/dev/null 2>&1
+*/5 * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/Orders/inPlayNowOrderCancel/identity/guest >/dev/null 2>&1
+
+#派奖
+* * * * * cd ${PROD_PATH_SPORTS}/public/; php index.php /clearing/BonusDistribute/index/identity/guest >/dev/null 2>&1

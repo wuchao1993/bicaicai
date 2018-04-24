@@ -1,0 +1,421 @@
+---------------------------------------------------------------
+[ 2018-01-19T11:15:31+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.235000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_channel` (`pay_channel_id` , `name`) SELECT 85,'天赋云' UNION ALL SELECT 84,'汇合' UNION ALL SELECT 83,'多宝' UNION ALL SELECT 82,'元宝' UNION ALL SELECT 81,'金阳' UNION ALL SELECT 80,'智汇付' UNION ALL SELECT 78,'香蕉' UNION ALL SELECT 77,'高通' UNION ALL SELECT 76,'Ak47' UNION ALL SELECT 70,'佰付' UNION ALL SELECT 69,'云安付' UNION ALL SELECT 54,'金安付' UNION ALL SELECT 41,'多得宝' UNION ALL SELECT 40,'智付' UNION ALL SELECT 24,'仁信' [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-19T11:16:40+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.372000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_channel` (`pay_channel_id` , `name`) SELECT 85,'天赋云' UNION ALL SELECT 84,'汇合' UNION ALL SELECT 83,'多宝' UNION ALL SELECT 82,'元宝' UNION ALL SELECT 81,'金阳' UNION ALL SELECT 80,'智汇付' UNION ALL SELECT 78,'香蕉' UNION ALL SELECT 77,'高通' UNION ALL SELECT 76,'Ak47' UNION ALL SELECT 70,'佰付' UNION ALL SELECT 69,'云安付' UNION ALL SELECT 54,'金安付' UNION ALL SELECT 41,'多得宝' UNION ALL SELECT 40,'智付' UNION ALL SELECT 24,'仁信' [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T11:17:00+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_channel` (`pay_channel_id` , `name`) SELECT 85,'天赋云' UNION ALL SELECT 84,'汇合' UNION ALL SELECT 83,'多宝' UNION ALL SELECT 82,'元宝' UNION ALL SELECT 81,'金阳' UNION ALL SELECT 80,'智汇付' UNION ALL SELECT 78,'香蕉' UNION ALL SELECT 77,'高通' UNION ALL SELECT 76,'Ak47' UNION ALL SELECT 70,'佰付' UNION ALL SELECT 69,'云安付' UNION ALL SELECT 54,'金安付' UNION ALL SELECT 41,'多得宝' UNION ALL SELECT 40,'智付' UNION ALL SELECT 24,'仁信' [ RunTime:0.110500s ]
+---------------------------------------------------------------
+[ 2018-01-19T11:18:14+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.258000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_channel` (`pay_channel_id` , `name`) SELECT 85,'天赋云' UNION ALL SELECT 84,'汇合' UNION ALL SELECT 83,'多宝' UNION ALL SELECT 82,'元宝' UNION ALL SELECT 81,'金阳' UNION ALL SELECT 80,'智汇付' UNION ALL SELECT 78,'香蕉' UNION ALL SELECT 77,'高通' UNION ALL SELECT 76,'Ak47' UNION ALL SELECT 70,'佰付' UNION ALL SELECT 69,'云安付' UNION ALL SELECT 54,'金安付' UNION ALL SELECT 41,'多得宝' UNION ALL SELECT 40,'智付' UNION ALL SELECT 24,'仁信' [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T11:22:55+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.365000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,10 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T11:23:50+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList?num=100
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel` LIMIT 0,100 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:23:58+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.259000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `status` , `create_time`) VALUES (24 , NULL , NULL , NULL , '3123123' , '' , NULL , NULL , NULL , NULL , NULL , NULL , '2018-01-19 15:23:58') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (24 , 0) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:25:06+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.403000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `status` , `create_time`) VALUES (25 , NULL , NULL , NULL , '3123123' , '' , NULL , NULL , NULL , NULL , NULL , NULL , '2018-01-19 15:25:05') [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:25:47+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `status` , `create_time`) VALUES (26 , NULL , NULL , NULL , '3123123' , '' , NULL , NULL , NULL , NULL , NULL , NULL , '2018-01-19 15:25:47') [ RunTime:0.111000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:28:21+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (27 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:28:21') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (27 , 0) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:29:54+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.324000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (28 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:29:54') [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:31:00+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.411000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (29 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:31:00') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (29 , 0) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:32:12+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.245000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (30 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:32:12') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (30 , 0) [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:34:37+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.240500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (31 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:34:36') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (31 , 0) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:35:07+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[0:5,%201:6]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[0:5,%201:6]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (32 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:35:06') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (32 , 0) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:39:59+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=%7B%220%22:%225%22,%221%22:%226%22%7D?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=%7B%220%22:%225%22,%221%22:%226%22%7D
+[ sql ] [ DB ] CONNECT:[ UseTime:0.503000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (33 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:39:59') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (33 , 0) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:41:36+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[]=%7B%220%22:%225%22,%221%22:%226%22%7D?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[]=%7B%220%22:%225%22,%221%22:%226%22%7D
+[ sql ] [ DB ] CONNECT:[ UseTime:1.054000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.102000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (34 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:41:36') [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (34 , 0) [ RunTime:0.082000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:42:10+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[]=5&userLevelId[1]=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (35 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:42:10') [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (35 , 5) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:42:29+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (36 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:42:29') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (36 , 5) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:43:31+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6
+[ sql ] [ DB ] CONNECT:[ UseTime:0.375000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.105000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.102000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (37 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:43:31') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (37 , 5) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (37 , 6) [ RunTime:0.043000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:45:15+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6&userLevelId[2]=4?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6&userLevelId[2]=4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.510000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (38 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:45:15') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (38 , 5) [ RunTime:0.083000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (38 , 6) [ RunTime:0.042000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (38 , 4) [ RunTime:0.041000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:46:09+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:48:41+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 11 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.106500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_pay_center_channel_merchant` (`channel_merchant_id` , `pay_channel_id` , `pay_type_id` , `redirect_domain` , `account` , `desc` , `md5_key` , `terminal_id` , `recharge_count` , `rsa_pri_key` , `rsa_public_key` , `create_time`) VALUES (39 , 85 , 9 , 'http://test-pay.kosun.net' , '3123123' , '' , '' , '' , 0 , '' , '' , '2018-01-19 15:48:40') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (39 , 3) [ RunTime:0.088000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (39 , 4) [ RunTime:0.044000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_account_user_level_relation` (`channel_merchant_id` , `user_level_id`) VALUES (39 , 8) [ RunTime:0.042000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:48:52+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:49:39+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.249000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 69 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:50:42+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.238500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:52:07+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.350000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 69 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:54:17+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.223000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 69 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:55:08+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.099000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 69 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:56:02+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.308000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 69 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-19T15:56:29+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.098000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 85 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 69 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T16:01:33+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.316500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.101000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 39 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 9 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 8 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 7 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 6 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 19 [ RunTime:0.093000s ]
+---------------------------------------------------------------
+[ 2018-01-19T16:02:58+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.862500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 39 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 9 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 8 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 7 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 6 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 19 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-19T16:03:13+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 39 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 10 [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 9 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 8 [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 7 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 6 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 19 [ RunTime:0.083000s ]
+---------------------------------------------------------------
+[ 2018-01-19T16:03:55+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList?num=100
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name` FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,100 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 39 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 9 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 8 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 7 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 6 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 19 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-19T17:20:22+08:00 ] 127.0.0.1 POST /admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.213000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_pay_center_channel_merchant`  SET `status`=1  WHERE  `channel_merchant_id` = 9 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-19T17:20:49+08:00 ] 127.0.0.1 POST /admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_pay_center_channel_merchant`  SET `status`=2  WHERE  `channel_merchant_id` = 9 [ RunTime:0.086000s ]

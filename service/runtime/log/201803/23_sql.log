@@ -1,0 +1,10 @@
+---------------------------------------------------------------
+[ 2018-03-23T11:26:42+08:00 ] 127.0.0.1 POST /admin/PayCenter/getPayCenterFriendAccountList
+[ sql ] [ DB ] CONNECT:[ UseTime:1.411500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.083500s ]
+---------------------------------------------------------------
+[ 2018-03-23T14:37:13+08:00 ] 127.0.0.1 POST /admin/PayCenter/getPayCenterFriendAccountList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.285500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087500s ]

@@ -1,0 +1,872 @@
+---------------------------------------------------------------
+[ 2018-03-12T10:45:07+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ info ] kosun.com/api/Order/mineBet?page=2 [运行时间：0.494000s][吞吐率：2.02req/s] [内存消耗：1,927.51kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.055000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Order',
+    2 => 'mineBet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'auth-identity' => 'host',
+  'cache-control' => 'no-cache',
+  'postman-token' => '944aca7d-8fa9-4003-a916-271fb90996a1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.007000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.008000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.018000s ]
+[ info ] [ RUN ] app\api\controller\Order->mineBet[ D:\xampp\htdocs\service\application\api\controller\Order.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:45:13+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ info ] kosun.com/api/User/signIn [运行时间：0.736000s][吞吐率：1.36req/s] [内存消耗：3,053.52kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c00e67b-27f1-407f-8727-c67fa53128bf',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------227929600396617602400408',
+  'content-length' => '284',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'chad123',
+  'password' => 'a111111',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.026000s ]
+[ info ] [ RUN ] app\api\controller\User->signIn[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:45:30+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ info ] kosun.com/api/User/signIn [运行时间：0.343000s][吞吐率：2.92req/s] [内存消耗：3,053.53kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4530c9a2-6fd2-403a-87db-82b1d0745857',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------114663388605176217969354',
+  'content-length' => '288',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'cary17316',
+  'password' => 'cary17316',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\User->signIn[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:46:10+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ info ] kosun.com/api/User/signIn [运行时间：0.437000s][吞吐率：2.29req/s] [内存消耗：3,053.53kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9b745672-9c8b-4b8f-82dd-5838296aa4fa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------292595262339491333873008',
+  'content-length' => '288',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\User->signIn[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:47:38+08:00 ] 127.0.0.1 POST /api/User/signUp
+[ info ] kosun.com/api/User/signUp [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,871.96kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signUp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '93f79fc2-833a-43c5-9315-2737de79eac1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------775069695861445064911335',
+  'content-length' => '501',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'wuchao',
+  'password' => 'wuchao',
+  'captcha' => '0111',
+  'platform' => 'pc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:47:49+08:00 ] 127.0.0.1 POST /api/User/signUp
+[ info ] kosun.com/api/User/signUp [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,871.96kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signUp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6572a164-f7ab-4aec-a8c0-31a530429751',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------611602460861499478907551',
+  'content-length' => '504',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao',
+  'captcha' => '0111',
+  'platform' => 'pc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:47:56+08:00 ] 127.0.0.1 POST /api/User/signUp
+[ info ] kosun.com/api/User/signUp [运行时间：1.180000s][吞吐率：0.85req/s] [内存消耗：3,060.82kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signUp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2fd8d7f8-6ef9-426e-bfd5-4bce0e7b43e8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------941022634179791749049971',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+  'captcha' => '0111',
+  'platform' => 'pc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\User->signUp[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @switch_identity [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'expire' => 86400,
+  'session_name' => 'kosunindex:admin:ss_',
+  'select' => '1',
+)
+[ info ] [ LOG ] INIT File
+[ error ] [1]session_start(): Failed to initialize storage module: user (path: D:\xampp\tmp)[D:\xampp\htdocs\service\thinkphp\library\think\Session.php:106]
+---------------------------------------------------------------
+[ 2018-03-12T10:48:36+08:00 ] 127.0.0.1 POST /api/User/signUp
+[ info ] kosun.com/api/User/signUp [运行时间：0.065000s][吞吐率：15.38req/s] [内存消耗：3,027.19kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signUp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b4880d5-0895-44c2-87b1-1839a605be50',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------571818720825659042415546',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+  'captcha' => '0111',
+  'platform' => 'pc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\User->signUp[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @switch_identity [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'expire' => 86400,
+  'session_name' => 'kosunindex:admin:ss_',
+  'select' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:48:49+08:00 ] 127.0.0.1 GET /api/General/captcha
+[ info ] kosun.com/api/General/captcha [运行时间：0.084000s][吞吐率：11.90req/s] [内存消耗：1,917.26kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'General',
+    2 => 'captcha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => '9e7b8985-c7c6-4cc9-bb01-6ddf8a3fb680',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\General->captcha[ D:\xampp\htdocs\service\application\api\controller\General.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'expire' => 86400,
+  'session_name' => 'kosunindex:admin:ss_',
+  'select' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:48:59+08:00 ] 127.0.0.1 POST /api/User/signUp
+[ info ] kosun.com/api/User/signUp [运行时间：2.528000s][吞吐率：0.40req/s] [内存消耗：3,311.40kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signUp',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f79a4e22-952e-4141-88f9-37816798f5c3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------734939765857639940169608',
+  'content-length' => '507',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+  'captcha' => '9904',
+  'platform' => 'pc',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\User->signUp[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @switch_identity [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => '',
+  'type' => 'redis',
+  'auto_start' => true,
+  'host' => '127.0.0.1',
+  'port' => 6379,
+  'password' => '',
+  'expire' => 86400,
+  'session_name' => 'kosunindex:admin:ss_',
+  'select' => '1',
+)
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: userRegisterUrlId[D:\xampp\htdocs\service\application\api\logic\User.php:194]
+---------------------------------------------------------------
+[ 2018-03-12T10:49:13+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ info ] kosun.com/api/User/signIn [运行时间：0.965000s][吞吐率：1.04req/s] [内存消耗：3,166.64kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7bf52201-d869-4d33-9329-a9d51f78d130',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------137053701399144771151534',
+  'content-length' => '288',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\User->signIn[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:49:22+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ info ] kosun.com/api/Order/mineBet?page=2 [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,928.27kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Order',
+    2 => 'mineBet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'auth-identity' => 'host',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1f29ae8-c9f3-4622-a439-03915aad5e81',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Order->mineBet[ D:\xampp\htdocs\service\application\api\controller\Order.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:49:32+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ info ] kosun.com/api/User/signIn [运行时间：0.961000s][吞吐率：1.04req/s] [内存消耗：3,166.64kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b65ab38f-9cda-464a-9dca-5e7142c34ebd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------457895806138294165395861',
+  'content-length' => '288',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\User->signIn[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:50:48+08:00 ] 127.0.0.1 GET /api/Account/getUserInfo
+[ info ] kosun.com/api/Account/getUserInfo [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,941.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Account',
+    2 => 'getUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjUzNTksInVzZXJfbmFtZSI6Im1hY2hvMTk5MyIsInJlYWxfbmFtZSI6IiIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIwLjAwMCIsImlzX2JpbmRfYmFuayI6ZmFsc2UsImlzX3NldF9mdW5kX3Bhc3N3b3JkIjpmYWxzZSwiZXhwIjoxNTIxNDI3NzcyLCJpYXQiOjE1MjA4MjI5NzIsImtlZXAiOmZhbHNlfQ.A4aqKckhBhea3XEWJAYgRUQJ88o6B2szzlF-_9L84Xg',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e2d96ae7-0150-4df6-ac00-c844e85f545f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Account->getUserInfo[ D:\xampp\htdocs\service\application\api\controller\Account.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:51:06+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ info ] kosun.com/api/User/signIn [运行时间：1.100000s][吞吐率：0.91req/s] [内存消耗：3,166.64kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'User',
+    2 => 'signIn',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '277a145f-9d0a-4cd5-9274-2854cee844e4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------687246177265420865211841',
+  'content-length' => '288',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'userName' => 'macho1993',
+  'password' => 'wuchao520',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\User->signIn[ D:\xampp\htdocs\service\application\api\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:51:37+08:00 ] 127.0.0.1 GET /api/Account/getUserInfo
+[ info ] kosun.com/api/Account/getUserInfo [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,941.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Account',
+    2 => 'getUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjUzNTksInVzZXJfbmFtZSI6Im1hY2hvMTk5MyIsInJlYWxfbmFtZSI6IiIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIwLjAwMCIsImlzX2JpbmRfYmFuayI6ZmFsc2UsImlzX3NldF9mdW5kX3Bhc3N3b3JkIjpmYWxzZSwiZXhwIjoxNTIxNDI3ODY2LCJpYXQiOjE1MjA4MjMwNjYsImtlZXAiOmZhbHNlfQ.LslOqrd7YSORJqOvHFhSbpO3GFjDrYHgn0QxMbCAPh8',
+  'cache-control' => 'no-cache',
+  'postman-token' => '068858af-e952-4d87-8dca-22b086b47e5a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Account->getUserInfo[ D:\xampp\htdocs\service\application\api\controller\Account.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:51:55+08:00 ] 127.0.0.1 GET /api/Account/getUserInfo
+[ info ] kosun.com/api/Account/getUserInfo [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,941.84kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Account',
+    2 => 'getUserInfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjUzNTksInVzZXJfbmFtZSI6Im1hY2hvMTk5MyIsInJlYWxfbmFtZSI6IiIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIwLjAwMCIsImlzX2JpbmRfYmFuayI6ZmFsc2UsImlzX3NldF9mdW5kX3Bhc3N3b3JkIjpmYWxzZSwiZXhwIjoxNTIxNDI3ODY2LCJpYXQiOjE1MjA4MjMwNjYsImtlZXAiOmZhbHNlfQ.LslOqrd7YSORJqOvHFhSbpO3GFjDrYHgn0QxMbCAPh8',
+  'cache-control' => 'no-cache',
+  'postman-token' => '004e55de-de6b-4631-b2d9-1bb06fe5761e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Account->getUserInfo[ D:\xampp\htdocs\service\application\api\controller\Account.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T10:53:28+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ info ] kosun.com/api/Order/mineBet?page=2 [运行时间：0.052000s][吞吐率：19.23req/s] [内存消耗：1,995.84kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Order',
+    2 => 'mineBet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjUzNTksInVzZXJfbmFtZSI6Im1hY2hvMTk5MyIsInJlYWxfbmFtZSI6IiIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIwLjAwMCIsImlzX2JpbmRfYmFuayI6ZmFsc2UsImlzX3NldF9mdW5kX3Bhc3N3b3JkIjpmYWxzZSwiZXhwIjoxNTIxNDI3ODY2LCJpYXQiOjE1MjA4MjMwNjYsImtlZXAiOmZhbHNlfQ.LslOqrd7YSORJqOvHFhSbpO3GFjDrYHgn0QxMbCAPh8',
+  'auth-identity' => 'host',
+  'cache-control' => 'no-cache',
+  'postman-token' => '486b546b-3489-4833-992b-f74d1999259c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Order->mineBet[ D:\xampp\htdocs\service\application\api\controller\Order.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '&&' (T_BOOLEAN_AND)[D:\xampp\htdocs\service\application\common\logic\Orders.php:758]
+---------------------------------------------------------------
+[ 2018-03-12T10:54:57+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ info ] kosun.com/api/Order/mineBet?page=2 [运行时间：0.521000s][吞吐率：1.92req/s] [内存消耗：3,167.23kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Order',
+    2 => 'mineBet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjUzNTksInVzZXJfbmFtZSI6Im1hY2hvMTk5MyIsInJlYWxfbmFtZSI6IiIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIwLjAwMCIsImlzX2JpbmRfYmFuayI6ZmFsc2UsImlzX3NldF9mdW5kX3Bhc3N3b3JkIjpmYWxzZSwiZXhwIjoxNTIxNDI3ODY2LCJpYXQiOjE1MjA4MjMwNjYsImtlZXAiOmZhbHNlfQ.LslOqrd7YSORJqOvHFhSbpO3GFjDrYHgn0QxMbCAPh8',
+  'auth-identity' => 'host',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ba1f8743-8f36-4971-bd93-f30c0aaa724d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Order->mineBet[ D:\xampp\htdocs\service\application\api\controller\Order.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Orders.php:211]
+---------------------------------------------------------------
+[ 2018-03-12T11:45:03+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ info ] kosun.com/api/Order/mineBet?page=2 [运行时间：0.536000s][吞吐率：1.87req/s] [内存消耗：3,167.23kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Order',
+    2 => 'mineBet',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjUzNTksInVzZXJfbmFtZSI6Im1hY2hvMTk5MyIsInJlYWxfbmFtZSI6IiIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIwLjAwMCIsImlzX2JpbmRfYmFuayI6ZmFsc2UsImlzX3NldF9mdW5kX3Bhc3N3b3JkIjpmYWxzZSwiZXhwIjoxNTIxNDI3ODY2LCJpYXQiOjE1MjA4MjMwNjYsImtlZXAiOmZhbHNlfQ.LslOqrd7YSORJqOvHFhSbpO3GFjDrYHgn0QxMbCAPh8',
+  'auth-identity' => 'host',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b05fbe18-3145-4b8c-b6f1-454f087f2c35',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'page' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Order->mineBet[ D:\xampp\htdocs\service\application\api\controller\Order.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Orders.php:211]
+---------------------------------------------------------------
+[ 2018-03-12T16:02:13+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getTransactionTypeList
+[ info ] kosun.com/admin/UserAccountRecord/getTransactionTypeList [运行时间：0.040500s][吞吐率：24.69req/s] [内存消耗：2,913.38kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getTransactionTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b41a0f0b-5226-416e-bf1c-e13d9ae59c26',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getTransactionTypeList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:03:09+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getTransactionTypeList
+[ info ] kosun.com/admin/UserAccountRecord/getTransactionTypeList [运行时间：0.044500s][吞吐率：22.47req/s] [内存消耗：2,855.30kb] [文件加载：72]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getTransactionTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '58bb1102-90fe-4c48-9ac0-12ddbd83c6aa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getTransactionTypeList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-12T16:04:25+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getTransactionTypeList
+[ info ] kosun.com/admin/UserAccountRecord/getTransactionTypeList [运行时间：0.051000s][吞吐率：19.61req/s] [内存消耗：2,913.41kb] [文件加载：75]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserAccountRecord',
+    2 => 'getTransactionTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b239dab8-b603-40df-b19b-987cb190bac0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserAccountRecord->getTransactionTypeList[ D:\xampp\htdocs\service\application\admin\controller\UserAccountRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File

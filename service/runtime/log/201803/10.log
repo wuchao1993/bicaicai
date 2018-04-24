@@ -1,0 +1,24 @@
+---------------------------------------------------------------
+[ 2018-03-10T09:22:15+08:00 ] 127.0.0.1 POST /
+[ info ] master.test.dphub.sandai.net:80/ [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,811.01kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'master.test.dphub.sandai.net:80',
+  'content-type' => 'application/octet-stream',
+  'content-length' => '256',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File

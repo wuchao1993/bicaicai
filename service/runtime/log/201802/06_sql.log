@@ -1,0 +1,322 @@
+---------------------------------------------------------------
+[ 2018-02-06T09:20:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder
+[ sql ] [ DB ] CONNECT:[ UseTime:1.294000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-02-06 00:00:00' AND '2018-01-30 23:59:59' LIMIT 1 [ RunTime:0.082000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:21:16+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.142000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-02-06 00:00:00' AND '2018-01-30 23:59:59' LIMIT 1 [ RunTime:0.095000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:21:30+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.145000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-02-06 00:00:00' AND '2018-01-30 23:59:59' LIMIT 1 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:22:22+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder
+[ sql ] [ DB ] CONNECT:[ UseTime:1.256000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-02-06 00:00:00' AND '2018-01-30 23:59:59' LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:22:53+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-02-06 00:00:00' AND '2018-01-30 23:59:59' LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T09:27:31+08:00 ] 127.0.0.1 GET /admin/SportsOrders/info?orderNo=FP170513653612770609
+[ sql ] [ DB ] CONNECT:[ UseTime:0.320000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_no` = 'FP170513653612770609' LIMIT 1 [ RunTime:0.094000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:51:25+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=&startTime=&endTime=&sportId=&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.100000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:53:06+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.271000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.106000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T10:58:55+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:1.328000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_event_type` = 2  AND `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_user_id` = 1  AND `so_status` = 6 ORDER BY `so_id`  desc [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:01:33+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.346000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_event_type` = 2  AND `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_user_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:02:06+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.167000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_event_type` = 2  AND `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_user_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:02:52+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.146000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.106000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_user_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:06:18+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.361000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.188000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:55:20+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.570000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.131000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:56:33+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.363000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.117000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.184000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:58:06+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.263000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.103000s ]
+---------------------------------------------------------------
+[ 2018-02-06T11:58:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.169000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:09:18+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.444000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.073000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:11:52+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.421000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.054000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.081000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.081000s ]
+[ sql ] [ SQL ] SELECT `st_id`,`st_name` FROM `ds_sports_types` [ RunTime:0.078000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:15:36+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.505000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.218000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT `st_id`,`st_name` FROM `ds_sports_types` [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:15:48+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.056000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `st_id`,`st_name` FROM `ds_sports_types` [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:16:24+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.212000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `st_id`,`st_name` FROM `ds_sports_types` [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:19:01+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.347000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.175000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.095000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:33:39+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.308000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:41:13+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.398000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.995000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:41:29+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_event_type` = 2  AND `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_user_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:41:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.122000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.100000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:42:36+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.313000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.213000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:47:19+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.354000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.122000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:49:37+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.237000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.379000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:50:23+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.324000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.383000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:52:05+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.248000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.947000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:53:08+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.412000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.108000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:53:31+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.162000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-02-06T14:54:24+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.309000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.215000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:01:13+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.771000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.070000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.083000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:01:39+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.111000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:02:04+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.215000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:02:58+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.322000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.953000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:09:03+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:1.346000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:1.175000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:09:09+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?startTime=&endTime=&sportId=1&userName=tiny666
+[ sql ] [ DB ] CONNECT:[ UseTime:0.138000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'tiny666' LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `ub_status` FROM `ds_user_bank_relation` WHERE  `user_id` = 1  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_user_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-02-06T15:09:30+08:00 ] 127.0.0.1 GET /admin/SportsOrders/exportOrder?eventType=today&startTime=&endTime=&sportId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.168000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_types` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_types` WHERE  `st_id` = 1 LIMIT 1 [ RunTime:0.095000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_sports_orders` WHERE  `so_event_type` = 2  AND `so_create_time` BETWEEN '2018-01-30 23:59:59' AND '2018-02-06 00:00:00'  AND `so_st_id` = 1  AND `so_status` = 6 ORDER BY so_create_time desc [ RunTime:0.371000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name` FROM `ds_user` WHERE  `user_id` IN (11,2,5350) [ RunTime:0.089000s ]

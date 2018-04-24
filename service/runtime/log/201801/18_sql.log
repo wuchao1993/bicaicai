@@ -1,0 +1,7 @@
+---------------------------------------------------------------
+[ 2018-01-18T10:43:40+08:00 ] 127.0.0.1 GET /api/Recharge/getRechargeTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.328000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_status` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type_group` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type_group` [ RunTime:0.088000s ]

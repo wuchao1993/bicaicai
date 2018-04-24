@@ -1,0 +1,5 @@
+---------------------------------------------------------------
+[ 2018-03-21T11:55:24+08:00 ] 127.0.0.1 POST /admin/PayCenter/getPayCenterFriendAccountList
+[ sql ] [ DB ] CONNECT:[ UseTime:1.233500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085500s ]

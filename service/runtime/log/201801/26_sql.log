@@ -1,0 +1,203 @@
+---------------------------------------------------------------
+[ 2018-01-26T15:39:16+08:00 ] 127.0.0.1 GET /api/Home/activityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.418000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `activity_id`,`activity_name`,`activity_image`,activity_starttime AS start_time,activity_finishtime AS finish_time FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2 ORDER BY activity_sort desc [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:47:58+08:00 ] 127.0.0.1 GET /api/Home/activityInfo?activityId=11
+[ sql ] [ DB ] CONNECT:[ UseTime:0.393000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 11 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-26T15:48:09+08:00 ] 127.0.0.1 GET /api/Home/activityInfo?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 8 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:00:15+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.416000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.133000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:05:29+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.384000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.133000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:10:51+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.512000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.135000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:00+08:00 ] 127.0.0.1 GET /api/Home/activity?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.311000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `activity_id`,`activity_name`,`activity_image` FROM `ds_activity` WHERE  `activity_is_banner` = 1  AND `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_starttime` <= '2018-01-26, 16:32:00'  AND `activity_finishtime` >= '2018-01-26, 16:32:00' ORDER BY activity_sort desc [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:07+08:00 ] 127.0.0.1 GET /api/Home/activity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `activity_id`,`activity_name`,`activity_image` FROM `ds_activity` WHERE  `activity_is_banner` = 1  AND `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_starttime` <= '2018-01-26, 16:32:07'  AND `activity_finishtime` >= '2018-01-26, 16:32:07' ORDER BY activity_sort desc [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:14+08:00 ] 127.0.0.1 GET /api/Home/activity?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `activity_id`,`activity_name`,`activity_image` FROM `ds_activity` WHERE  `activity_is_banner` = 1  AND `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_starttime` <= '2018-01-26, 16:32:14'  AND `activity_finishtime` >= '2018-01-26, 16:32:14' ORDER BY activity_sort desc [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:32:22+08:00 ] 127.0.0.1 GET /api/Home/activity
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `activity_id`,`activity_name`,`activity_image` FROM `ds_activity` WHERE  `activity_is_banner` = 1  AND `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_starttime` <= '2018-01-26, 16:32:22'  AND `activity_finishtime` >= '2018-01-26, 16:32:22' ORDER BY activity_sort desc [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:37:14+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.580000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.128000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:39:34+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.416000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.132000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:39:49+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.130000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:40:05+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?activityCategoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.129000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:43:04+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList?categoryId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.517000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1  AND `activity_category_id` = 8 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1  AND `activity_category_id` = 8 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:43:19+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.135000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:47:15+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.503000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.132000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:47:43+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.252000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.116000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.132000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:48:20+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.319000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.130000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:08+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed
+[ sql ] [ DB ] CONNECT:[ UseTime:0.323000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:12+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:42+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T16:59:46+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:00:16+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.331000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:00:22+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.144000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.146000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.092000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:03+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:06+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:45+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:1.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:01:59+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:02:16+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:02:28+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:02:37+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:04:27+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?activityId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.238000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` IS NULL LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:04:50+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 8 LIMIT 1 [ RunTime:0.092000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:05:25+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 8 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:05:40+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.217000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 8 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:12:07+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.530000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.132000s ]
+---------------------------------------------------------------
+[ 2018-01-26T17:15:04+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.518000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 8 LIMIT 1 [ RunTime:0.089000s ]

@@ -1,0 +1,230 @@
+---------------------------------------------------------------
+[ 2018-03-27T09:39:20+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/editPayTypeGroup?groupName=%E6%88%9123&status=1&orderIndex=1&groupId=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.238000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-03-27T10:52:41+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.173000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-27T10:52:47+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-27T10:52:51+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.249500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.099500s ]
+---------------------------------------------------------------
+[ 2018-03-27T10:52:56+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.262500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.091500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-27T10:53:30+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089500s ]
+---------------------------------------------------------------
+[ 2018-03-27T10:53:41+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.294000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:27:53+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1&mobileImage=1&image=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:27:56+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:29:33+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.298500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.090500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:29:41+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupDetail?groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:29:49+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/editPayTypeGroup?groupName=%E6%88%9123&status=1&orderIndex=1&groupId=10&mobileImage=&image=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:30:01+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1&mobileImage=1&image=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:30:09+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=1&shortName=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:30:22+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.218000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:30:28+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.155000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:30:38+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.216000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:33:03+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.279500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:33:16+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:33:24+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?groupId=10&shortName=wechat_app
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:33:50+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:34:23+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.137000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:34:31+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:34:59+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app
+[ sql ] [ DB ] CONNECT:[ UseTime:0.139500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]
+---------------------------------------------------------------
+[ 2018-03-27T11:35:03+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.312500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:19:26+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.376000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.089500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:21:39+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.339000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:22:12+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.162000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:22:28+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.142500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:22:46+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.357500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.112000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:23:40+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:29:20+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/updatePayTypeGroup?shortName=wechat_app&groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.310000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:37:49+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeDetail?shortName=wechat_app
+[ sql ] [ DB ] CONNECT:[ UseTime:0.308000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:39:14+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.314500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.084500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:45:01+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupDetail?groupId=10
+[ sql ] [ DB ] CONNECT:[ UseTime:0.324000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.093500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:48:04+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.231500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:57:19+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.328000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.090500s ]
+---------------------------------------------------------------
+[ 2018-03-27T16:57:24+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:01:21+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.091500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.090500s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:12:30+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.298000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:18:24+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.404000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.139500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.137000s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:18:31+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount
+[ sql ] [ DB ] CONNECT:[ UseTime:0.351500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.211500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.198500s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:18:53+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&userName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.166500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:24:14+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.299000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088500s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:24:23+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E7%9C%8B%E7%9C%8B&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-27T17:30:01+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.314000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086500s ]

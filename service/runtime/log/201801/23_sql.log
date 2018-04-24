@@ -1,0 +1,15 @@
+---------------------------------------------------------------
+[ 2018-01-23T15:26:11+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.507000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `m`.*,`c`.`name`,r.recharge_type_name as category_name FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `c`.`pay_channel_id`=`m`.`pay_channel_id` INNER JOIN `ds_recharge_type` `r` ON `r`.`recharge_type_id`=`m`.`pay_type_id` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 25 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 24 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 8 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 39 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 19 [ RunTime:0.083000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 7 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 6 [ RunTime:0.085000s ]

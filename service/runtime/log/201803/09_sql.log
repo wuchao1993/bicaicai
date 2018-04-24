@@ -1,0 +1,58 @@
+---------------------------------------------------------------
+[ 2018-03-09T16:58:20+08:00 ] 127.0.0.1 POST /admin/UserAccountRecord/getAccountList?transactionType=[1,2,18]&dateType=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.305000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) ORDER BY uar_createtime desc LIMIT 0,10 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:01:29+08:00 ] 127.0.0.1 POST /admin/UserAccountRecord/getAccountList?transactionType=[1,2,18]&dateType=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.318000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) ORDER BY uar_createtime desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:02:29+08:00 ] 127.0.0.1 POST /admin/UserAccountRecord/getAccountList?transactionType=[1,2,18]&dateType=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.319000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) ORDER BY uar_createtime desc LIMIT 0,10 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:03:59+08:00 ] 127.0.0.1 POST /admin/UserAccountRecord/getAccountList?transactionType=[1,2,18]&dateType=0
+[ sql ] [ DB ] CONNECT:[ UseTime:0.305000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` WHERE  `uar_transaction_type` IN (0) ORDER BY uar_createtime desc LIMIT 0,10 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN ('') [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:20:44+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.233000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_notice` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_notice` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_notice` ORDER BY notice_sort desc LIMIT 0,10 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-09T17:21:12+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_notice` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_notice` LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_notice` ORDER BY notice_sort desc LIMIT 0,10 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-03-09T18:05:19+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.315500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_notice` [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_notice` LIMIT 1 [ RunTime:0.089500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_notice` ORDER BY notice_sort desc LIMIT 0,10 [ RunTime:0.089500s ]

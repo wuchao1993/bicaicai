@@ -1,0 +1,2985 @@
+---------------------------------------------------------------
+[ 2018-01-25T09:35:25+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList [运行时间：0.044000s][吞吐率：22.73req/s] [内存消耗：1,969.31kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '54080249-1bda-451b-9119-7e3b2e65e7f0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T09:39:05+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList [运行时间：2.824000s][吞吐率：0.35req/s] [内存消耗：3,271.59kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '312066b2-6855-4466-a467-0f372a3a4222',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T09:42:31+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25 [运行时间：1.820000s][吞吐率：0.55req/s] [内存消耗：3,273.34kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44ded998-3c7f-42c0-8748-dd5711c47c09',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-24',
+  'endDate' => '2018-01-25',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T09:45:22+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25 [运行时间：0.037500s][吞吐率：26.67req/s] [内存消耗：1,935.55kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6579eb6d-7556-4611-a0dc-0d9ad1a96b4a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-24',
+  'endDate' => '2018-01-25',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'get' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST)[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:857]
+---------------------------------------------------------------
+[ 2018-01-25T10:16:08+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25 [运行时间：1.943000s][吞吐率：0.51req/s] [内存消耗：3,273.75kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '38da5cf0-920f-4974-90e7-f067a1e7a912',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-24',
+  'endDate' => '2018-01-25',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T10:24:30+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：0.032500s][吞吐率：30.77req/s] [内存消耗：1,875.75kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9a3f6ca7-c95f-4cb0-a7c5-d86cf8160c9f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:25:19+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：3.019000s][吞吐率：0.33req/s] [内存消耗：3,334.35kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e8bade43-a25d-437c-b887-9b80a537e60a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:25:25+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：2.349500s][吞吐率：0.43req/s] [内存消耗：3,334.35kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c9d081e-0c1d-4b46-925d-6a8b9200d333',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:25:40+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=5&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=5&bankId=3 [运行时间：2.279000s][吞吐率：0.44req/s] [内存消耗：3,334.35kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '899fa40e-d4de-45e5-b80b-c2521e998e8f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '5',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:25:45+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=5&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=5&bankId=3 [运行时间：2.430000s][吞吐率：0.41req/s] [内存消耗：3,334.35kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ac4e04d6-bdd8-46bd-8d4e-250000fadfcd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '5',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:28:25+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=5&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=5&bankId=3 [运行时间：2.649000s][吞吐率：0.38req/s] [内存消耗：3,334.35kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8c510cc8-290c-4c49-8580-39e1aa345229',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '5',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-25T10:28:34+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-24&endDate=2018-01-25 [运行时间：1.570500s][吞吐率：0.64req/s] [内存消耗：3,273.75kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f729a32-03e8-486d-b118-e350e6eb0e14',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-24',
+  'endDate' => '2018-01-25',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T10:28:44+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-25
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-25 [运行时间：1.570500s][吞吐率：0.64req/s] [内存消耗：3,273.12kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '11cbce5f-bcd1-4d4d-a72d-33174b16a166',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-25',
+  'endDate' => '2018-01-25',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T10:29:42+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-26
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-26 [运行时间：2.150000s][吞吐率：0.47req/s] [内存消耗：3,273.12kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cb8644f0-d77a-43ec-a377-de121a308386',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-25',
+  'endDate' => '2018-01-26',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T10:31:06+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-26
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?startDate=2018-01-25&endDate=2018-01-26 [运行时间：0.516000s][吞吐率：1.94req/s] [内存消耗：3,120.55kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '082ade30-7afb-423e-a927-b4c20349b914',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'startDate' => '2018-01-25',
+  'endDate' => '2018-01-26',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T10:31:59+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList [运行时间：0.399000s][吞吐率：2.51req/s] [内存消耗：3,119.68kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '16336c8e-ffbb-497d-b555-0a0f04ea9fee',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: date_type[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:690]
+---------------------------------------------------------------
+[ 2018-01-25T10:33:41+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：0.439500s][吞吐率：2.28req/s] [内存消耗：3,103.67kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9634d4fe-054f-458d-ab3d-02c7f5b988af',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:34:15+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.563500s][吞吐率：0.64req/s] [内存消耗：3,278.92kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '96ab9324-1213-41a7-b767-b260573621fb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:826]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:826]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:826]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:826]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:826]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:827]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+---------------------------------------------------------------
+[ 2018-01-25T10:37:51+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.611500s][吞吐率：0.62req/s] [内存消耗：3,257.40kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd8529b80-16a8-4f8e-8916-9432d667d71c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]致命错误: Call to undefined function app\admin\logic\dumo()[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:808]
+---------------------------------------------------------------
+[ 2018-01-25T10:38:08+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.306500s][吞吐率：0.77req/s] [内存消耗：3,197.67kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '13ed80d9-7989-45aa-9820-c4708a2c6f22',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:44:14+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.783000s][吞吐率：0.56req/s] [内存消耗：3,210.93kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e312865-418a-4e2c-b8a1-d64e6bd749d0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:45:16+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.858000s][吞吐率：0.54req/s] [内存消耗：3,211.16kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b7d6edc-12f7-4026-8967-830f7cbf106b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:47:54+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.692000s][吞吐率：0.59req/s] [内存消耗：3,211.72kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '429f0a99-ae45-41ce-bf1e-56cb25a8544e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:51:49+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：3.322000s][吞吐率：0.30req/s] [内存消耗：3,291.98kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ccf66be3-ebbf-44ae-acef-43eb5bf4cfd4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:828]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:828]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:828]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:828]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:828]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+---------------------------------------------------------------
+[ 2018-01-25T10:56:27+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.065500s][吞吐率：0.48req/s] [内存消耗：3,228.16kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a6bdd63-05f0-46d1-8ef8-a4ceed2450e2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T10:57:13+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.622500s][吞吐率：0.62req/s] [内存消耗：3,229.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4cc8cab4-0c04-427d-9a05-3de8040702b9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T11:01:43+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.181000s][吞吐率：0.46req/s] [内存消耗：3,300.94kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '29d27190-c7b2-428d-b028-d03d674ed2ea',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 7[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 7[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+---------------------------------------------------------------
+[ 2018-01-25T11:06:51+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.292500s][吞吐率：0.44req/s] [内存消耗：3,301.09kb] [文件加载：87]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1cf3fa0b-8e29-4ba2-81a3-45bb5c2ad630',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 7[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:829]
+[ error ] [8]未定义数组下标: 7[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+---------------------------------------------------------------
+[ 2018-01-25T11:30:21+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.305000s][吞吐率：0.43req/s] [内存消耗：3,258.75kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8e7df83d-1416-4157-a382-b16f1b5b2912',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T11:32:40+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：0.051500s][吞吐率：19.42req/s] [内存消耗：1,935.05kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '112e931c-763f-49cb-8889-6553831ec30e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected '$expireDate' (T_VARIABLE)[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+---------------------------------------------------------------
+[ 2018-01-25T11:32:56+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.334000s][吞吐率：0.43req/s] [内存消耗：3,315.20kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0fc704c8-ba71-466e-b049-6ce683c57d5b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 5[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 7[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: pp_category_id[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 7[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:450]
+---------------------------------------------------------------
+[ 2018-01-25T11:36:38+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.775500s][吞吐率：0.56req/s] [内存消耗：3,297.09kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7fe83a10-3460-4f93-b220-942f6c0acf37',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+---------------------------------------------------------------
+[ 2018-01-25T11:37:04+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.573000s][吞吐率：0.64req/s] [内存消耗：3,297.09kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3e48fc3f-580c-4620-9dd2-1b63e942085d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+---------------------------------------------------------------
+[ 2018-01-25T11:37:54+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.707500s][吞吐率：0.59req/s] [内存消耗：3,379.69kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '46a09ac1-9737-459a-b9d6-77853cd6faba',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:834]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+---------------------------------------------------------------
+[ 2018-01-25T11:39:54+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.867000s][吞吐率：0.54req/s] [内存消耗：3,379.77kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '18bc79ce-d536-4ca2-982b-a3602c680e84',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:833]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+---------------------------------------------------------------
+[ 2018-01-25T11:44:40+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.293500s][吞吐率：0.44req/s] [内存消耗：3,417.61kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cdb16144-fc51-40e7-979c-3c39dd7a9b0e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+---------------------------------------------------------------
+[ 2018-01-25T11:45:01+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.070000s][吞吐率：0.48req/s] [内存消耗：3,331.78kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '71cb8ff0-03f4-4160-9790-5e6488a1ca7a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义变量: payTypeCategroyList[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+---------------------------------------------------------------
+[ 2018-01-25T11:45:32+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.153500s][吞吐率：0.46req/s] [内存消耗：3,325.93kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3f4a81dc-4fcb-4631-809f-5b04bbb484c7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+---------------------------------------------------------------
+[ 2018-01-25T11:46:28+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.367000s][吞吐率：0.42req/s] [内存消耗：3,281.50kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84a5919d-8c80-46b1-9acd-e305030dae18',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T11:47:30+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.382500s][吞吐率：0.42req/s] [内存消耗：3,281.63kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '49789273-ba0c-4f19-836e-872a1d34cae7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T11:47:42+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：1.990500s][吞吐率：0.50req/s] [内存消耗：3,320.63kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6b57e815-e246-4dcf-8661-537b79a9c376',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+---------------------------------------------------------------
+[ 2018-01-25T11:49:43+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.272500s][吞吐率：0.44req/s] [内存消耗：3,325.52kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7f9ede08-558f-4c2e-8ab3-54546f57eebc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+---------------------------------------------------------------
+[ 2018-01-25T11:51:48+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.207000s][吞吐率：0.45req/s] [内存消耗：3,362.30kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '697964f6-7238-4899-918f-41f33b71b085',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:836]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:837]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:838]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:832]
+---------------------------------------------------------------
+[ 2018-01-25T11:52:26+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.013000s][吞吐率：0.50req/s] [内存消耗：3,345.60kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '66332125-5908-4864-8f34-6af14fb0dff9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+---------------------------------------------------------------
+[ 2018-01-25T11:52:38+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.189000s][吞吐率：0.46req/s] [内存消耗：3,325.93kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '720a0acb-ee45-4f14-acd0-50900e30e822',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:453]
+---------------------------------------------------------------
+[ 2018-01-25T11:53:15+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.329500s][吞吐率：0.43req/s] [内存消耗：3,339.02kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c2accd21-c06d-4664-990c-20fa0cd9e97c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义变量: list[D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php:385]
+---------------------------------------------------------------
+[ 2018-01-25T11:56:21+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.574500s][吞吐率：0.39req/s] [内存消耗：3,404.84kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd82eddb5-eb92-435d-9c0c-9d78ecf107b4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+---------------------------------------------------------------
+[ 2018-01-25T12:00:02+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.472500s][吞吐率：0.40req/s] [内存消耗：3,320.30kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ec43266-6675-4bfc-8095-932906537153',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1502[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1503[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1501[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1499[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 1500[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:835]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 10[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:830]
+[ error ] [8]未定义数组下标: 8[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:831]
+---------------------------------------------------------------
+[ 2018-01-25T14:14:30+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.682000s][吞吐率：1.47req/s] [内存消耗：2,865.52kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '96b38202-a974-4560-9d62-b818c3a0173f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:26:11+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.029500s][吞吐率：33.90req/s] [内存消耗：1,833.21kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b7677d16-216f-4a39-ba00-4f0eeed6abb5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';', expecting ']'[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:107]
+---------------------------------------------------------------
+[ 2018-01-25T14:27:22+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,870.45kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '244b9179-6795-481b-96d1-46dd4095eca0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN), expecting ';'[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:56]
+---------------------------------------------------------------
+[ 2018-01-25T14:28:09+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.792000s][吞吐率：1.26req/s] [内存消耗：2,902.24kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '090d6d1f-6bcf-44cc-b1b7-12aa27d64e0a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:53]
+---------------------------------------------------------------
+[ 2018-01-25T14:28:22+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.427000s][吞吐率：2.34req/s] [内存消耗：2,865.16kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '89aaac2c-58af-4c2b-8bd3-8e9b8594ba8a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:32:56+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.517000s][吞吐率：0.66req/s] [内存消耗：2,883.06kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '66e34f09-8c59-47b9-9630-d016f4c1479a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:35:07+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8 [运行时间：2.470000s][吞吐率：0.40req/s] [内存消耗：2,904.21kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b8c74f52-2b80-4cce-86c0-f3bbe6c314fa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------524157566838723219319165',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '3',
+    1 => '4',
+    2 => '8',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:35:36+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.301000s][吞吐率：0.77req/s] [内存消耗：2,884.31kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '529d60f6-b1b5-4a19-81f2-c2d085022bbc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:36:24+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.668000s][吞吐率：0.60req/s] [内存消耗：2,955.38kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7cc951bd-3bb5-4adc-a514-03fc0cfa1a75',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:38:07+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.333000s][吞吐率：0.75req/s] [内存消耗：2,955.74kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3484a8e9-67c7-4746-a26e-278b748d470b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T14:38:20+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.312000s][吞吐率：0.76req/s] [内存消耗：2,884.31kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '27d8e76c-9cdc-48a2-b5ba-14279d106830',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T16:03:14+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8 [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：1,915.48kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6e0173db-2dcd-4d1b-99bc-924c3e24d8fc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------312119605873081380045128',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '3',
+    1 => '4',
+    2 => '8',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T16:03:55+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8 [运行时间：3.467000s][吞吐率：0.29req/s] [内存消耗：2,905.51kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4e72a883-8b8e-4f1a-8437-b8e4e22ee8a1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------091488592293280570681495',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '3',
+    1 => '4',
+    2 => '8',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T16:06:34+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.744000s][吞吐率：1.34req/s] [内存消耗：2,909.65kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'da1d917b-cd2b-4968-bff6-e5ace30a6e2e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\[D:\xampp\htdocs\service\thinkphp\library\think\Loader.php:437]
+---------------------------------------------------------------
+[ 2018-01-25T16:07:01+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.344000s][吞吐率：2.91req/s] [内存消耗：2,909.66kb] [文件加载：78]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '03971b59-0f0b-464d-adb1-e3d7e0f5f852',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\[D:\xampp\htdocs\service\thinkphp\library\think\Loader.php:437]
+---------------------------------------------------------------
+[ 2018-01-25T16:07:12+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.339000s][吞吐率：2.95req/s] [内存消耗：2,920.02kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0cbfa487-6034-4eb3-b721-fb2a8fc69fa2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: model[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:83]
+[ error ] [0]致命错误: Call to a member function getLastSql() on null[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:83]
+---------------------------------------------------------------
+[ 2018-01-25T16:07:46+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.611000s][吞吐率：1.64req/s] [内存消耗：2,840.38kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed754b53-b702-4da5-82f6-6118fb0f71a0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T16:08:10+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.430000s][吞吐率：2.33req/s] [内存消耗：2,844.80kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '77c312c2-f084-420e-b4cb-e11353f593f1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T16:08:47+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.639000s][吞吐率：1.56req/s] [内存消耗：2,844.88kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f26d9911-6dd4-4072-bcb3-fb8bdaa99e6a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T16:09:20+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.423000s][吞吐率：2.36req/s] [内存消耗：2,844.38kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cde8eaef-f8c7-4e55-8948-8897087f826f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T17:13:05+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=5&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=5&bankId=3 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,877.40kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '049a4b4f-b051-4b75-b76f-12ac83e04982',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '5',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T17:20:48+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,977.07kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b9508f80-2fd6-4b40-998c-b700207fc327',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-25T17:21:06+08:00 ] 127.0.0.1 POST /admin/UserRechargeRecord/getOnlineList?dateType=1
+[ info ] kosun.com/admin/UserRechargeRecord/getOnlineList?dateType=1 [运行时间：2.823000s][吞吐率：0.35req/s] [内存消耗：3,355.33kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'UserRechargeRecord',
+    2 => 'getOnlineList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '02e25501-c91b-482b-ad6b-8e4df3c359c9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'dateType' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\UserRechargeRecord->getOnlineList[ D:\xampp\htdocs\service\application\admin\controller\UserRechargeRecord.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 1509[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1508[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1508[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1509[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1508[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1427[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1021[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 1021[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 721[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组下标: 723[D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\admin\logic\UserRechargeRecord.php:884]

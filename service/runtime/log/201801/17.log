@@ -1,0 +1,3201 @@
+---------------------------------------------------------------
+[ 2018-01-17T09:22:16+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=6&bankId=3 [运行时间：0.031500s][吞吐率：31.75req/s] [内存消耗：1,872.98kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0ea33e0-82a6-40ec-a93d-dcefb5eb3be7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '6',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:22:55+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=6&bankId=3 [运行时间：2.950000s][吞吐率：0.34req/s] [内存消耗：3,339.84kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '95ac02d9-06ab-4d44-9986-23e426b0933d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '6',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T09:23:01+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=6&bankId=3 [运行时间：2.474000s][吞吐率：0.40req/s] [内存消耗：3,339.84kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c7906c49-0147-42d8-97fd-d7d5fa805266',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '6',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T09:23:25+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=6&bankId=3 [运行时间：2.436000s][吞吐率：0.41req/s] [内存消耗：3,438.09kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '33e90e91-bd52-4ab4-8b3d-8f1f87f23e09',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '6',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T09:52:13+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,866.42kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ac737731-a34c-405c-aa84-ce1e9eeefdd1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:52:38+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=1
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=1 [运行时间：0.048000s][吞吐率：20.83req/s] [内存消耗：1,867.59kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd9039a8f-f5c0-46ce-919f-5a67035bcae7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:53:57+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%22gameId%22:1234%7D]
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%22gameId%22:1234%7D] [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,867.75kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4633610d-0ab3-47cb-a444-23fd0ed2f4ac',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '["gameId":1234}]',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T09:55:34+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22evenType%22:%22parlay%22%7D]
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22evenType%22:%22parlay%22%7D] [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,904.02kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => '32ba3f2d-2612-480b-9cf7-20b3acc7b631',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"evenType":"parlay"}]',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: eventType[D:\xampp\htdocs\service\application\api\validate\SportsEvents.php:151]
+---------------------------------------------------------------
+[ 2018-01-17T09:55:54+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22evenType%22:%22parlay%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22evenType%22:%22parlay%22%7D]&sportType=football [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,904.27kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => '371d61ea-4410-46f5-8377-25859adcaf62',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"evenType":"parlay"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: eventType[D:\xampp\htdocs\service\application\api\validate\SportsEvents.php:151]
+---------------------------------------------------------------
+[ 2018-01-17T09:58:37+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22%7D]&sportType=football [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：1,904.27kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => '33d84e14-e893-4797-a496-a7ecf88c337a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"eventType":"parlay"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: playType[D:\xampp\htdocs\service\application\api\validate\SportsEvents.php:158]
+---------------------------------------------------------------
+[ 2018-01-17T09:59:20+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22123%22,%22oddsKey%22:%221213%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22123%22,%22oddsKey%22:%221213%22%7D]&sportType=football [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：1,920.07kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c21f77a2-19e6-4c04-93a3-e6d8202e053b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"eventType":"parlay","playType":"123","oddsKey":"1213"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 123[D:\xampp\htdocs\service\application\api\validate\SportsEvents.php:116]
+---------------------------------------------------------------
+[ 2018-01-17T10:00:38+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%221213%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%221213%22%7D]&sportType=football [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,884.34kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cb5a691c-d266-448e-87c7-b17c89d96849',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"eventType":"parlay","playType":"ft1x2","oddsKey":"1213"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:01:57+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%22CAPOT_HOME_WIN%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%22CAPOT_HOME_WIN%22%7D]&sportType=football [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,884.62kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e7da86c1-ccc7-410c-a320-801e3185e95b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"eventType":"parlay","playType":"ft1x2","oddsKey":"CAPOT_HOME_WIN"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:02:22+08:00 ] 127.0.0.1 GET /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%22ior_mh%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%22ior_mh%22%7D]&sportType=football [运行时间：0.508000s][吞吐率：1.97req/s] [内存消耗：3,024.01kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6a278b91-5923-44e0-9e6e-fe9bec838595',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"eventType":"parlay","playType":"ft1x2","oddsKey":"ior_mh"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\SportsEvents->refreshOddsMulti[ D:\xampp\htdocs\service\application\api\controller\SportsEvents.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:02:42+08:00 ] 127.0.0.1 POST /api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%22ior_mh%22%7D]&sportType=football
+[ info ] kosun.com/api/SportsEvents/refreshOddsMulti?gameInfo=[%7B%22gameId%22:1234,%22eventType%22:%22parlay%22,%22playType%22:%22ft1x2%22,%22oddsKey%22:%22ior_mh%22%7D]&sportType=football [运行时间：0.347000s][吞吐率：2.88req/s] [内存消耗：3,024.25kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'SportsEvents',
+    2 => 'refreshOddsMulti',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'auth-token' => 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOjQxMjYsInVzZXJfbmFtZSI6ImNhcnkxNzMxNiIsInJlYWxfbmFtZSI6Ilx1NzM4Ylx1NjAxZFx1ODA2YSIsImlzX2FnZW50IjowLCJhY2NvdW50X2JhbGFuY2UiOiIxMTg5OTkuOTc3IiwiaXNfYmluZF9iYW5rIjp0cnVlLCJleHAiOjE1MTU0ODMzODksImlhdCI6MTUxNDg3ODU4OSwia2VlcCI6ZmFsc2V9.nq14V8xokzL-Rv4PB4VYNzS5GIwJj2OOHPZox6cuf6M',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a3c845f7-ac24-44eb-967c-41226c8aaf69',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'gameInfo' => '[{"gameId":1234,"eventType":"parlay","playType":"ft1x2","oddsKey":"ior_mh"}]',
+  'sportType' => 'football',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\SportsEvents->refreshOddsMulti[ D:\xampp\htdocs\service\application\api\controller\SportsEvents.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:13+08:00 ] 0.0.0.0 OPTIONS /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.019000s][吞吐率：52.63req/s] [内存消耗：1,721.30kb] [文件加载：58]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:13+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.72kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:13+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:14+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,790.72kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:14+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:14+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.72kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:15+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:15+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.72kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:15+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:16+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop/
+[ info ] localhost/C$/Users/Administrator/Desktop/ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.77kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:16+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:16+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:17+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:17+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:17+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:18+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:18+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:18+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/
+[ info ] localhost/C$/Users/Administrator/ [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.66kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:19+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:19+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:19+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:20+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:20+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:20+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:21+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:21+08:00 ] 0.0.0.0 PROPFIND /C$/Users/
+[ info ] localhost/C$/Users/ [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.43kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:22+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:22+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:22+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:23+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.27kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:23+08:00 ] 0.0.0.0 PROPFIND /C$/
+[ info ] localhost/C$/ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.30kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:23+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.72kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:24+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.61kb] [文件加载：63]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:03:34+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=6&bankId=3 [运行时间：3.271000s][吞吐率：0.31req/s] [内存消耗：3,343.02kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '23ef1ac1-9543-41e2-b8a6-88c1dd5ee29d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '6',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/180/bankId/3/sign/a95e973ecf970fd28bf5b658af9fef2c
+            [payCenterOrderNo] => 1801171002080000138063140
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175461381250496
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/180/bankId/3/sign/a95e973ecf970fd28bf5b658af9fef2c
+            [payCenterOrderNo] => 1801171002080000138063140
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175461381250496
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:08:02+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=5&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=5&bankId=3 [运行时间：1.987000s][吞吐率：0.50req/s] [内存消耗：3,262.81kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f01096f7-6fbe-4804-93b6-212e3d4c63e3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '5',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] step-1:充值通道不可用!
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:08:13+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=6&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=6&bankId=3 [运行时间：2.431000s][吞吐率：0.41req/s] [内存消耗：3,343.02kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d55c362-a459-42c7-aaa3-c0d20fceb318',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '6',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/181/bankId/3/sign/75ce3c7836dce90f92e05bc7a4130ae0
+            [payCenterOrderNo] => 1801171006470000159572407
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175489315050804
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/181/bankId/3/sign/75ce3c7836dce90f92e05bc7a4130ae0
+            [payCenterOrderNo] => 1801171006470000159572407
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175489315050804
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:08:59+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.458000s][吞吐率：0.69req/s] [内存消耗：3,262.26kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0ecd9aa1-d331-4e8a-994a-0f5a47ac37f8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] step-1:充值通道不可用!
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:13:40+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：0.842000s][吞吐率：1.19req/s] [内存消耗：3,172.03kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '78357fd6-2d54-4d3a-897c-5e064fe3e5b5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:14:35+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.440000s][吞吐率：0.69req/s] [内存消耗：3,207.49kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '88172827-7012-41ac-8a11-9a523c4155e1',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:15:42+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.560000s][吞吐率：0.64req/s] [内存消耗：3,274.73kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3eea652d-911a-4e7f-aee1-0f0be0bd4813',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:16:26+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.505000s][吞吐率：0.66req/s] [内存消耗：3,262.26kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e7ed29d4-7a32-45cb-be31-351c44671a83',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] step-1:充值通道不可用!
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:17:09+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.356000s][吞吐率：0.74req/s] [内存消耗：3,247.13kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be173fa3-ed00-49d0-ba18-287cf3c04251',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:18:45+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.473000s][吞吐率：0.68req/s] [内存消耗：3,247.13kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c128d615-1778-4f27-8e80-3157a43696a5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000500s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:18:54+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.477000s][吞吐率：0.68req/s] [内存消耗：3,262.84kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eaaa3a74-4789-4821-826b-b40f27f8cb30',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] step-1:充值通道不可用!
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:20:00+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.601000s][吞吐率：0.62req/s] [内存消耗：3,275.62kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b3c49e2c-df0a-434a-bdbc-0db652e93fc2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:21:11+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.561000s][吞吐率：0.64req/s] [内存消耗：3,262.66kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '655248fc-26b6-484e-a072-ac55b2e6f46d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:21:52+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.442000s][吞吐率：0.69req/s] [内存消耗：3,274.79kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd9a6bf7-350f-448b-b266-05b5ca382d64',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:23:10+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.629500s][吞吐率：0.61req/s] [内存消耗：3,272.99kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0cd659a2-93cc-4d9f-a38d-18497f57adbd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:23:47+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.498000s][吞吐率：0.67req/s] [内存消耗：3,273.46kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bbf116e8-b312-428a-8f79-c4291f0772ff',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ error ] [8]未定义数组索引: limit_amount[D:\xampp\htdocs\service\application\api\logic\Recharge.php:313]
+---------------------------------------------------------------
+[ 2018-01-17T10:24:34+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.599000s][吞吐率：0.63req/s] [内存消耗：3,273.08kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e6a8436-a0a3-4b13-8a97-c4f585a1d077',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:26:03+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.710000s][吞吐率：0.58req/s] [内存消耗：3,252.41kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0001aba7-a37a-4993-a1fa-897bca04c379',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:26:35+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：1.311000s][吞吐率：0.76req/s] [内存消耗：3,251.66kb] [文件加载：88]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d55be22-3c7f-4fd9-832b-06a8f9d7de8a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+---------------------------------------------------------------
+[ 2018-01-17T10:27:14+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：2.866000s][吞吐率：0.35req/s] [内存消耗：3,328.29kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5f02cb81-3404-4e76-b60e-54c61d5470bd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS3n7OUiaOpiGyNow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801171025470000115534357
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175603279200867
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS3n7OUiaOpiGyNow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801171025470000115534357
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175603279200867
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T10:46:23+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：1,903.52kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '72523a31-b463-4d8d-862c-9ec3defb8efd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T10:46:44+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.341000s][吞吐率：0.75req/s] [内存消耗：2,917.09kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cf51a229-4725-4199-8725-1badea35c46d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 3[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-17T10:47:12+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.249000s][吞吐率：0.80req/s] [内存消耗：2,917.34kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3dc5d07d-0c55-4244-abd2-d522f5e42b46',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 3[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-17T10:47:43+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.293000s][吞吐率：0.77req/s] [内存消耗：2,917.09kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84460b7c-746b-4e13-b03c-5b48785ac595',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 3[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-17T10:48:29+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7&bankId=3 [运行时间：3.017000s][吞吐率：0.33req/s] [内存消耗：3,328.29kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4427b1e0-e5f2-4dd1-95b6-b3e8bfc6e33a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:64]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS6qLiKZLyojGmRow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801171047020000137057042
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175730826100793
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS6qLiKZLyojGmRow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801171047020000137057042
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801175730826100793
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-17T15:55:36+08:00 ] 0.0.0.0 OPTIONS /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,720.55kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:36+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.040000s][吞吐率：25.00req/s] [内存消耗：1,789.98kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:37+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:37+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.98kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:38+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:38+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.98kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:38+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:39+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.98kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:39+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:39+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop/
+[ info ] localhost/C$/Users/Administrator/Desktop/ [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.02kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:40+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:40+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:40+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:41+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:41+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:41+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:42+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:42+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/
+[ info ] localhost/C$/Users/Administrator/ [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,789.91kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:42+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:43+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:43+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:43+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:44+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:44+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.020000s][吞吐率：50.00req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:45+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:45+08:00 ] 0.0.0.0 PROPFIND /C$/Users/
+[ info ] localhost/C$/Users/ [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,789.69kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:45+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021500s][吞吐率：46.51req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:46+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:46+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:46+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.53kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:47+08:00 ] 0.0.0.0 PROPFIND /C$/
+[ info ] localhost/C$/ [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,789.55kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:47+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,789.98kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-17T15:55:48+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,789.87kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

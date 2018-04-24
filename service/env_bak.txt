@@ -1,0 +1,72 @@
+[app]
+app_debug = true  #调试模式
+app_trace = true  #网面调试模式
+environment = test #环境标识，测试环境：test 正式环境：production
+domain = "https://api-wlxe.kosun.net"  #主要接口访问域名
+sign_check = false  #是否需要签名
+sign_key = "7B448940-C483929E-2BDF8E9F-46CCCA3C"   #随机生成
+token_sign_key = "EB99258A-8112664A-F0889B08-2B42747F" #随机生成
+collect_url = "http://sports-internal.kosun.cc"  #体彩采集服务内网接口请求地址
+pay_url = "http://test-pay.kosun.net"  #充值中心内网请求域名
+site_name = "wlxe"  #站点名称标识，不同站点需要唯一
+
+[oss]
+access_id = "LTAId3oZS5gICd03"
+access_key = "AQEuY6IqNEJVk0QRHotAUr3R3anIs9"
+endpoint = "oss-cn-shenzhen.aliyuncs.com"
+sports_url = "http://cp-sports.kosungames.com"
+
+[redis]
+prefix = "weilian"
+hostname = "127.0.0.1"
+post = 6379
+auth = "root"
+select = 1
+
+[passport]
+internal_url = "http://api-passport.kosun.loc/"
+external_url = "http://api-passport.kosun.loc/"
+site_identity = "wlxe"
+admin_open = true
+redis_prefix = ""
+redis_hostname = "192.168.0.202"
+redis_post = 6379
+redis_auth = "123456"
+redis_select = 8
+site_identity = "wlxe"
+
+[pay_center]
+app_id = "weilian"
+sign_key = "8414b127c0d3cf6aa952d9bdb8690b5a"
+notify_url = "http://api.sports.kosun.net/pay/Notify/index"
+callback_url = "http://api.sports.kosun.net/pay/Notify/index"
+pay_url = "https://test-pay.kosungames.com"
+
+[pay_center]
+app_id = "weilian"
+sign_key = "8414b127c0d3cf6aa952d9bdb8690b5a"
+notify_url = "http://api.sports.kosun.net/pay/Notify/index"
+callback_url = "http://api.sports.kosun.net/pay/Notify/index"
+pay_url = "https://test-pay.kosungames.com"
+
+[mysql]
+hostname = "rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com"
+port = "3306"
+database = "dscp_sports"
+username = "dscp"
+password = "MvozNyb4fnZbAcjmAcMpgtCo"
+rw_separate = false
+deploy = 0
+debug = true
+prefix = "ds_"
+
+[try_mysql]
+hostname = "rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com"
+port = "3306"
+database = "try_dscp_sports"
+username = "dscp"
+password = "MvozNyb4fnZbAcjmAcMpgtCo"
+rw_separate = false
+deploy = 0
+debug = true
+prefix = "ds_"

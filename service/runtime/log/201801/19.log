@@ -1,0 +1,2579 @@
+---------------------------------------------------------------
+[ 2018-01-19T11:14:14+08:00 ] 127.0.0.1 GET /api/Recharge/getRechargeTypeList
+[ info ] kosun.com/api/Recharge/getRechargeTypeList [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,872.50kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'getRechargeTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '602cc9fd-60bd-4784-9da9-116667700e2d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->getRechargeTypeList[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:14:57+08:00 ] 127.0.0.1 GET /collect/updateChannelList
+[ info ] kosun.com/collect/updateChannelList [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,812.94kb] [文件加载：65]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'collect',
+    1 => 'updateChannelList',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4eda8110-4b99-4887-85dd-d1551a214cbd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:15:31+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ info ] kosun.com/collect/PayCenter/updateChannelList [运行时间：1.274000s][吞吐率：0.78req/s] [内存消耗：2,777.03kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'collect',
+    1 => 'PayCenter',
+    2 => 'updateChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5b7934e6-a2b1-4023-aaee-4f31915565a2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\collect\controller\PayCenter->updateChannelList[ D:\xampp\htdocs\service\application\collect\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] 充值中心渠道列表最后更新时间2018-01-19 11:15:31
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:16:40+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ info ] kosun.com/collect/PayCenter/updateChannelList [运行时间：0.919000s][吞吐率：1.09req/s] [内存消耗：2,777.03kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'collect',
+    1 => 'PayCenter',
+    2 => 'updateChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d336c64-9e16-492b-8d97-fe0c179cd2c2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\collect\controller\PayCenter->updateChannelList[ D:\xampp\htdocs\service\application\collect\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] 充值中心渠道列表最后更新时间2018-01-19 11:16:40
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:17:00+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ info ] kosun.com/collect/PayCenter/updateChannelList [运行时间：0.696500s][吞吐率：1.44req/s] [内存消耗：2,777.03kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'collect',
+    1 => 'PayCenter',
+    2 => 'updateChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '164baa9c-2dbf-487c-a46b-a8a22c1f1d41',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\collect\controller\PayCenter->updateChannelList[ D:\xampp\htdocs\service\application\collect\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] 充值中心渠道列表最后更新时间2018-01-19 11:17:00
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:18:14+08:00 ] 127.0.0.1 GET /collect/PayCenter/updateChannelList
+[ info ] kosun.com/collect/PayCenter/updateChannelList [运行时间：1.463000s][吞吐率：0.68req/s] [内存消耗：2,777.05kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'collect',
+    1 => 'PayCenter',
+    2 => 'updateChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f7830d2d-ae53-46d1-bb22-8f69664ad58a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\collect\controller\PayCenter->updateChannelList[ D:\xampp\htdocs\service\application\collect\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] 充值中心渠道列表最后更新时间2018-01-19 11:18:14
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:22:34+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：1,903.47kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7af98ac3-2bf0-4867-81f5-04165270b203',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:22:55+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList
+[ info ] kosun.com/admin/PayCenter/getChannelList [运行时间：0.582000s][吞吐率：1.72req/s] [内存消耗：2,863.70kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b907ba1-4a58-497f-973d-246b12a8b8d4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T11:23:50+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelList?num=100
+[ info ] kosun.com/admin/PayCenter/getChannelList?num=100 [运行时间：0.348000s][吞吐率：2.87req/s] [内存消耗：2,864.71kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '45e7b40e-5792-49b2-a226-106a8082833e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'num' => '100',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:23:31+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=%0A[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=%0A[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=%0A[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=%0A[5,%206] [运行时间：0.038000s][吞吐率：26.32req/s] [内存消耗：1,912.12kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '66cee084-81f0-462c-bd02-173c6ce3d4aa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------709989920995737506675431',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:23:58+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：2.182000s][吞吐率：0.46req/s] [内存消耗：2,940.14kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bcba6e00-44b3-4edd-9fe8-07431a99fb2f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------476895752796355283026849',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: pay_channel_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:120]
+[ error ] [8]未定义数组索引: pay_type_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:121]
+[ error ] [8]未定义数组索引: redirect_domain[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:122]
+[ error ] [8]未定义数组索引: md5_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:125]
+[ error ] [8]未定义数组索引: terminal_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:126]
+[ error ] [8]未定义数组索引: recharge_count[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:127]
+[ error ] [8]未定义数组索引: rsa_pri_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:128]
+[ error ] [8]未定义数组索引: rsa_public_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:129]
+[ error ] [8]未定义数组索引: status[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:130]
+---------------------------------------------------------------
+[ 2018-01-19T15:25:06+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：1.604000s][吞吐率：0.62req/s] [内存消耗：2,885.86kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e459da9f-7eae-40f7-8184-302b06618b65',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------797618367645870695848722',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: pay_channel_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:120]
+[ error ] [8]未定义数组索引: pay_type_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:121]
+[ error ] [8]未定义数组索引: redirect_domain[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:122]
+[ error ] [8]未定义数组索引: md5_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:125]
+[ error ] [8]未定义数组索引: terminal_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:126]
+[ error ] [8]未定义数组索引: recharge_count[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:127]
+[ error ] [8]未定义数组索引: rsa_pri_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:128]
+[ error ] [8]未定义数组索引: rsa_public_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:129]
+[ error ] [8]未定义数组索引: status[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:130]
+---------------------------------------------------------------
+[ 2018-01-19T15:25:47+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：1.393000s][吞吐率：0.72req/s] [内存消耗：2,885.92kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '874a87ba-9dbf-4805-b6f2-ca7af86f4b54',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------373583236470752356434906',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: pay_channel_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:121]
+[ error ] [8]未定义数组索引: pay_type_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:122]
+[ error ] [8]未定义数组索引: redirect_domain[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:123]
+[ error ] [8]未定义数组索引: md5_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:126]
+[ error ] [8]未定义数组索引: terminal_id[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:127]
+[ error ] [8]未定义数组索引: recharge_count[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:128]
+[ error ] [8]未定义数组索引: rsa_pri_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:129]
+[ error ] [8]未定义数组索引: rsa_public_key[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:130]
+[ error ] [8]未定义数组索引: status[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:131]
+---------------------------------------------------------------
+[ 2018-01-19T15:28:21+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：2.011000s][吞吐率：0.50req/s] [内存消耗：2,900.49kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '99d326d5-bba0-44ba-9bcf-c06e3cdcd018',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------222296442988667148986043',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:29:54+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：1.541000s][吞吐率：0.65req/s] [内存消耗：2,850.37kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '145f0323-0314-4c06-8a79-b6675bd7d0d9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------552222780070562445986878',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:31:00+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：2.345000s][吞吐率：0.43req/s] [内存消耗：2,856.64kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c1f2c8b-fb2d-4237-83ac-ccd7c3e5ea65',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------423457275808874536161867',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:32:12+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：1.626000s][吞吐率：0.62req/s] [内存消耗：2,861.02kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '19b8476d-8545-41dd-a028-1e5ae0c181e9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------786854262251247744380807',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:34:37+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[5,%206]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[5,%206] [运行时间：1.673000s][吞吐率：0.60req/s] [内存消耗：2,861.02kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4b1749fb-086a-419a-955d-3a3ae228ece8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------700931949428675812211165',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[5, 6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.036000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:35:07+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[0:5,%201:6]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[0:5,%201:6]
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=[0:5,%201:6]?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=[0:5,%201:6] [运行时间：1.544500s][吞吐率：0.65req/s] [内存消耗：2,861.02kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1d899040-f222-4a1b-8b79-903c3f184f13',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------207551163348108615902613',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '[0:5, 1:6]',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:39:59+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=%7B%220%22:%225%22,%221%22:%226%22%7D?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=%7B%220%22:%225%22,%221%22:%226%22%7D
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId=%7B%220%22:%225%22,%221%22:%226%22%7D?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId=%7B%220%22:%225%22,%221%22:%226%22%7D [运行时间：2.397000s][吞吐率：0.42req/s] [内存消耗：2,861.16kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bd02f62c-f565-4691-997b-cf56a30306b5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------649238130554046717581729',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => '{"0":"5","1":"6"}',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:41:36+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[]=%7B%220%22:%225%22,%221%22:%226%22%7D?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[]=%7B%220%22:%225%22,%221%22:%226%22%7D
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[]=%7B%220%22:%225%22,%221%22:%226%22%7D?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[]=%7B%220%22:%225%22,%221%22:%226%22%7D [运行时间：3.066000s][吞吐率：0.33req/s] [内存消耗：2,861.24kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '03f797d1-c6e1-4d86-a821-2639d6e34947',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------934949601219108236058083',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '{"0":"5","1":"6"}?merchantId=testappstestappstestappstestapps',
+    1 => '{"0":"5","1":"6"}',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:42:10+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[]=5&userLevelId[1]=6
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[]=5&userLevelId[1]=6 [运行时间：1.561000s][吞吐率：0.64req/s] [内存消耗：2,861.21kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd8726626-0d71-4fa3-b1d3-70b0fbb0cd02',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------937288889361503973045671',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '5',
+    1 => '6',
+    2 => '5',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:42:29+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6 [运行时间：1.525000s][吞吐率：0.66req/s] [内存消耗：2,861.19kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '343ce538-199a-4727-957f-fbc29ff110ad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------855396608822823897212882',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '5',
+    1 => '6',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:43:31+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6 [运行时间：1.852000s][吞吐率：0.54req/s] [内存消耗：2,901.44kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '307d31a2-5847-45a9-a47e-74c52afaa224',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------292886333822954901890379',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '5',
+    1 => '6',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:45:15+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6&userLevelId[2]=4?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6&userLevelId[2]=4
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=5&userLevelId[1]=6&userLevelId[2]=4?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=5&userLevelId[1]=6&userLevelId[2]=4 [运行时间：1.945000s][吞吐率：0.51req/s] [内存消耗：2,901.33kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dea91b19-dcea-4303-bc5c-ff7b4607af64',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------304769954430280816808686',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '5',
+    1 => '6',
+    2 => '4',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:46:09+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.378000s][吞吐率：0.73req/s] [内存消耗：2,923.13kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '05eaa7b3-ca64-40dd-a3f4-7560bc7ae6ff',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-19T15:48:41+08:00 ] 127.0.0.1 POST /admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8
+[ info ] kosun.com/admin/PayCenter/createChannelMerchant?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc&md5Key&terminalId&limitAmount&rsaPriKey&rsaPublicKey&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8?merchantId=testappstestappstestappstestapps&nonce=2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS&sign=&payChannelId=85&payTypeId=11&redirectDomain=http://test-pay.kosun.net&account=3123123&desc=&md5Key=&terminalId=&limitAmount=&rsaPriKey=&rsaPublicKey=&userLevelId[0]=3&userLevelId[1]=4&userLevelId[2]=8 [运行时间：1.607000s][吞吐率：0.62req/s] [内存消耗：2,901.33kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '78a6c834-50aa-48d2-8ead-100de081eeec',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------672732184262499718223382',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'merchantId' => 'testappstestappstestappstestapps',
+  'nonce' => '2iAUXdcFpNea5YIkmhEW6Ru3sbqPTftS',
+  'sign' => '',
+  'payChannelId' => '85',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://test-pay.kosun.net',
+  'account' => '3123123',
+  'desc' => '',
+  'md5Key' => '',
+  'terminalId' => '',
+  'limitAmount' => '',
+  'rsaPriKey' => '',
+  'rsaPublicKey' => '',
+  'userLevelId' => 
+  array (
+    0 => '3',
+    1 => '4',
+    2 => '8',
+  ),
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:48:52+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.383000s][吞吐率：0.72req/s] [内存消耗：2,923.13kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7dcbe7bd-df1e-4fcd-8bea-1168f0c27805',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-19T15:49:39+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.228000s][吞吐率：0.81req/s] [内存消耗：2,917.22kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dbbbaf45-aae6-4087-9f8e-9a623f763c00',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-19T15:50:42+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：0.549000s][吞吐率：1.82req/s] [内存消耗：2,824.26kb] [文件加载：73]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.011500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2bdae67c-ce8c-4f29-8553-56e5f4e02424',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:52:07+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.339000s][吞吐率：0.75req/s] [内存消耗：2,843.65kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '78e15bb3-cdf3-4b15-8d97-f9c9e76c5316',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:54:17+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.210000s][吞吐率：0.83req/s] [内存消耗：2,872.29kb] [文件加载：74]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '32ac1a33-70ce-4c95-bed9-7ff1428de8cc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T15:55:08+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.129000s][吞吐率：0.89req/s] [内存消耗：2,909.64kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8c3f9f35-7bf4-45e8-bfd5-274eaad64753',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:94]
+---------------------------------------------------------------
+[ 2018-01-19T15:56:02+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.304000s][吞吐率：0.77req/s] [内存消耗：2,914.06kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ba3edac-4044-49f5-a3f0-6a695228f582',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:95]
+---------------------------------------------------------------
+[ 2018-01-19T15:56:29+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.147000s][吞吐率：0.87req/s] [内存消耗：2,914.13kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3b400948-e6a0-4821-bd1a-2a2984685e16',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+---------------------------------------------------------------
+[ 2018-01-19T16:00:14+08:00 ] 0.0.0.0 OPTIONS /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：1,721.44kb] [文件加载：57]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:15+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,790.86kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:15+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:16+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,790.86kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:16+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:17+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,790.86kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:17+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:17+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.86kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:18+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:18+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop/
+[ info ] localhost/C$/Users/Administrator/Desktop/ [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,790.91kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:19+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:19+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:19+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:20+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:20+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:21+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:21+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:21+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/
+[ info ] localhost/C$/Users/Administrator/ [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.80kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:22+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:22+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:23+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:23+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:24+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:24+08:00 ] 0.0.0.0 PROPFIND /C$/Users
+[ info ] localhost/C$/Users [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:24+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:25+08:00 ] 0.0.0.0 PROPFIND /C$/Users/
+[ info ] localhost/C$/Users/ [运行时间：0.025000s][吞吐率：40.00req/s] [内存消耗：1,790.57kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:25+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.024000s][吞吐率：41.67req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:26+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.023000s][吞吐率：43.48req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:26+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:26+08:00 ] 0.0.0.0 PROPFIND /C$
+[ info ] localhost/C$ [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,790.41kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:27+08:00 ] 0.0.0.0 PROPFIND /C$/
+[ info ] localhost/C$/ [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,790.44kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:27+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator/Desktop
+[ info ] localhost/C$/Users/Administrator/Desktop [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.86kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:00:28+08:00 ] 0.0.0.0 PROPFIND /C$/Users/Administrator
+[ info ] localhost/C$/Users/Administrator [运行时间：0.022000s][吞吐率：45.45req/s] [内存消耗：1,790.75kb] [文件加载：62]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'C$',
+    1 => 'Users',
+    2 => 'Administrator',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'Keep-Alive',
+  'user-agent' => 'Microsoft-WebDAV-MiniRedir/6.1.7601',
+  'depth' => '0',
+  'translate' => 'f',
+  'content-length' => '0',
+  'host' => 'localhost',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T16:01:33+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.344500s][吞吐率：0.74req/s] [内存消耗：2,971.25kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7e647a7a-ba6b-4f0c-ab08-22e429330714',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+[ error ] [8]未定义数组索引: levelList[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:96]
+---------------------------------------------------------------
+[ 2018-01-19T16:02:58+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.869500s][吞吐率：0.53req/s] [内存消耗：2,933.46kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '424f1267-29ea-42a3-9ab6-1f4b403bf47d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-19T16:03:13+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList [运行时间：1.098000s][吞吐率：0.91req/s] [内存消耗：2,917.23kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '58e62979-fa80-4525-9238-95f6e4b33256',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-19T16:03:55+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList?num=100
+[ info ] kosun.com/admin/PayCenter/getChannelMerchantList?num=100 [运行时间：1.146000s][吞吐率：0.87req/s] [内存消耗：2,917.84kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '310aabf0-fae1-4998-96a3-583cfa999d74',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'num' => '100',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组下标: 9[D:\xampp\htdocs\service\application\admin\controller\PayCenter.php:120]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+[ error ] [8]A non well formed numeric value encountered[D:\xampp\htdocs\service\thinkphp\library\think\Model.php:477]
+---------------------------------------------------------------
+[ 2018-01-19T17:19:40+08:00 ] 127.0.0.1 POST /admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=1
+[ info ] kosun.com/admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=1 [运行时间：0.045000s][吞吐率：22.22req/s] [内存消耗：1,905.66kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'changeChannelMerchantStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd1ce400e-40f7-486c-9d1e-7b5a3bb373bb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'channelMerchantId' => '9',
+  'status' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T17:20:22+08:00 ] 127.0.0.1 POST /admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=1
+[ info ] kosun.com/admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=1 [运行时间：1.386000s][吞吐率：0.72req/s] [内存消耗：2,933.54kb] [文件加载：81]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'changeChannelMerchantStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'da1a772e-de84-4b33-b265-ed51ac2056ed',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'channelMerchantId' => '9',
+  'status' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->changeChannelMerchantStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-19T17:20:49+08:00 ] 127.0.0.1 POST /admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=2
+[ info ] kosun.com/admin/PayCenter/changeChannelMerchantStatus?channelMerchantId=9&status=2 [运行时间：0.355000s][吞吐率：2.82req/s] [内存消耗：2,897.20kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenter',
+    2 => 'changeChannelMerchantStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84974a02-d15c-4b0a-a346-8295fcf81bf9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'channelMerchantId' => '9',
+  'status' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenter->changeChannelMerchantStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenter.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File

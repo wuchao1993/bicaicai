@@ -1,0 +1,13 @@
+{
+    "name": "kosun/crypt",
+    "description": "Kosun加解密类",
+    "keywords": ["crypt"],
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "crypt\\": ""
+        }
+    }
+}

@@ -1,0 +1,2104 @@
+---------------------------------------------------------------
+[ 2018-01-06T09:44:01+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：2.807000s][吞吐率：0.36req/s] [内存消耗：3,243.45kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'af99e418-5553-4454-945c-44dba1dd32db',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+---------------------------------------------------------------
+[ 2018-01-06T09:44:26+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.384000s][吞吐率：0.72req/s] [内存消耗：3,245.15kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2aa54d25-233c-4b09-93c4-0ad48a1cd5b7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/127/bankId/3/sign/f04552fbf7cdd440e8e522b180fac5ee
+            [payCenterOrderNo] => 20180106094303000000012028607002
+            [channelId] => 77
+            [channelName] => 高通
+            [channelAccountId] => 10247
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801060306554700010
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/127/bankId/3/sign/f04552fbf7cdd440e8e522b180fac5ee
+            [payCenterOrderNo] => 20180106094303000000012028607002
+            [channelId] => 77
+            [channelName] => 高通
+            [channelAccountId] => 10247
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801060306554700010
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:55:20+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.579000s][吞吐率：0.63req/s] [内存消耗：3,242.71kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '110c120e-b13e-41be-85a1-d3826bffa70b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:55:28+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.291000s][吞吐率：0.77req/s] [内存消耗：3,242.71kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c94176c7-4ac7-40a9-b4a8-7bbd79d308c2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+[ log ] pay_api_result:Array
+(
+    [code] => 108004
+    [message] => 充值渠道不可用
+    [data] => Array
+        (
+        )
+
+)
+
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:55:36+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.272000s][吞吐率：0.79req/s] [内存消耗：3,243.46kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '03a946e5-7919-4f86-bd90-662a401cda08',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+---------------------------------------------------------------
+[ 2018-01-06T09:56:38+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.476000s][吞吐率：0.68req/s] [内存消耗：3,243.46kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8545d92b-3f25-4d3d-8472-1f5f641e936b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+---------------------------------------------------------------
+[ 2018-01-06T09:56:53+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.293000s][吞吐率：0.77req/s] [内存消耗：3,245.16kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6b264bfb-3375-4645-8664-a60f89106beb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:103]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/129/bankId/3/sign/63803cff6462d52eb86e74143a72714d
+            [payCenterOrderNo] => 20180106095531000000014325586378
+            [channelId] => 84
+            [channelName] => 汇合
+            [channelAccountId] => 201710272120111364
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801060381300900262
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/129/bankId/3/sign/63803cff6462d52eb86e74143a72714d
+            [payCenterOrderNo] => 20180106095531000000014325586378
+            [channelId] => 84
+            [channelName] => 汇合
+            [channelAccountId] => 201710272120111364
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801060381300900262
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T10:45:34+08:00 ] 127.0.0.1 GET /api/Recharge/notify
+[ info ] kosun.com/api/Recharge/notify [运行时间：0.041000s][吞吐率：24.39req/s] [内存消耗：2,867.54kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'kosun.com',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.2.519260859.1512009195; __utma=137717546.519260859.1512009195.1512009195.1512009195.1; __utmz=137717546.1512009195.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); pgv_pvi=8356615168',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T10:53:05+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：0.028000s][吞吐率：35.71req/s] [内存消耗：1,865.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1bd5b4f3-4f7c-42cb-ac3b-e8c81e3dbd0d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T10:53:15+08:00 ] 127.0.0.1 GET /api/Recharge/notify
+[ info ] kosun.com/api/Recharge/notify [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,874.88kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c89410bc-6491-4d9d-9178-6c4710f01f0e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:07:18+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc= [运行时间：0.039000s][吞吐率：25.64req/s] [内存消耗：2,877.42kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '59889982-2e7d-42f7-a815-d35e27e8e96d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:07:20+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc= [运行时间：0.031000s][吞吐率：32.26req/s] [内存消耗：2,877.42kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ac0ea506-7a95-42ae-947b-8bda8e3fc7f2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:07:21+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc= [运行时间：0.032000s][吞吐率：31.25req/s] [内存消耗：2,877.42kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44110d20-c4dd-41be-be9d-5826ceb4b4f6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:07:22+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc= [运行时间：0.034000s][吞吐率：29.41req/s] [内存消耗：2,877.42kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c398ec7b-e5f3-4af5-b7b2-7fe4fa226dd9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:07:50+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc= [运行时间：0.033000s][吞吐率：30.30req/s] [内存消耗：2,877.45kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f565ac1-0d35-4a0c-b5d1-57bd2a7c24c8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:14:42+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc= [运行时间：0.047000s][吞吐率：21.28req/s] [内存消耗：2,877.45kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cebfdf01-e260-496b-90c9-ef956b754157',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:25:01+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4 [运行时间：1.547000s][吞吐率：0.65req/s] [内存消耗：3,065.05kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '18ba0644-aff0-43a0-9d8f-440b4dabbec7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+  'sign' => '9787a38459c133db797f83f230133db4',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:31:04+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4 [运行时间：1.337000s][吞吐率：0.75req/s] [内存消耗：3,065.05kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '39cba7bf-fbd9-47e7-937a-371656c0323f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+  'sign' => '9787a38459c133db797f83f230133db4',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:40:37+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,865.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a699125e-2fdc-4bf1-9f6a-5e99628e005b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:42:26+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,865.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f31ef105-3e9a-4194-90be-45d511358e8a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T11:43:03+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.972000s][吞吐率：0.51req/s] [内存消耗：3,251.55kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '48085bfa-791d-4867-a8c5-d6dc797e4709',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/131/bankId/3/sign/209701d594df89689fd06fbb3060067a
+            [payCenterOrderNo] => 20180106114140000000015495497364
+            [channelId] => 77
+            [channelName] => 高通
+            [channelAccountId] => 10247
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801061018214200820
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/131/bankId/3/sign/209701d594df89689fd06fbb3060067a
+            [payCenterOrderNo] => 20180106114140000000015495497364
+            [channelId] => 77
+            [channelName] => 高通
+            [channelAccountId] => 10247
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801061018214200820
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-01-06T12:04:23+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4
+[ info ] kosun.com/api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4 [运行时间：1.477000s][吞吐率：0.68req/s] [内存消耗：3,030.47kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'notify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f622b2e4-9715-463f-bc16-6153d3903af5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'outTradeNo' => '201801060494457097948',
+  'payCenterOrderNo' => '20180106101544000000010352617802',
+  'totalFee' => '1.00',
+  'tradeStatus' => '1',
+  'channelTradeNo' => '',
+  'payTime' => '1515204962',
+  'tradeDesc' => '',
+  'sign' => '9787a38459c133db797f83f230133db4',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->notify[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ log ] 订单充值成功success
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T14:40:05+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,865.45kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3952d90a-4f46-4250-97f8-7efec252fc1d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T14:40:41+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.982000s][吞吐率：0.50req/s] [内存消耗：3,252.30kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf77f5d6-51be-4049-a252-8f6a9e5d9f78',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/132/bankId/3/sign/f61348cb72cc3f2223d690b33ad5f5fe
+            [payCenterOrderNo] => 20180106143918000000014504460587
+            [channelId] => 81
+            [channelName] => 金阳
+            [channelAccountId] => 26489
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062084047200847
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/132/bankId/3/sign/f61348cb72cc3f2223d690b33ad5f5fe
+            [payCenterOrderNo] => 20180106143918000000014504460587
+            [channelId] => 81
+            [channelName] => 金阳
+            [channelAccountId] => 26489
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062084047200847
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T14:43:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：2.777000s][吞吐率：0.36req/s] [内存消耗：3,252.30kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f190735e-6f9d-43a4-aee4-3f3debecad8b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.002000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/133/bankId/3/sign/ddbbba6074b9af6ec4381b479e330132
+            [payCenterOrderNo] => 20180106144225000000016672185548
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062102672100366
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/133/bankId/3/sign/ddbbba6074b9af6ec4381b479e330132
+            [payCenterOrderNo] => 20180106144225000000016672185548
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062102672100366
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T14:47:39+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：1.473000s][吞吐率：0.68req/s] [内存消耗：3,252.24kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd5f3ce2-a0a2-42bd-ab36-029dbbb2ad6d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/134/bankId/1/sign/9cb76e403a5de83bec95d5e424c97173
+            [payCenterOrderNo] => 20180106144616000000012921858069
+            [channelId] => 81
+            [channelName] => 金阳
+            [channelAccountId] => 26489
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062125872400045
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/134/bankId/1/sign/9cb76e403a5de83bec95d5e424c97173
+            [payCenterOrderNo] => 20180106144616000000012921858069
+            [channelId] => 81
+            [channelName] => 金阳
+            [channelAccountId] => 26489
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062125872400045
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T15:43:35+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：0.029000s][吞吐率：34.48req/s] [内存消耗：1,865.96kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e835f13a-4f15-4a18-90b1-ca9b58f8fffd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T15:45:17+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：0.021000s][吞吐率：47.62req/s] [内存消耗：1,865.96kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b35c2789-933c-45db-bba6-4c065ad93402',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T15:45:19+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：0.026000s][吞吐率：38.46req/s] [内存消耗：1,865.96kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8d93f805-ce1b-4aa5-938f-9b8033b77f49',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-01-06T15:45:40+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：1.855000s][吞吐率：0.54req/s] [内存消耗：3,252.75kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a593c613-aafb-4585-ab80-85990bdce38e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/135/bankId/1/sign/65b53f3bed1b1ec34b1e4be1b5c06748
+            [payCenterOrderNo] => 1801061544160000128743125
+            [channelId] => 81
+            [channelName] => 金阳
+            [channelAccountId] => 26489
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062473902800754
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/135/bankId/1/sign/65b53f3bed1b1ec34b1e4be1b5c06748
+            [payCenterOrderNo] => 1801061544160000128743125
+            [channelId] => 81
+            [channelName] => 金阳
+            [channelAccountId] => 26489
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062473902800754
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:07:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7 [运行时间：1.992000s][吞吐率：0.50req/s] [内存消耗：3,249.74kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9cdbb782-ea2d-48f0-9015-a8476d629579',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS4tKiUoMqHjYGjow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606240000198851210
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062606679300338
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS4tKiUoMqHjYGjow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606240000198851210
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062606679300338
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:07:52+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7 [运行时间：2.060000s][吞吐率：0.49req/s] [内存消耗：3,249.74kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '21bc5c71-de2a-4175-b889-cf24335605bd',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS3wKeKn6OpiIBwow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606280000127221377
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062607153700114
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS3wKeKn6OpiIBwow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606280000127221377
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062607153700114
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:08:02+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7 [运行时间：1.886000s][吞吐率：0.53req/s] [内存消耗：3,249.74kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '717d80d3-6464-423f-91aa-07902ef1883c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS6ztSKoNVljJCnow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606380000112118981
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062608130500950
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS6ztSKoNVljJCnow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606380000112118981
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062608130500950
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:08:05+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7 [运行时间：1.922000s][吞吐率：0.52req/s] [内存消耗：3,249.74kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ef810ec8-5205-4dd5-9087-2dfb37eed4b8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS2ytB-i81lgaOFow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606410000119732674
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062608433000397
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => http://test-pay.kosun.net/pay/General/createQrCode/url/MDAwMDAwMDAwMMpnidGZqdLYf5yappdsoN2QuaSuutCem5msfZrHiX3Wtmh12oS2ytB-i81lgaOFow.html
+            [rechargeUrl] => 
+            [payCenterOrderNo] => 1801061606410000119732674
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062608433000397
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:10:30+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7 [运行时间：2.422000s][吞吐率：0.41req/s] [内存消耗：3,250.20kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e394365d-d8cf-4836-b495-83d176daf693',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/141/sign/ed2081ada69b43a582d4b7adb1b0b498
+            [payCenterOrderNo] => 1801061609060000154377474
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062622871800504
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/141/sign/ed2081ada69b43a582d4b7adb1b0b498
+            [payCenterOrderNo] => 1801061609060000154377474
+            [channelId] => 85
+            [channelName] => 天赋云
+            [channelAccountId] => A20000000000030
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062622871800504
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:10:46+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=7 [运行时间：1.864000s][吞吐率：0.54req/s] [内存消耗：3,248.00kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'df4ee63f-99e4-4b12-a455-e47daf389c79',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '7',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+---------------------------------------------------------------
+[ 2018-01-06T16:38:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：1.743000s][吞吐率：0.57req/s] [内存消耗：3,252.75kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7db3a17e-b0cd-4e4d-8365-ce27af00fe7d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/150/bankId/1/sign/1de109c455d15198ee29263ec3387033
+            [payCenterOrderNo] => 1801061637250000197172970
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062792766100035
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/150/bankId/1/sign/1de109c455d15198ee29263ec3387033
+            [payCenterOrderNo] => 1801061637250000197172970
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062792766100035
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:42:47+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：1.421000s][吞吐率：0.70req/s] [内存消耗：3,252.75kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6841e0ee-29ec-4a8d-b045-4994e9ab558f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/151/bankId/1/sign/d297bba06dbc2211fa5b5851b215d54e
+            [payCenterOrderNo] => 1801061641240000119707024
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062816719300333
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/151/bankId/1/sign/d297bba06dbc2211fa5b5851b215d54e
+            [payCenterOrderNo] => 1801061641240000119707024
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062816719300333
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:43:47+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=1 [运行时间：1.301000s][吞吐率：0.77req/s] [内存消耗：3,252.75kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f9bf02cd-06b1-4273-8be6-be0d5863a713',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.001000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/152/bankId/1/sign/c464b6cf8234954438a9595f2170a3d5
+            [payCenterOrderNo] => 1801061642240000114155655
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062822671900246
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/152/bankId/1/sign/c464b6cf8234954438a9595f2170a3d5
+            [payCenterOrderNo] => 1801061642240000114155655
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062822671900246
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:45:16+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ info ] kosun.com/api/Recharge/pay?amount=50&payTypeId=24&bankId=3 [运行时间：1.432000s][吞吐率：0.70req/s] [内存消耗：3,252.81kb] [文件加载：89]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Recharge',
+    2 => 'pay',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4f7aa537-9735-4d98-9465-9c29e031d4f7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'amount' => '50',
+  'payTypeId' => '24',
+  'bankId' => '3',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Security @action_begin [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Validate @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\api\controller\Recharge->pay[ D:\xampp\htdocs\service\application\api\controller\Recharge.php ]
+[ info ] [ BEHAVIOR ] Run app\api\behavior\Auth @auth_check [ RunTime:0.000000s ]
+[ info ] [ DB ] INIT mysql
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\controller\Recharge.php:106]
+[ error ] [8]Use of undefined constant USER_ID - assumed 'USER_ID'[D:\xampp\htdocs\service\application\api\logic\Recharge.php:52]
+[ log ] pay_api_result:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/153/bankId/3/sign/f95fe3fa1528f0702ae3813804484899
+            [payCenterOrderNo] => 1801061643520000145090618
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062831541700225
+        )
+
+)
+
+[ log ] digital-return:Array
+(
+    [code] => 0
+    [message] => 操作成功
+    [data] => Array
+        (
+            [codeImageUrl] => 
+            [rechargeUrl] => http://test-pay.kosun.net/goPay/orderId/153/bankId/3/sign/f95fe3fa1528f0702ae3813804484899
+            [payCenterOrderNo] => 1801061643520000145090618
+            [channelId] => 83
+            [channelName] => 多宝
+            [channelAccountId] => 987784
+            [channelAccountDesc] => 
+            [totalFee] => 50
+            [attach] => 201801062831541700225
+        )
+
+)
+
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]

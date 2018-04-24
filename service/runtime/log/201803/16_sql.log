@@ -1,0 +1,43 @@
+---------------------------------------------------------------
+[ 2018-03-16T15:51:32+08:00 ] 127.0.0.1 POST /api/User/signIn?userName=macho1993&password=wuchao520
+[ sql ] [ DB ] CONNECT:[ UseTime:0.427500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ue_account_balance AS account_balance FROM `ds_user_extend` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.100000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_bank_relation` WHERE  `user_id` = 5359  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_login_log` (`user_id` , `ull_type` , `ull_login_time` , `ull_login_ip` , `ull_createtime` , `ull_modifytime`) VALUES (5359 , 6 , '2018-03-16 15:51:31' , '127.0.0.1' , '2018-03-16 15:51:31' , '2018-03-16 15:51:31') [ RunTime:0.088500s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_last_login_time`='2018-03-16 15:51:31',`user_last_login_ip`='127.0.0.1'  WHERE  `user_id` = 5359 [ RunTime:0.087500s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_login_count`=`ue_login_count`+1  WHERE  `user_id` = 5359 [ RunTime:0.088500s ]
+---------------------------------------------------------------
+[ 2018-03-16T15:51:50+08:00 ] 127.0.0.1 POST /api/User/signIn?userName=macho1993&password=wuchao520
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.097500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] SELECT ue_account_balance AS account_balance FROM `ds_user_extend` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.088500s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.097000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_bank_relation` WHERE  `user_id` = 5359  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_login_log` (`user_id` , `ull_type` , `ull_login_time` , `ull_login_ip` , `ull_createtime` , `ull_modifytime`) VALUES (5359 , 6 , '2018-03-16 15:51:50' , '127.0.0.1' , '2018-03-16 15:51:50' , '2018-03-16 15:51:50') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_last_login_time`='2018-03-16 15:51:50',`user_last_login_ip`='127.0.0.1'  WHERE  `user_id` = 5359 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_login_count`=`ue_login_count`+1  WHERE  `user_id` = 5359 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-16T16:06:05+08:00 ] 127.0.0.1 POST /admin/User/refreshUserStatistics
+[ sql ] [ DB ] CONNECT:[ UseTime:1.391000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_login_log` WHERE  `user_id` IS NULL LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-16T16:06:46+08:00 ] 127.0.0.1 POST /admin/User/refreshUserStatistics?uid=5359
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_login_log` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.087500s ]
+---------------------------------------------------------------
+[ 2018-03-16T16:12:31+08:00 ] 127.0.0.1 POST /admin/User/refreshUserStatistics?uid=5359
+[ sql ] [ DB ] CONNECT:[ UseTime:0.398000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.087500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_login_log` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_login_count`=6  WHERE  `user_id` = 5359 [ RunTime:0.087500s ]

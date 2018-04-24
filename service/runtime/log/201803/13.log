@@ -1,0 +1,2532 @@
+---------------------------------------------------------------
+[ 2018-03-13T09:21:08+08:00 ] 127.0.0.1 POST /
+[ info ] master.test.dphub.sandai.net:80/ [运行时间：1.178000s][吞吐率：0.85req/s] [内存消耗：1,811.03kb] [文件加载：64]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.664000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'master.test.dphub.sandai.net:80',
+  'content-type' => 'application/octet-stream',
+  'content-length' => '256',
+  'connection' => 'Close',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.016500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T09:53:27+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：9.852000s][吞吐率：0.10req/s] [内存消耗：3,495.85kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a539d5e-2280-497d-9bf5-f64ace07e37c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T09:54:25+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：2.321000s][吞吐率：0.43req/s] [内存消耗：3,273.52kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '44b176e1-8385-40ab-81a6-5097aff55c54',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T09:56:58+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：6.793000s][吞吐率：0.15req/s] [内存消耗：3,454.59kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '844894f4-a285-46fa-b624-529f67bd4371',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T09:57:28+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：1.128000s][吞吐率：0.89req/s] [内存消耗：3,277.64kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '56c598b0-09b8-4f77-a112-c65520565d97',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.001000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T09:57:47+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：1.123000s][吞吐率：0.89req/s] [内存消耗：3,314.40kb] [文件加载：82]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c08856a-bee5-46ac-923f-1ab8f8de7621',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:107]
+---------------------------------------------------------------
+[ 2018-03-13T09:58:01+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：1.303000s][吞吐率：0.77req/s] [内存消耗：3,277.67kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9347f77e-cc74-4695-9b5a-03e0cbfb836d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T09:58:22+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：1.093000s][吞吐率：0.91req/s] [内存消耗：3,277.58kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7bdc0064-463e-42df-890e-207154b76936',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:06:18+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：1.280000s][吞吐率：0.78req/s] [内存消耗：3,277.67kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e195e130-c323-4720-ae8e-4eb6a9672505',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T10:07:07+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：6.452000s][吞吐率：0.15req/s] [内存消耗：3,528.47kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '38f6baf0-9b16-4c33-89dd-34ff574da6ef',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T10:14:05+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：8.183000s][吞吐率：0.12req/s] [内存消耗：3,454.10kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e7483f5b-69b7-46a5-b224-419e7eb99ab6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T10:20:23+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：2.495000s][吞吐率：0.40req/s] [内存消耗：3,299.59kb] [文件加载：86]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '656dced1-2494-4556-8903-73201331b7e6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: sportInfo[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [0]类不存在:app\common\\Results[D:\xampp\htdocs\service\thinkphp\library\think\Loader.php:437]
+---------------------------------------------------------------
+[ 2018-03-13T10:24:59+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：12.593000s][吞吐率：0.08req/s] [内存消耗：3,585.29kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6bf1f80c-aed3-4f82-96cc-236c48769e3e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T10:26:55+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList
+[ info ] kosun.com/admin/SportsOrders/getList [运行时间：12.103000s][吞吐率：0.08req/s] [内存消耗：3,565.64kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '66a3fe9c-e40c-4beb-977b-f99f07a8b3c2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T10:29:03+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2 [运行时间：10.954000s][吞吐率：0.09req/s] [内存消耗：3,671.98kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '949979c1-c594-4f37-9aaa-3dff6a1abb36',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T10:37:34+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：11.325000s][吞吐率：0.09req/s] [内存消耗：3,566.63kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ebfe15a0-24f4-4b3a-981e-d6b547b8217b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=2p7o539cvm361nhobipb94m7o1',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:14:43+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：0.460500s][吞吐率：2.17req/s] [内存消耗：1,868.83kb] [文件加载：69]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c6616ec3-ad0b-43d4-9b95-9096ae1c729a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ')'[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:111]
+---------------------------------------------------------------
+[ 2018-03-13T11:15:07+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：2.449000s][吞吐率：0.41req/s] [内存消耗：3,276.45kb] [文件加载：79]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c8a90625-3cca-4300-8244-ec296c55d950',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T11:15:36+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：1.230000s][吞吐率：0.81req/s] [内存消耗：3,308.08kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '78ec906d-bcb9-4b0f-bc7e-ddc446a83001',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->getClearingRestult[D:\xampp\htdocs\service\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-03-13T11:19:45+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：1.469500s][吞吐率：0.68req/s] [内存消耗：3,308.08kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a5031e93-80a8-44de-a2b0-fb30bc127909',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->getClearingRestult[D:\xampp\htdocs\service\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-03-13T11:20:21+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：8.886000s][吞吐率：0.11req/s] [内存消耗：3,551.21kb] [文件加载：91]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4bb4144b-4f75-49e5-b30a-69b28b48c5d2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:21:29+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2 [运行时间：8.026500s][吞吐率：0.12req/s] [内存消耗：3,581.05kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '02063da8-aef1-4f87-8185-d7807b4993b5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:26:34+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1 [运行时间：9.467000s][吞吐率：0.11req/s] [内存消耗：3,530.84kb] [文件加载：90]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7ec42024-33db-4d8f-9e03-7a0164043aff',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:29:04+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2 [运行时间：7.530500s][吞吐率：0.13req/s] [内存消耗：3,565.40kb] [文件加载：92]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c06be66-764f-48d1-8a77-e216fc220736',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:30:55+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2 [运行时间：9.387000s][吞吐率：0.11req/s] [内存消耗：3,624.23kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0b0a257a-88a2-44a7-b1c8-02920dd6a04f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:31:59+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&15=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&15=30 [运行时间：9.402500s][吞吐率：0.11req/s] [内存消耗：3,624.32kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ed9af8ed-311b-48da-8b0c-f3927072f284',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  0 => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000500s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:32:25+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：14.241500s][吞吐率：0.07req/s] [内存消耗：3,696.78kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e0387d9b-5e93-45d0-9b21-7a0e55907e97',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:34:36+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：13.611500s][吞吐率：0.07req/s] [内存消耗：3,686.71kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a7a4f19e-5170-4184-ac09-38bf75722f3e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: string[D:\xampp\htdocs\service\application\common\basketball\Results.php:132]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:37:12+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：13.786500s][吞吐率：0.07req/s] [内存消耗：3,680.38kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0abc2212-93aa-4894-a428-39e829877f5b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:41:53+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：1.360500s][吞吐率：0.74req/s] [内存消耗：3,320.19kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f1572741-9b44-43c1-919f-5486b72db91c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->getClearingRestult[D:\xampp\htdocs\service\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-03-13T11:42:35+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：1.182500s][吞吐率：0.85req/s] [内存消耗：3,320.19kb] [文件加载：85]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2f57ed97-0957-4b11-8e2c-4721b76c89ca',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->getClearingRestult[D:\xampp\htdocs\service\thinkphp\library\think\db\Query.php:94]
+---------------------------------------------------------------
+[ 2018-03-13T11:43:09+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：14.481000s][吞吐率：0.07req/s] [内存消耗：3,694.27kb] [文件加载：94]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a9b5166d-1ff3-4cd1-96dc-fef6344b499f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_home_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义变量: gameType[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: sbr_guest_score_[D:\xampp\htdocs\service\application\common\basketball\Results.php:128]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:43:57+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：13.608500s][吞吐率：0.07req/s] [内存消耗：3,667.58kb] [文件加载：93]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e3ac9f84-fb92-405a-aeca-db0ecd1c5279',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:45:33+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：13.695000s][吞吐率：0.07req/s] [内存消耗：3,573.58kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e4d052a9-8f50-497e-a94c-38a3a9e9dd49',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:56:42+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=2&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=2&num=30 [运行时间：18.512500s][吞吐率：0.05req/s] [内存消耗：3,719.70kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '616da8d4-7d43-4e03-8e34-fec48b074a11',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '2',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\basketball\Orders.php:46]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: quarter[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\basketball\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:57:08+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30 [运行时间：18.849000s][吞吐率：0.05req/s] [内存消耗：3,725.87kb] [文件加载：96]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ca6ee53d-2e62-47d1-8e8c-529418df42ad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: fs15[D:\xampp\htdocs\service\application\common\football\Orders.php:89]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: sbr_home_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: sbr_guest_score[D:\xampp\htdocs\service\application\common\football\Results.php:104]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T11:59:06+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30 [运行时间：15.744000s][吞吐率：0.06req/s] [内存消耗：3,545.01kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be58e347-6ed8-48c5-a8b8-a57a22227c8e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:110]
+[ error ] [8]未定义数组索引: fs15[D:\xampp\htdocs\service\application\common\football\Orders.php:89]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T14:13:00+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30 [运行时间：16.984500s][吞吐率：0.06req/s] [内存消耗：3,564.57kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e2806c1-44ac-474f-a678-7ff2d2203a66',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: fs15[D:\xampp\htdocs\service\application\common\football\Orders.php:89]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T14:16:32+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30 [运行时间：4.327500s][吞吐率：0.23req/s] [内存消耗：3,292.40kb] [文件加载：84]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7d0a9da5-0919-4875-a4d6-3f2227e10853',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]语法解析错误: syntax error, unexpected ';'[D:\xampp\htdocs\service\application\common\football\Results.php:102]
+---------------------------------------------------------------
+[ 2018-03-13T14:17:41+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30 [运行时间：15.951000s][吞吐率：0.06req/s] [内存消耗：3,545.48kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '39848990-dce5-4bd0-8c48-7f5ce74fd043',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: fs15[D:\xampp\htdocs\service\application\common\football\Orders.php:89]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T14:18:51+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30 [运行时间：16.527500s][吞吐率：0.06req/s] [内存消耗：3,545.86kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7eae5bf9-f850-49c4-994b-81fdd48b3ca5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: fs15[D:\xampp\htdocs\service\application\common\football\Orders.php:89]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T14:20:30+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30&status=clear
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30&status=clear [运行时间：16.064000s][吞吐率：0.06req/s] [内存消耗：3,572.06kb] [文件加载：97]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e2da460b-2057-428b-be29-605655c75dad',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+  'status' => 'clear',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T14:21:49+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=1&num=30&status=clear
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=1&num=30&status=clear [运行时间：14.404000s][吞吐率：0.07req/s] [内存消耗：3,525.61kb] [文件加载：95]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'af8ffff8-e496-45f8-847c-f11030a30806',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '1',
+  'num' => '30',
+  'status' => 'clear',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+[ error ] [8]未定义数组索引: timer[D:\xampp\htdocs\service\application\common\football\Orders.php:49]
+---------------------------------------------------------------
+[ 2018-03-13T14:23:40+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=7&num=30&status=clear
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=7&num=30&status=clear [运行时间：18.216000s][吞吐率：0.05req/s] [内存消耗：3,589.33kb] [文件加载：99]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c62462e-0f4b-485d-8e3c-c22cf44661e5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '7',
+  'num' => '30',
+  'status' => 'clear',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: fs08[D:\xampp\htdocs\service\application\common\tennis\Orders.php:86]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+---------------------------------------------------------------
+[ 2018-03-13T15:06:50+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=7&num=30&status=clear
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=7&num=30&status=clear [运行时间：0.075000s][吞吐率：13.33req/s] [内存消耗：1,904.01kb] [文件加载：68]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.008000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1a6ee215-411e-40f5-b64d-ad96d05e2868',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '7',
+  'num' => '30',
+  'status' => 'clear',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T15:07:24+08:00 ] 127.0.0.1 GET /admin/SportsOrders/getList?sportId=7&num=30&status=clear
+[ info ] kosun.com/admin/SportsOrders/getList?sportId=7&num=30&status=clear [运行时间：17.971500s][吞吐率：0.06req/s] [内存消耗：3,570.21kb] [文件加载：98]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'SportsOrders',
+    2 => 'getList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ad4e48f3-6591-4b96-8ffa-83b3ed5a2031',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'sportId' => '7',
+  'num' => '30',
+  'status' => 'clear',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\SportsOrders->getList[ D:\xampp\htdocs\service\application\admin\controller\SportsOrders.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: master_game_id[D:\xampp\htdocs\service\application\admin\logic\SportsOrders.php:109]
+[ error ] [8]未定义数组索引: fs08[D:\xampp\htdocs\service\application\common\tennis\Orders.php:86]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+[ error ] [8]未定义数组索引: [D:\xampp\htdocs\service\application\common\tennis\Orders.php:43]
+---------------------------------------------------------------
+[ 2018-03-13T15:25:57+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ info ] kosun.com/admin/Notice/getNoticeList [运行时间：0.659000s][吞吐率：1.52req/s] [内存消耗：2,841.82kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.007000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Notice',
+    2 => 'getNoticeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9d21cbfa-dff7-4ff9-a9fb-3f0295cae843',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------153623161989084151652079',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Notice->getNoticeList[ D:\xampp\htdocs\service\application\admin\controller\Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T15:27:15+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ info ] kosun.com/admin/Notice/getNoticeList [运行时间：1.649500s][吞吐率：0.61req/s] [内存消耗：2,842.82kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Notice',
+    2 => 'getNoticeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2a0e7cc0-98c2-453b-ac52-5470e892a3d0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------497513572899911395865762',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.003000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Notice->getNoticeList[ D:\xampp\htdocs\service\application\admin\controller\Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T15:27:43+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ info ] kosun.com/admin/Notice/getNoticeList [运行时间：0.452000s][吞吐率：2.21req/s] [内存消耗：2,842.85kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Notice',
+    2 => 'getNoticeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '083c9ea3-ea92-43ef-81ad-12915b5706c2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------765304674727171333064770',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Notice->getNoticeList[ D:\xampp\htdocs\service\application\admin\controller\Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-13T15:29:48+08:00 ] 127.0.0.1 POST /admin/Notice/getNoticeList
+[ info ] kosun.com/admin/Notice/getNoticeList [运行时间：0.654000s][吞吐率：1.53req/s] [内存消耗：2,843.27kb] [文件加载：76]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.006000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'Notice',
+    2 => 'getNoticeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '20393983-a45e-4a86-96db-19547efddade',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------804654670729024825408442',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.002500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\Notice->getNoticeList[ D:\xampp\htdocs\service\application\admin\controller\Notice.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File

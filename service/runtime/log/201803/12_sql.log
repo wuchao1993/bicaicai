@@ -1,0 +1,89 @@
+---------------------------------------------------------------
+[ 2018-03-12T10:45:13+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.413000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'chad123' LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:45:30+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'cary17316' LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:46:10+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.231000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:48:59+08:00 ] 127.0.0.1 POST /api/User/signUp
+[ sql ] [ DB ] CONNECT:[ UseTime:0.321000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_level` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `ul_id` FROM `ds_user_level` WHERE  `ul_default` = 1  AND `ul_status` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_agent_domain` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_agent_domain` WHERE  `agd_domain` = 'kosun.com'  AND `agd_status` = 1  AND `agd_use_count` > 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_lottery_category` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `lottery_category_id`,`lottery_default_rebate` FROM `ds_lottery_category` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user` (`ul_id` , `user_name` , `user_password` , `user_salt` , `user_grade` , `user_last_login_time` , `user_last_login_ip` , `channel_id` , `user_pid` , `reg_terminal` , `reg_way` , `user_reg_url` , `user_reg_ip` , `user_all_pid` , `user_createtime`) VALUES (1 , 'macho1993' , '5200c305ba9bfc3214f4fc773924987a' , 'XBqtbQVD' , 1 , '2018-03-12 10:48:58' , '127.0.0.1' , 0 , 1 , 6 , 0 , '0' , '127.0.0.1' , '1' , '2018-03-12 10:48:58') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_extend` (`user_id`) VALUES (5359) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_auto_rebate_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 1 , 13 , 1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 2 , 13 , 1) [ RunTime:0.043000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 3 , 13 , 1) [ RunTime:0.044000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 4 , 10 , 1) [ RunTime:0.044000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 5 , 13 , 1) [ RunTime:0.043000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 6 , 0 , 1) [ RunTime:0.043000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_auto_rebate_config` (`user_id` , `lottery_category_id` , `user_rebate` , `user_pid`) VALUES (5359 , 7 , 0 , 1) [ RunTime:0.044000s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_lower_count`=`user_lower_count`+1  WHERE  `user_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_level`  SET `ul_user_count`=`ul_user_count`+1  WHERE  `ul_id` = 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_login_log` (`user_id` , `ull_type` , `ull_login_time` , `ull_login_ip` , `ull_createtime` , `ull_modifytime`) VALUES (5359 , 6 , '2018-03-12 10:48:59' , '127.0.0.1' , '2018-03-12 10:48:59' , '2018-03-12 10:48:59') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_last_login_time`='2018-03-12 10:48:59'  WHERE  `user_id` = 5359 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:49:13+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ue_account_balance AS account_balance FROM `ds_user_extend` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_bank_relation` WHERE  `user_id` = 5359  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_login_log` (`user_id` , `ull_type` , `ull_login_time` , `ull_login_ip` , `ull_createtime` , `ull_modifytime`) VALUES (5359 , 6 , '2018-03-12 10:49:13' , '127.0.0.1' , '2018-03-12 10:49:13' , '2018-03-12 10:49:13') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_last_login_time`='2018-03-12 10:49:13',`user_last_login_ip`='127.0.0.1'  WHERE  `user_id` = 5359 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:49:32+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ue_account_balance AS account_balance FROM `ds_user_extend` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_bank_relation` WHERE  `user_id` = 5359  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_login_log` (`user_id` , `ull_type` , `ull_login_time` , `ull_login_ip` , `ull_createtime` , `ull_modifytime`) VALUES (5359 , 6 , '2018-03-12 10:49:32' , '127.0.0.1' , '2018-03-12 10:49:32' , '2018-03-12 10:49:32') [ RunTime:0.090000s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_last_login_time`='2018-03-12 10:49:32',`user_last_login_ip`='127.0.0.1'  WHERE  `user_id` = 5359 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:51:06+08:00 ] 127.0.0.1 POST /api/User/signIn
+[ sql ] [ DB ] CONNECT:[ UseTime:0.250000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_name` = 'macho1993' LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ue_account_balance AS account_balance FROM `ds_user_extend` WHERE  `user_id` = 5359 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_bank_relation` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_bank_relation` WHERE  `user_id` = 5359  AND `ub_status` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_login_log` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_login_log` (`user_id` , `ull_type` , `ull_login_time` , `ull_login_ip` , `ull_createtime` , `ull_modifytime`) VALUES (5359 , 6 , '2018-03-12 10:51:06' , '127.0.0.1' , '2018-03-12 10:51:06' , '2018-03-12 10:51:06') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] UPDATE `ds_user`  SET `user_last_login_time`='2018-03-12 10:51:06',`user_last_login_ip`='127.0.0.1'  WHERE  `user_id` = 5359 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-12T10:54:57+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.313000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-12T11:45:03+08:00 ] 127.0.0.1 GET /api/Order/mineBet?page=2
+[ sql ] [ DB ] CONNECT:[ UseTime:0.312000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_sports_orders` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_sports_orders` WHERE  `so_user_id` = 0 LIMIT 1 [ RunTime:0.090000s ]

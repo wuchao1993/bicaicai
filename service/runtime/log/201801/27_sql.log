@@ -1,0 +1,352 @@
+---------------------------------------------------------------
+[ 2018-01-27T09:28:29+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.330000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:39:34+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.395000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:39:55+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:46:52+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.511000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:47:43+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T09:51:13+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-27T10:04:01+08:00 ] 127.0.0.1 POST /collect/PayCenter/updateChannelMerchantBank
+[ sql ] [ DB ] CONNECT:[ UseTime:0.520000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_bank_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] DELETE FROM `ds_pay_center_channel_bank_relation`    WHERE  (  1=1 ) [ RunTime:0.084000s ]
+[ sql ] [ SQL ] REPLACE INTO `ds_pay_center_channel_bank_relation` (`bank_id` , `bank_code` , `pc_id`) SELECT 1,'ICBC',84 UNION ALL SELECT 2,'CCB',84 UNION ALL SELECT 3,'CMB',84 UNION ALL SELECT 4,'ABC',84 UNION ALL SELECT 5,'BCOM',84 UNION ALL SELECT 6,'GDB',84 UNION ALL SELECT 7,'BOC',84 UNION ALL SELECT 8,'CMBC',84 UNION ALL SELECT 9,'HXB',84 UNION ALL SELECT 12,'CITIC',84 UNION ALL SELECT 14,'CIB',84 UNION ALL SELECT 15,'PABC',84 UNION ALL SELECT 16,'PSBC',84 UNION ALL SELECT 18,'SPDB',84 UNION ALL SELECT 19,'CEB',84 UNION ALL SELECT 1,'ICBC',81 UNION ALL SELECT 2,'CCB',81 UNION ALL SELECT 3,'CMB',81 UNION ALL SELECT 4,'ABC',81 UNION ALL SELECT 5,'BOCO',81 UNION ALL SELECT 6,'GDB',81 UNION ALL SELECT 7,'BOC',81 UNION ALL SELECT 8,'CMBC',81 UNION ALL SELECT 9,'HXB',81 UNION ALL SELECT 12,'CTTIC',81 UNION ALL SELECT 13,'BCCB',81 UNION ALL SELECT 14,'CIB',81 UNION ALL SELECT 15,'PINGANBANK',81 UNION ALL SELECT 16,'PSBS',81 UNION ALL SELECT 17,'SHB',81 UNION ALL SELECT 18,'SPDB',81 UNION ALL SELECT 19,'CEB',81 UNION ALL SELECT 1,'ICBC',77 UNION ALL SELECT 2,'CCB',77 UNION ALL SELECT 3,'CMB',77 UNION ALL SELECT 4,'ABC',77 UNION ALL SELECT 5,'BOCO',77 UNION ALL SELECT 6,'GDB',77 UNION ALL SELECT 7,'BOC',77 UNION ALL SELECT 8,'CMBC',77 UNION ALL SELECT 9,'HXB',77 UNION ALL SELECT 12,'CTTIC',77 UNION ALL SELECT 13,'BCCB',77 UNION ALL SELECT 14,'CIB',77 UNION ALL SELECT 15,'PINGANBANK',77 UNION ALL SELECT 16,'PSBS',77 UNION ALL SELECT 17,'SHB',77 UNION ALL SELECT 18,'SPDB',77 UNION ALL SELECT 19,'CEB',77 UNION ALL SELECT 1,'967',83 UNION ALL SELECT 2,'965',83 UNION ALL SELECT 3,'970',83 UNION ALL SELECT 4,'964',83 UNION ALL SELECT 5,'981',83 UNION ALL SELECT 6,'985',83 UNION ALL SELECT 7,'963',83 UNION ALL SELECT 8,'980',83 UNION ALL SELECT 9,'982',83 UNION ALL SELECT 12,'962',83 UNION ALL SELECT 14,'972',83 UNION ALL SELECT 16,'971',83 UNION ALL SELECT 18,'977',83 UNION ALL SELECT 19,'986',83 UNION ALL SELECT 1,'ICBC',86 UNION ALL SELECT 2,'CCB',86 UNION ALL SELECT 3,'CMB',86 UNION ALL SELECT 4,'ABC',86 UNION ALL SELECT 5,'COMM',86 UNION ALL SELECT 6,'GDB',86 UNION ALL SELECT 7,'BOC',86 UNION ALL SELECT 8,'CMBC',86 UNION ALL SELECT 9,'HXB',86 UNION ALL SELECT 12,'CNCB',86 UNION ALL SELECT 13,'',86 UNION ALL SELECT 14,'CIB',86 UNION ALL SELECT 15,'PAB',86 UNION ALL SELECT 16,'PSBC',86 UNION ALL SELECT 17,'',86 UNION ALL SELECT 18,'SPDB',86 UNION ALL SELECT 19,'CEB',86 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:12:44+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.508000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:23:53+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.213000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_name`,`recharge_type_id` FROM `ds_recharge_type` [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:24:15+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:26:29+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.321000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:32:01+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.324000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` LEFT JOIN `ds_pay_center_channel` `c` ON `m`.`pay_channel_id`=`c`.`pay_channel_id` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:37:30+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.355000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:38:12+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.131000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:40:24+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.309000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:41:59+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-27T11:55:19+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.511000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `recharge_type_id`,`recharge_type_name` FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:33:28+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.599000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:41:59+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.409000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:43:45+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.414000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:43:54+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:44:33+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:46:06+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.516000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:48:14+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.405000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:48:35+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:50:45+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:1.018000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:50:59+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:51:02+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:51:05+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T14:51:18+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.127000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_merchant_info` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_merchant_info` LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:25:21+08:00 ] 127.0.0.1 POST /admin/PayCenter/getChannelMerchantList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.368000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel_merchant` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 ORDER BY m.status desc,m.channel_merchant_id desc LIMIT 0,10 [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_channel` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `pay_channel_id`,`name` FROM `ds_pay_center_channel` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_pay_center_channel_merchant` `m` WHERE  `m`.`status` < 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_center_account_user_level_relation` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 79 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 78 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 77 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 75 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 72 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 71 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 59 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 47 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 46 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT ul.ul_id as id,ul.ul_name as name FROM `ds_pay_center_account_user_level_relation` `p` LEFT JOIN `ds_user_level` `ul` ON `ul`.`ul_id`=`p`.`user_level_id` WHERE  `p`.`channel_merchant_id` = 45 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:58:54+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityDetailed?id=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.461000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.111000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` = 1  AND `activity_lottery_type` = 2  AND `activity_id` = 8 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:59:43+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityList
+[ sql ] [ DB ] CONNECT:[ UseTime:0.130000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_activity` WHERE  `activity_status` <> -1 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity` WHERE  `activity_status` <> -1 ORDER BY activity_id desc LIMIT 0,10 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-27T16:59:53+08:00 ] 127.0.0.1 GET /api/Activity/getPcActivityCategory
+[ sql ] [ DB ] CONNECT:[ UseTime:0.319000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_activity_category` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_activity_category` ORDER BY activity_category_id desc [ RunTime:0.088000s ]

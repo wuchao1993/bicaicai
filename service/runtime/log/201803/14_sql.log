@@ -1,0 +1,88 @@
+---------------------------------------------------------------
+[ 2018-03-14T14:56:46+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100
+[ sql ] [ DB ] CONNECT:[ UseTime:0.340000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18) LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.117000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:10:14+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=8
+[ sql ] [ DB ] CONNECT:[ UseTime:0.342000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.091000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:11:20+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=8
+[ sql ] [ DB ] CONNECT:[ UseTime:1.502500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.086500s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) LIMIT 1 [ RunTime:0.092000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:12:09+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=8
+[ sql ] [ DB ] CONNECT:[ UseTime:1.405000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:12:26+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100
+[ sql ] [ DB ] CONNECT:[ UseTime:0.141000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_action_type` IN (1,2) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_action_type` IN (1,2)  AND `uar_transaction_type` IN (1,7,9,13,14,15,16) LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_action_type` IN (1,2)  AND `uar_transaction_type` IN (2,3,5,8,10,12) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_action_type` IN (1,2) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:12:34+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=8&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_transaction_type` IN (8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:12:41+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100
+[ sql ] [ DB ] CONNECT:[ UseTime:0.142000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:15:27+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=10
+[ sql ] [ DB ] CONNECT:[ UseTime:2.029500s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,10,8) LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (10,8) LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,10,8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-03-14T15:16:00+08:00 ] 127.0.0.1 GET /admin/UserAccountRecord/getAccountList?transactionType[]=18&dateType=1&endDate=2018-03-14&startDate=2018-03-14&num=100&transactionType[]=17
+[ sql ] [ DB ] CONNECT:[ UseTime:0.140000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=dscp_sports;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,17,8) LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN ('') LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT SUM(uar_amount) AS tp_sum FROM `ds_user_account_record` WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (8) LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_account_record` FORCE INDEX ( uar_createtime )  WHERE  ( `uar_createtime` >= '2018-03-14 00:00:00' AND `uar_createtime` <= '2018-03-14 23:59:59' )  AND `uar_status` = 1  AND `uar_transaction_type` IN (18,17,8) ORDER BY uar_createtime desc LIMIT 0,100 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `user_id`,`user_name`,`ul_id` FROM `ds_user` WHERE  `user_id` IN (18) [ RunTime:0.090000s ]

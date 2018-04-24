@@ -1,0 +1,685 @@
+<?php
+/**
+ * 自定义常量
+ * @author cary17316@gmail.com
+ * @createTime 2017/3/22 11:04
+ */
+
+// 重新定义 Thinkphp/base.php 中定义的常量
+define('CONF_PATH', APP_PATH . 'config/');
+define('APP_LOG_TYPE', 'app_info');
+
+/****************************************
+ *
+ *  前台error_code常量定义
+ *
+ * ****************************************/
+define('EC_SUCCESS', 200);
+define('EC_FAILURE', 500);
+define('EC_SIGN_ERROR', 100001);
+define('EC_API_TIMEOUT', 100002);
+define('EC_NONCE_USED', 100003);
+define('EC_PARAMS_ILLEGAL', 100004);
+define('EC_EVENTS_TYPE_EMPTY', 100005);
+define('EC_SPORT_INFO_EMPTY', 100006);
+define('EC_DATABASE_ERROR', 100007);
+define('EC_IDENTITY_STATUS_ERROR', 100008);
+define('COLLECT_SYSTEM_MAINTENANCE', 100009);
+define('EC_ADVERTISING_NAME_EXISTS',100010);
+define('EC_ADVERTISING_IDENTIFIER_EXISTS',100012);
+define('EC_ADVERTISING_ADD_FAIL',100011);
+
+//用户模块 01
+define('EC_USER_REG_CAPTCHA_ERROR', 101001);
+define('EC_USER_REG_USER_EXISTING', 101002);
+define('EC_USER_REG_FAILURE', 101003);
+define('EC_USER_JWT_KEY_NONE', 101004);
+define('EC_USER_JWT_TOKEN_ERROR', 101005);
+define('EC_USER_JWT_HEAD_ERROR', 101006);
+define('EC_USER_JWT_BODY_ERROR', 101007);
+define('EC_USER_JWT_ALG_EMPTY', 101008);
+define('EC_USER_JWT_ALG_ERROR', 101009);
+define('EC_USER_JWT_KEY_ERROR', 101010);
+define('EC_USER_JWT_SIGN_ERROR', 101011);
+define('EC_USER_JWT_NBF_ERROR', 101012);
+define('EC_USER_JWT_IAT_ERROR', 101013);
+define('EC_USER_JWT_EXP_ERROR', 101014);
+define('EC_USER_OTHER_LOGIN', 101015);
+define('EC_USER_LOGIN_USER_NONE', 101016);
+define('EC_USER_LOGIN_PASSWORD_ERROR', 101017);
+define('EC_USER_INFO_NONE', 101018);
+define('EC_USER_OLD_PASSWORD_ERROR', 101019);
+define('EC_USER_PASSWORD_NOT_MATCH', 101020);
+define('EC_USER_NEED_TOKEN', 101021);
+define('EC_USER_TOKEN_CREATE_TIME_EXPIRE', 101022);
+define('EC_USER_IDENTITY_ERROR', 101023);
+define('EC_USER_GUEST_REG_IP_LIMIT', 101024);
+define('EC_USER_REGISTER_LIMIT', 101025);
+define('EC_USER_NAME_RESERVED_KEYWORD', 101026);
+define('EC_USER_UNVERIFIED', 101027);
+define('EC_USER_TOKEN_INVALID', 101028);
+define('EC_USER_BANK_USERNAME_INCORRECT', 101029);
+define('EC_USER_BANK_ACCOUNT_INCORRECT', 101030);
+define('EC_USER_BANK_NO_BIND', 101031);
+define('EC_USER_DISABLE', 101032);
+define('EC_SYSTEM_HAS_EXITED_YOU', 101033);
+define('EC_USER_NEED_TWO_FACTOR', 101040);
+define('EC_USER_NEED_SET_TWO_FACTOR', 101041);
+
+//个人中心 02
+define ('EC_ACCOUNT_DETAIL_TYPES_EMPTY', 102001);
+define ('EC_ACCOUNT_RECHARGE_TYPES_EMPTY', 102002);
+define ('EC_ACCOUNT_WITHDRAW_TYPES_EMPTY', 102003);
+define ('EC_USER_OLD_FOUNS_PASSWORD_ERROR', 102004);
+define ('EC_USER_FAVORITE_MATCHES_ADD_ERROR', 102005);
+define ('EC_USER_FAVORITE_MATCHES_CANCEL_ERROR', 102006);
+define ('EC_USER_FAVORITE_MATCHES_ADD_EXISTS_ERROR', 102007);
+define ('EC_USER_FAVORITE_MATCHES_CANCEL_EXISTS_ERROR', 102008);
+define ('EC_USER_FAVORITE_MATCHES_CHANGLE_EXISTS_ERROR', 102009);
+
+//订单 03
+define('EC_ORDER_BALANCE_NOT_ENOUGH', 103001);
+define('EC_ORDER_PARLAY_MIN_ERROR', 103002);
+define('EC_ORDER_PARLAY_MAX_ERROR', 103003);
+define('EC_ORDER_CREATE_ERROR', 103004);
+define('EC_ORDER_DEL_ACCOUNT_BALANCE_ERROR', 103005);
+define('EC_ORDER_USER_ACCOUNT_RECORD_ERROR', 103006);
+define('EC_ORDER_BET_AMOUNT_LIMIT', 103008);
+define('EC_ORDER_GAME_STATUS_CHANGE', 103009);
+define('EC_ORDER_PLAY_TYPE_CANCEL', 103010);
+define('EC_ORDER_INFO_EMPTY', 103011);
+define('EC_ORDER_ODDS_CHANGE', 103012);
+define('EC_ORDER_SCHEDULE_STATUS_CHANGE', 103013);
+define('EC_ORDER_PARLAY_DAY_SPAN_ERROR', 103014);
+define('EC_ORDER_PARLAY_SAME_GAME_NOT_ALLOW', 103015);
+define('EC_ORDER_HANDICAP_RATIO_CHANGE', 103016);
+define('EC_ORDER_OU_RATIO_CHANGE', 103017);
+define('EC_ORDER_OU_TEAM_RATIO_CHANGE', 103018);
+define('EC_ORDER_OU_PG_RATIO_CHANGE', 103019);
+define('EC_ORDER_HANDICAP_STRONG_CHANGE', 103020);
+
+//赛事 04
+define('EC_MATCHES_EMPTY', 104001);
+define('EC_EVENTS_PLAY_TYPE_ERROR', 104002);
+define('EC_GAME_INFO_EMPTY', 104003);
+define('EC_ODDS_KEY_NONE', 104004);
+define('EC_EVENTS_NO_CORRECT_SCORE', 104005);
+define('EC_EVENTS_NO_HT_FT', 104006);
+define('EC_EVENTS_NO_TOTAL_GOALS', 104007);
+define('EC_EVENTS_NO_OUTRIGHT', 104008);
+
+//代理05
+define('EC_AGENT_INVITATION_CODE_ERROR', 105001);
+define('EC_AGENT_INTRO_CONFIG_ERROR', 105009);
+define('EC_SUBORDINATE_REGISTER_CLOSED', 105002);
+define('EC_GENERATE_ERROR_MESSAGE', 105003);
+define('EC_GENERATE_INSERT_ERROR_CODE', 105010);
+define('EC_GENERATE_LINK_INSERT_ERROR_CODE', 105013);
+define('EC_GENERATE_LINKREBATE_INSERT_ERROR_CODE', 105014);
+define('EC_DELETE_GENERATE_ERROR_CODE', 105011);
+define('EC_EDIT_GENERATE_ERROR_CODE', 105012);
+define('EC_GENERATE_INSERT_MAX_COUNT', 105016);
+define('EC_TEAM_INFO_EMPTY', 105017);
+define('EC_AGENT_STATS_FALSE', 105018);
+
+//支付10
+define('EC_TEST_USER_CAN_NOT_RECHARGE', 110001);
+define('EC_RECHARGE_TYPE_NOT_SUPPORT', 110002);
+define('EC_USER_REAL_INFO_IS_BIND', 110003);
+define('EC_USER_REAL_INFO_BIND_FAIL', 110004);
+define('EC_NOT_EXIST_BANK', 110005);
+define('EC_EXIST_BANK_ACCOUNT', 110006);
+define('EC_BANK_CARD_OVER_LIMIT', 110007);
+define('EC_NO_SET_FUNDS_PASSWORD', 110008);
+define('EC_FUNDS_PASSWORD_ERROR', 110009);
+define('EC_BIND_FUNDS_PASSWORD_ERROR', 110010);
+define('EC_IS_TRY_ACCOUNT', 110011);
+define('EC_USER_BANK_ID_ERROR', 110012);
+define('EC_WITHDRAW_AMOUNT_MIN_LIMIT', 110013);
+define('EC_WITHDRAW_AMOUNT_MAX_LIMIT', 110014);
+define('EC_WITHDRAW_COUNT_PERIOD_LIMIT', 110015);
+define('EC_WITHDRAW_AMOUNT_PERIOD_LIMIT', 110016);
+define('EC_USER_WITHDRAW_LIMIT', 110017);
+define('EC_RECHARGE_CHANNEL_DISABLE', 110018);
+define('EC_LACK_CONFIG', 110019);
+define('EC_RECHARGE_AMOUNT_LIMIT', 110020);
+define('EC_RECHARGE_RECORD_NOT_EXIST', 110021);
+define('EC_RECHARGE_FAIL', 110022);
+define('EC_RECHARGE_CANCEL', 110023);
+define('EC_RECHARGE_UNTREATED', 110024);
+define('EC_PAY_CENTER_ERROR', 110025);
+
+/****************************************
+ * 前台error_code end
+ ****************************************/
+
+/****************************************
+ *
+ *  后台error_code常量定义
+ *
+ * ****************************************/
+define('EC_AD_ADD_ERROR', 4001);
+define('EC_AD_UPDATE_ERROR', 4002);
+define('EC_AD_DEL_ERROR', 4003);
+define('EC_AD_CHANGE_ERROR', 4004);
+
+define('EC_AD_SUCCESS', 200);
+define('EC_AD_SIGN_ERROR', 200001);
+define('EC_AD_PARAMS_ILLEGAL', 200002);
+define('EC_AD_ACCESS_FAILED', 200003);
+define('EC_AD_TOKEN_ERROR', 200004);
+define('EC_AD_UPLOAD_ILLEGAL', 200005);
+define('EC_AD_UPLOAD_ERROR', 200006);
+define('EC_AD_PUSH_ERROR', 200007);
+define('EC_AD_PUSH_PART_ERROR', 220001);
+
+//用户模块
+define('EC_AD_REG_CAPTCHA_ERROR', 201001);
+define('EC_AD_REG_USER_EXISTING', 201002);
+define('EC_AD_REG_FAILURE', 201003);
+define('EC_AD_OTHER_LOGIN', 201004);
+define('EC_AD_ADD_USER_LEVEL_ERROR', 201005);
+define('EC_AD_USER_LEVEL_NONE', 201006);
+define('EC_AD_EDIT_PASSWORD_ERROR', 201007);
+define('EC_AD_LOGIN_USER_NONE', 201008);
+define('EC_AD_LOGIN_PASSWORD_ERROR', 201009);
+define('EC_AD_USER_LEVEL_NEED_ONE', 201010);
+define('EC_AD_USER_REG_DATE_NONE', 201011);
+define('EC_AD_USER_WITHDRAW_NONE', 201012);
+define('EC_AD_USER_RECHARGE_NONE', 201013);
+define('EC_AD_UPDATE_USER_LEVEL_ERROR', 201014);
+define('EC_AD_USER_LEVEL_NO_USER', 201015);
+define('EC_AD_REGRESS_USER_LEVEL_ERROR', 201016);
+define('EC_AD_ADD_AGENT_DOMAIN_ERROR', 201017);
+define('EC_AD_ADD_AGENT_DOMAIN_EXISTING', 201018);
+define('EC_AD_USER_REAL_NAME_ALREADY_EXISTS', 201019);
+define('EC_AD_USER_MOBILE_ALREADY_EXISTS', 201020);
+define('EC_AD_USER_MOBILE_FORMAT_ERROR', 201021);
+define('EC_AD_USER_RELAX_AMOUNT_ERROR', 201022);
+define('EC_AD_USER_RECHARGE_MIN_AMOUNT_ERROR', 201023);
+define('EC_AD_USER_UPDATE_REBATE_ERROR', 201024);
+define('EC_AD_USER_UPDATE_REBATE_GT_AGENT', 201025);
+define('EC_AD_USER_LEVEL_HAD_USER', 201026);
+define('EC_AD_DELETE_USER_LEVEL_ERROR', 201027);
+define('EC_AD_USER_BANK_ALREADY_EXISTS', 201028);
+define('EC_AD_USER_QQ_FORMAT_ERROR', 201029);
+define('EC_AD_UPDATE_USER_LEVEL_REG_DATE_NONE', 201030);
+define('EC_AD_UPDATE_USER_LEVEL_WITHDRAW_NONE', 201031);
+define('EC_AD_UPDATE_USER_LEVEL_RECHARGE_NONE', 201032);
+define('EC_AD_UPDATE_USER_LEVEL_USER_NONE', 201033);
+define('EC_AD_USER_EMAIL_ALREADY_EXISTS', 201034);
+define('EC_AD_USER_EMAIL_FORMAT_ERROR', 201035);
+define('EC_AD_USER_QQ_ALREADY_EXISTS', 201036);
+define('EC_AD_ADD_BANK_ACCOUNT_EXISTS', 201037);
+define('EC_AD_USER_NAME_FORMAT_ERROR', 201038);
+define('EC_AD_USER_PASSWORD_FORMAT_ERROR', 201039);
+define('EC_AD_MORE_THAEN_USERES', 201040);
+define('EC_AD_ADD_BANK_ACCOUNT_INFO_EMPTY', 201041);
+define('EC_AD_USER_SET_REBATE_PROPORTION_ERROR', 201042);
+
+
+//系统模块
+define('EC_AD_MENU_EXISTING', 202001);
+define('EC_AD_MENU_NONE', 202002);
+define('EC_AD_ADD_ACCESS_ERROR', 202003);
+define('EC_AD_ADD_ACCESS_EXISTING', 202004);
+define('EC_AD_CONFIG_EXISTING', 202005);
+define('EC_AD_CONFIG_NONE', 202006);
+define('EC_AD_ORIGINAL_PASSWORD_WRONG', 202007);
+define('EC_AD_ACTION_NONE', 202008);
+define('EC_AD_ACTION_GROUP_SELF_ERROR', 202009);
+define('EC_AD_ADD_ACTION_ERROR', 202010);
+define('EC_AD_DEL_PARENT_MENU_ERROR', 202011);
+
+//现金系统
+define('EC_AD_ADD_RECHARGE_SYSTEM_ERROR', 203001);
+define('EC_AD_WITHDRAW_SYSTEM_NOT_ENOUGH', 203002);
+define('EC_AD_RECHARGE_RECORD_NONE', 203003);
+define('EC_AD_RECHARGE_COMPANY_CONFIRM_ERROR', 203004);
+define('EC_AD_BANK_EXISTING', 203005);
+define('EC_AD_BUDANG_FAIL', 203006);
+define('EC_AD_WITHDRAW_AMOUNT_MUST_BE_GREATER_THAN_ZERO', 203007);
+define('EC_AD_RECHARGE_AMOUNT_MUST_BE_GREATER_THAN_ZERO', 203008);
+define('EC_AD_ENFORCE_ONLINE_RECHARGE_FAIL', 203009);
+define('EC_AD_ADD_RECHARGETYPEGROUP_ERROR', 203010);
+define('BC_AD_WITHDRAW_EXPORT_EXCEL_DAY_LIMIT_ERROR', 203011);
+define('BC_AD_WITHDRAW_UNLOCKONLINE_NO_OPERATOR', 203012);
+define('BC_AD_GO_TO_PAY_ERROR', 203014);
+define('MIN_GT_MAX', 203015);
+define('EC_AD_CANCEL_COMPANY_BEYOND_WORD_COUNT', 203016);
+define('EC_AD_LOCK_ONLINE_ERROR', 203017);
+define('EC_AD_CONFIRM_ONLINE_OTHERER_LOCK_ERROR', 203018);
+define('EC_AD_SYSTEM_BATCH_RECHARGE_USERS_EXCEED_LIMIT', 203019);
+define('EC_AD_RECHARGE_AMOUNT_TOO_BIG', 203020);
+define('EC_AD_SYSTEM_BATCH_RECHARGE_OPERATION_TYPE_EMPTY', 203021);
+define('EC_AD_CHANGE_CHANNEL_MERCHANT_ERROR', 203022);
+define('EC_AD_UPDATE_CHANNEL_MERCHANT_ERROR', 203023);
+define('EC_AD_CREATE_CHANNEL_MERCHANT_ERROR', 203024);
+define('EC_AD_PAYTYPE_DISABLE', 203028);
+
+define('EC_AD_PAY_CONFIG_EMPTY', 203025);
+
+//游戏管理
+define('EC_AD_ADD_LOTTERY_GAME_ERROR', 204001);
+define('EC_AD_EDIT_LOTTERY_GAME_ERROR', 204002);
+define('EC_AD_REG_LOTTERY_GAME_EXISTING', 204003);
+define('EC_AD_REG_LOTTERY_ISSUE_EXISTING', 204004);
+define('EC_AD_ADD_LOTTERY_ISSUE_ERROR', 204005);
+define('EC_AD_EDIT_LOTTERY_ISSUE_ERROR', 204006);
+define('EC_AD_HANDLE_PRIZE_FAIL', 204007);
+define('EC_AD_GET_PRIZE_NUMBER_FAIL', 204008);
+define('EC_AD_CANCEL_ORDER_FAIL', 204009);
+define('EC_AD_ORDER_NOT_FIND', 204010);
+define('EC_AD_PRIZE_NUMBER_FORMAT_ERROR', 204011);
+define('EC_AD_PRIZE_TIME_ERROR', 204012);
+define('EC_AD_CANCEL_NO_PRIZE_ORDERS_ERROR',204013);
+define('EC_AD_CANCEL_NO_PRIZE_ORDERS_EMPTY',204014);
+define('EC_AD_INIT_LOTTERY_PLAY_ODDS_ERROR',204015);
+define('EC_AD_INIT_LOTTERY_ISSUE_UNFINISHED',204016);
+define('EC_AD_INIT_LOTTERY_ISSUE_OPENED',204017);
+define('EC_AD_PRIZE_NUMBER_FORMAT_API_ERROR',204018);
+define('EC_AD_CANNOT_DELETE_DEFAULT_LOTTERY_TYPE',204019);
+define('EC_AD_CANNOT_SET_DEFAULT_LOTTERY_TYPE',204020);
+define('EC_AD_LOTTERY_ORDER_GT_LIMIT_TIME',204021);
+define('EC_AD_LOTTERY_ORDER_DATE_TIME_EMPTY',204022);
+
+
+//内容管理
+define('EC_AD_ADD_NOTICE_ERROR', 205001);
+define('EC_AD_ADD_ACTIVITY_ERROR', 205002);
+define('EC_AD_ADD_CHANNEL_EXISTING', 205003);
+define('EC_AD_ADD_ADVERT_ERROR', 205004);
+define('EC_AD_ADD_CATEGORY_ERROR', 205005);
+define('EC_AD_EDIT_CATEGORY_ERROR', 205006);
+define('EC_AD_DEL_CATEGORY_ERROR', 205007);
+define('EC_AD_ADD_PUSH_CHANNEL_ERROR', 205008);
+define('EC_AD_ADD_PUSH_MESSAGE_ERROR', 205009);
+define('EC_MESSAGE_INSERT_FAILED',205010);
+
+//报表
+define('EC_AD_REPORT_DAY_LIMIT_ERROR', 206001);
+define('EC_AD_REPORT_EXCEL_FAIL', 206002);
+define('EC_AD_EMPTY_DATA', 206003);
+define('EC_AD_AGENT_REPORT_NOT_AT_WHITE_IP', 206004);
+define('EC_AD_EXCEL_NOT_READ', 206005);
+define('EC_AD_EXCEL_NOT_DATA', 206006);
+define('EC_AD_REPORT_DAY_LIMIT_SEVEN_ERROR', 206007);
+
+//体彩模块
+define('EC_AD_SCHEDULE_LOCKED', 207001);
+define('EC_AD_SCHEDULE_CLEARED', 207002);
+define('EC_AD_CHECK_ERROR', 207003);
+define('EC_AD_CHECK_ERROR_NOT_WAIT', 207004);
+define('EC_AD_CHECK_STATUS_ERROR', 207005);
+define('EC_AD_ORDER_LOCKED', 207006);
+define('EC_AD_PARLAY_HANDLE_ERROR_NO_ORDER', 207007);
+define('EC_AD_PARLAY_CANCEL_ERROR', 207008);
+define('EC_AD_PARLAY_CLEARING_ERROR_NO_RESULT', 207009);
+define('EC_AD_PARLAY_CLEARING_ERROR', 207010);
+define('EC_AD_UPDATE_PLAY_TYPE_LIMIT_ERROR', 207012);
+define('EC_AD_UPDATE_SORT_ERROR', 207013);
+define('EC_AD_UPDATE_HOT_ERROR', 207014);
+define('EC_UPDATE_ALL_SPORTS_PLAY_TYPES_CONFIG_ERROR',207015);
+define('EC_INSERT_ALL_SPORTS_PLAY_TYPES_CONFIG_ERROR',207016);
+define('EC_AD_GET_SCHEDULES_RESULTS_ERROR', 207018);
+define('EC_AD_UPDATE_SCHEDULES_RESULTS_ERROR', 207019);
+define('EC_AD_SCHEDULE_UNCLEARED', 207020);
+define('EC_AD_SCHEDULE_STATUS_NOT_AVAILABLE', 207021);
+define('EC_AD_PARLAY_ORDER_STATUS_NOT_AVAILABLE', 207022);
+
+//swoole服务模块 
+define('EC_AD_SWOOLE_INIT_FAIL', 208001);
+define('EC_AD_SWOOLE_SUBSCRIBE_NAME_EMPTY', 208002);
+define('EC_AD_SWOOLE_SUBSCRIBE_NAME_ERROR', 208003);
+define('EC_AD_SWOOLE_SUBSCRIBE_NAME_TIME_ERROR', 208004);
+define('EC_AD_SWOOLE_APPNAME_EMPTY', 208005);
+
+//体彩代理返水
+define('EC_INSERT_SPORTS_AGENT_REBATE_ERROR', 209001);
+define('EC_EDIT_SPORTS_AGENT_REBATE_ERROR', 209002);
+define('EC_DELETE_SPORTS_AGENT_REBATE_ERROR', 209003);
+define('EC_LIST_SPORTS_AGENT_REBATE_ERROR', 209004);
+
+//后台文档
+define('EC_INSERT_DOCUMENT_ERROR', 210001);
+define('EC_EDIT_DOCUMENT_ERROR', 210002);
+define('EC_DELETE_DOCUMENT_ERROR', 210003);
+define('EC_LIST_DOCUMENT_ERROR', 210004);
+define('EC_LIST_BYTYPE_DOCUMENT_ERROR', 210005);
+define('EC_LIST_DOCUMENT_BYID_EMPTY',210006);
+define('EC_EDIT_DOCUMENT_NO_TYPE',210007);
+
+/****************************************
+ * 后台error_code end
+ ****************************************/
+
+/****************************************
+ * 公共模块errorcode
+ ****************************************/
+
+define('EC_CM_ORDER_CALCULATE_BONUS_STATUS_ERROR', 300001);
+define('EC_CM_ORDER_CALCULATE_BONUS_ERROR', 300002);
+define('EC_CM_ORDER_CANCEL_NO_ORDER', 300003);
+define('EC_CM_ORDER_CANCEL_STATUS_ERROR', 300004);
+define('EC_CM_ORDER_CANCEL_BALANCE_ADD_ERROR', 300005);
+define('EC_CM_ORDER_CANCEL_ACCOUNT_RECORD_ERROR', 300006);
+define('EC_CM_ORDER_CANCEL_UPDATE_STATUS_ERROR', 300007);
+define('EC_CM_ORDER_DISTRIBUTED_CANCEL_NO_ORDER', 300008);
+define('EC_CM_ORDER_DISTRIBUTED_CANCEL_BALANCE_NOT_ENOUGH', 300009);
+define('EC_CM_ORDER_DISTRIBUTED_CANCEL_BALANCE_DEDUCT_ERROR', 300010);
+define('EC_CM_ORDER_DISTRIBUTED_CANCEL_BALANCE_ADD_ERROR', 300011);
+define('EC_CM_ORDER_DISTRIBUTED_CANCEL_ACCOUNT_RECORD_ERROR', 300012);
+define('EC_CM_ORDER_DISTRIBUTED_CANCEL_UPDATE_STATUS_ERROR', 300013);
+define('EC_CM_ORDER_BONUS_RETURN_NO_ORDER', 300014);
+define('EC_CM_ORDER_BONUS_RETURN_STATUS_ERROR', 300015);
+define('EC_CM_ORDER_BONUS_RETURN_BALANCE_DEDUCT_ERROR', 300016);
+define('EC_CM_ORDER_BONUS_RETURN_ACCOUNT_RECORD_ERROR', 300017);
+define('EC_CM_ORDER_BONUS_RETURN_UPDATE_STATUS_ERROR', 300018);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_ERROR', 300019);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_STATUS_ERROR', 300020);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_BALANCE_ADD_ERROR', 300021);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_RECHARGE_RECORD_ERROR', 300022);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_ACCOUNT_RECORD_ERROR', 300023);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_UPDATE_STATUS_ERROR', 300024);
+define('EC_CM_ORDER_BONUS_DISTRIBUTE_CALCULATE_TRAFFIC_ERROR', 300025);
+define('EC_CM_ORDER_CANCEL_ERROR_WAIT_CHECK', 300026);
+define('EC_CM_LACK_USER_DEFAULT_LEVEL', 300027);
+define('EC_CM_USER_REGISTER_ALLOW_FALSE', 300028);
+define('EC_CM_ORDER_CANCEL_TRAFFIC_AMOUNT_ERROR', 300029);
+
+/****************************************
+ * 公共模块errorcode end
+ ****************************************/
+
+/***************************************
+ * 数字彩相关
+ **************************************/
+//lottery_id
+define('LOTTERY_ID_CQSSC', 1);
+define('LOTTERY_ID_XJSSC', 2);
+define('LOTTERY_ID_BJSSC', 3);
+define('LOTTERY_ID_TJSSC', 4);
+define('LOTTERY_ID_AHK3', 6);
+define('LOTTERY_ID_JLK3', 7);
+define('LOTTERY_ID_GXK3', 8);
+define('LOTTERY_ID_JSK3', 9);
+define('LOTTERY_ID_HUBK3', 10);
+define('LOTTERY_ID_SD11X5', 11);
+define('LOTTERY_ID_SH11X5', 12);
+define('LOTTERY_ID_JX11X5', 13);
+define('LOTTERY_ID_GD11X5', 14);
+define('LOTTERY_ID_AH11X5', 15);
+define('LOTTERY_ID_PL3', 16);
+define('LOTTERY_ID_FC3D', 17);
+// define('LOTTERY_ID_BJKL8', 18);
+define('LOTTERY_ID_BJPK10', 19);
+define('LOTTERY_ID_HK6', 20);
+define('LOTTERY_ID_LUCK28', 21);
+define('LOTTERY_ID_XJP28', 22);
+define('LOTTERY_ID_FFC3', 23);
+define('LOTTERY_ID_FFC1', 24);
+define('LOTTERY_ID_FFPKS', 25);
+define('LOTTERY_ID_JSLHC', 26);
+
+//冷数据间隔天数
+define('COLD_DATA_INTERVAL_DAY',70);
+
+//redis
+define('ORDER_LIST_REDIS_KEY', 'orderList_');
+
+// define('DIGITAL_PRIZE_SERVICE_API_URL', 'http://www.kosun.cc/index.php?s=Home/Api/getNumByIssue');   //开奖服务接口地址
+define('DIGITAL_BUDAN_ACTION', '1000');
+define('DIGITAL_HANDLE_PRIZE_ACTION', '1001');
+define('DIGITAL_GO_TO_PAY', '1002');
+
+define('DIGITAL_PAY_API', '1003');
+define('PAY_PLATFORM_GOTOPAY', 25);//代付
+
+
+define('PAY_PLATFORM_GOTOPAY_START', 1);//代付状态 开启
+define('PAY_PLATFORM_GOTOPAY_STOP', 0);//代付状态 关闭
+
+//用户银行卡状态
+define('USER_BANK_STATUS_DISABLE', 0);
+define('USER_BANK_STATUS_ENABLE', 1);
+
+define('BANK_ID_ALIPAY', 1000);
+define('BANK_ID_WEIXIN', 1001);
+define('BANK_ID_CENTRALIZED', 2002);
+define('BANK_ID_QQ', 2003);
+define('BANK_ID_JD', 2004);
+define('BANK_ID_BD', 2005);
+
+define('SSC_CATEGORY_ID',1); //时时彩 类别ID
+define('PC_EGG_CATEGORY_ID',6); //pc蛋蛋 类别ID
+define('LHC_CATEGORY_ID',7);    //六合彩 类别ID
+
+define('CONFIG_REGISTER', 'REGISTER_EXTEND_CONF');
+define('AGENT_CONFIG_REGISTER', 'AGENT_REGISTER_EXTEND_CONF');
+
+define('PAY_TYPE_STATUS_ENABLE', 1);      //支付平台 开关ds_pay_type->pay_type_status 1  为开启
+define('PAY_TYPE_STATUS_DISABLE', 0);     //支付平台 开关ds_pay_type->pay_type_status 0 为禁止
+
+define('PAY_PLATFORM_STATUS_ENABLE', 1);
+define('PAY_PLATFORM_STATUS_DISABLE', 0);
+define('PAY_PLATFORM_STATUS_DEL', -1);
+define('SOURCE_TYPE_RECHARGE', 2);
+
+//账户流水 金流类型
+define('ACCOUNT_TRANSACTION_TYPE_RECHARGE', 1);      	//会员入款在线充值
+define('ACCOUNT_TRANSACTION_TYPE_DISCOUNT', 2);     	//优惠赠送
+define('ACCOUNT_TRANSFER_IN', 1);                        //存入
+
+define('TWO_FACTOR_ENABLE', 1);
+define('TWO_FACTOR_DISABLE', 0);
+
+/****************************************
+ *
+ * 公司入款银行转账存款方式
+ *
+ ****************************************/
+define('COMPANY_RECHARGE_TYPE_ONLINEBANK_TRANSFER', 1);//网银转账
+define('COMPANY_RECHARGE_TYPE_ATM_MACHINE', 2);//ATM自动柜员机
+define('COMPANY_RECHARGE_TYPE_ATM_CASH', 3);//ATM现金入款
+define('COMPANY_RECHARGE_TYPE_BANK_COUNTER', 4);//银行柜台
+define('COMPANY_RECHARGE_TYPE_MOBILEBANK_TRANSFER', 5);//手机银行
+define('COMPANY_RECHARGE_TYPE_WECHAT', 6);//微信
+define('COMPANY_RECHARGE_TYPE_ALIPAY', 7);//阿里
+define('PAY_PLATFORM_CATEGORY_ALIPAY_FRIEND', 8);  //阿里好友支付
+define('PAY_PLATFORM_CATEGORY_WEIXIN_FRIEND', 9);  //微信好友支付
+define('PAY_PLATFORM_CATEGORY_QQ_WALLET_FRIEND', 19);//QQ钱包好友支付
+define('PAY_PLATFORM_CATEGORY_JD_WALLET_FRIEND', 20);//京东钱包好友支付
+define('PAY_PLATFORM_CATEGORY_BD_WALLET_FRIEND', 21);//百度钱包好友支付
+define('PAY_PLATFORM_CATEGORY_CENTRALIZED_SCAN_CODE', 22);//通用扫码支付
+
+/****************************************
+ *
+ * 采集过来的赔率字段定义
+ *
+ ****************************************/
+//独赢
+define('CAPOT_HOME_WIN', 'ior_mh');
+define('CAPOT_GUEST_WIN', 'ior_mc');
+define('CAPOT_TIE', 'ior_mn');
+define('CAPOT_1H_HOME_WIN', 'ior_hmh');
+define('CAPOT_1H_GUEST_WIN', 'ior_hmc');
+define('CAPOT_1H_TIE', 'ior_hmn');
+
+//让球
+define('HANDICAP_HOME_WIN', 'ior_rh');
+define('HANDICAP_GUEST_WIN', 'ior_rc');
+define('HANDICAP_1H_HOME_WIN', 'ior_hrh');
+define('HANDICAP_1H_GUEST_WIN', 'ior_hrc');
+
+//大小
+define('OU_UNDER', 'ior_ouh');
+define('OU_OVER', 'ior_ouc');
+define('OU_1H_UNDER', 'ior_houh');
+define('OU_1H_OVER', 'ior_houc');
+
+//网球球员局数: 大 / 小
+//篮球球队得分: 大 / 小
+define('OUH_UNDER', 'ior_ouhu');
+define('OUH_OVER', 'ior_ouho');
+define('OUC_UNDER', 'ior_oucu');
+define('OUC_OVER', 'ior_ouco');
+
+//单双
+define('OE_ODD', 'ior_eoo');
+define('OE_EVEN', 'ior_eoe');
+
+//波胆
+define('CORRECT_SCORE_H1C0', 'ior_h1c0');
+define('CORRECT_SCORE_H2C0', 'ior_h2c0');
+define('CORRECT_SCORE_H2C1', 'ior_h2c1');
+define('CORRECT_SCORE_H3C0', 'ior_h3c0');
+define('CORRECT_SCORE_H3C1', 'ior_h3c1');
+define('CORRECT_SCORE_H3C2', 'ior_h3c2');
+define('CORRECT_SCORE_H4C0', 'ior_h4c0');
+define('CORRECT_SCORE_H4C1', 'ior_h4c1');
+define('CORRECT_SCORE_H4C2', 'ior_h4c2');
+define('CORRECT_SCORE_H4C3', 'ior_h4c3');
+define('CORRECT_SCORE_H0C0', 'ior_h0c0');
+define('CORRECT_SCORE_H1C1', 'ior_h1c1');
+define('CORRECT_SCORE_H2C2', 'ior_h2c2');
+define('CORRECT_SCORE_H3C3', 'ior_h3c3');
+define('CORRECT_SCORE_H4C4', 'ior_h4c4');
+define('CORRECT_SCORE_OVH', 'ior_ovh');
+define('CORRECT_SCORE_H0C1', 'ior_h0c1');
+define('CORRECT_SCORE_H0C2', 'ior_h0c2');
+define('CORRECT_SCORE_H1C2', 'ior_h1c2');
+define('CORRECT_SCORE_H0C3', 'ior_h0c3');
+define('CORRECT_SCORE_H1C3', 'ior_h1c3');
+define('CORRECT_SCORE_H2C3', 'ior_h2c3');
+define('CORRECT_SCORE_H0C4', 'ior_h0c4');
+define('CORRECT_SCORE_H1C4', 'ior_h1c4');
+define('CORRECT_SCORE_H2C4', 'ior_h2c4');
+define('CORRECT_SCORE_H3C4', 'ior_h3c4');
+define('CORRECT_SCORE_OVC', 'ior_ovc');
+
+//半场/全场
+define('HT_FT_HOME_HOME', 'ior_fhh');
+define('HT_FT_HOME_TIE', 'ior_fhn');
+define('HT_FT_HOME_GUEST', 'ior_fhc');
+define('HT_FT_TIE_HOME', 'ior_fnh');
+define('HT_FT_TIE_TIE', 'ior_fnn');
+define('HT_FT_TIE_GUEST', 'ior_fnc');
+define('HT_FT_GUEST_HOME', 'ior_fch');
+define('HT_FT_GUEST_TIE', 'ior_fcn');
+define('HT_FT_GUEST_GUEST', 'ior_fcc');
+
+//总入球
+define('TOTAL_GOALS_0_TO_1', 'ior_t01');
+define('TOTAL_GOALS_2_TO_3', 'ior_t23');
+define('TOTAL_GOALS_4_TO_6', 'ior_t46');
+define('TOTAL_GOALS_OVER', 'ior_over');
+define('TOTAL_GOALS_1H_0', 'ior_ht0');
+define('TOTAL_GOALS_1H_1', 'ior_ht1');
+define('TOTAL_GOALS_1H_2', 'ior_ht2');
+define('TOTAL_GOALS_1H_OVER', 'ior_htov');
+
+/**
+ * 算奖结果输赢状态
+ */
+define('RESULT_WIN', 'win');
+define('RESULT_WIN_HALF', 'win_half');
+define('RESULT_LOSE', 'lose');
+define('RESULT_LOSE_HALF', 'lose_half');
+define('RESULT_BACK', 'back');
+define('RESULT_ABNORMAL', 'abnormal');
+
+//充值中心错误码
+//========================================================================
+// +----------------------------------------------------------------------
+// | API接口 900-0** 前台公共模块-错误码
+// +----------------------------------------------------------------------
+define('EC_PAY_NO_DEFINED_ERROR', 900000);
+define('EC_PAY_BASE_SIGN_ERROR', 900001);
+define('EC_PAY_BASE_NETWORK_ERROR', 900002);
+define('EC_PAY_BASE_NONCE_ERROR', 900003);
+define('EC_PAY_BASE_MODULE_VALIDATE_NOT_EXIST', 900004);
+define('EC_PAY_BASE_ACTION_VALIDATE_NOT_EXIST', 900005);
+
+// +----------------------------------------------------------------------
+// | API接口 900-1** 前台公共模块-请求参数错误 请在错误信息前带上参数名
+// +----------------------------------------------------------------------
+define('EC_PAY_REQUEST_PARAM_MISS', 900101);
+define('EC_PAY_REQUEST_PARAM_ERROR', 900102);
+
+// +----------------------------------------------------------------------
+// | API接口 900-2** 商户模块 900200
+// +----------------------------------------------------------------------
+define('EC_PAY_APP_CONFIG_NO_EXIST', 900200);
+
+// +----------------------------------------------------------------------
+// | API接口 900-3** 支付类型分组模块 900300
+// +----------------------------------------------------------------------
+define('EC_PAY_PAY_TYPE_GROUP_NO_RIGHT', 900300);
+define('EC_PAY_PAY_TYPE_GROUP_ADD_FAILURE', 900301);
+define('EC_PAY_PAY_TYPE_GROUP_EDIT_FAILURE', 900302);
+define('EC_PAY_PAY_TYPE_GROUP_DELETE_FAILURE', 900303);
+define('EC_PAY_PAY_TYPE_GROUP_NO_ALLOW_DELETE', 900304);
+define('EC_PAY_PAY_TYPE_GROUP_NO_EXIST', 900305);
+
+// +----------------------------------------------------------------------
+// | API接口 900-4** 支付类型模块 900400
+// +----------------------------------------------------------------------
+
+// +----------------------------------------------------------------------
+// | API接口 900-5** 好友支付模块 900500
+// +----------------------------------------------------------------------
+define('EC_PAY_FRIEND_ACCOUNT_NO_RIGHT', 900500);
+define('EC_PAY_FRIEND_ACCOUNT_ADD_FAILURE', 900501);
+define('EC_PAY_FRIEND_ACCOUNT_EDIT_FAILURE', 900502);
+define('EC_PAY_FRIEND_ACCOUNT_DELETE_FAILURE', 900503);
+define('EC_PAY_FRIEND_ACCOUNT_NO_ALLOW_DELETE', 900504);
+define('EC_PAY_FRIEND_ACCOUNT_NO_EXIST', 900505);
+
+// +----------------------------------------------------------------------
+// | API接口 900-6** 公司入款模块 900600
+// +----------------------------------------------------------------------
+define('EC_PAY_BANK_ACCOUNT_NO_RIGHT', 900600);
+define('EC_PAY_BANK_ACCOUNT_ADD_FAILURE', 900601);
+define('EC_PAY_BANK_ACCOUNT_EDIT_FAILURE', 900602);
+define('EC_PAY_BANK_ACCOUNT_DELETE_FAILURE', 900603);
+define('EC_PAY_BANK_ACCOUNT_NO_ALLOW_DELETE', 900604);
+define('EC_PAY_BANK_ACCOUNT_IS_EXIST', 900605);
+define('EC_PAY_BANK_ACCOUNT_NO_EXIST', 900606);
+
+// +----------------------------------------------------------------------
+// | API接口 900-7** 渠道商户模块 900700
+// +----------------------------------------------------------------------
+define('EC_PAY_CHANNEL_MERCHANT_NO_RIGHT', 900700);
+define('EC_PAY_CHANNEL_MERCHANT_ADD_FAILURE', 900701);
+define('EC_PAY_CHANNEL_MERCHANT_EDIT_FAILURE', 900702);
+define('EC_PAY_CHANNEL_MERCHANT_DELETE_FAILURE', 900703);
+define('EC_PAY_CHANNEL_MERCHANT_NO_ALLOW_DELETE', 900704);
+define('EC_PAY_CHANNEL_MERCHANT_NO_EXIST', 900705);
+define('EC_PAY_CHANNEL_NO_SUPPORT_PAY_TYPE', 900706);
+
+
+// +----------------------------------------------------------------------
+// | API接口 充值模块 900-8
+// +----------------------------------------------------------------------
+define('EC_PAY_RECHARGE_SUCCESS', 900800);
+define('EC_PAY_RECHARGE_FAILURE', 900801);
+define('EC_PAY_RECHARGE_CHANNEL_NOT_SUPPORT_PAY_TYPE', 900802);
+define('EC_PAY_RECHARGE_CHANNEL_NO_EXIST', 900803);
+define('EC_PAY_RECHARGE_ONLINE_NO_PLATFORM', 900804);
+define('EC_PAY_RECHARGE_RECORD_NOT_EXIST', 900805);
+define('EC_PAY_RECHARGE_AMOUNT_NOT_EQUAL', 900806);
+define('EC_PAY_RECHARGE_HAS_BEEN_SUCCESS', 900807);
+define('EC_PAY_RECHARGE_HAS_BEEN_FAILURE', 900808);
+define('EC_PAY_RECHARGE_NOTIFY_SIGN_ERROR', 900809);
+define('EC_PAY_RECHARGE_LIMIT_MIN_AMOUNT', 900811);
+define('EC_PAY_RECHARGE_LIMIT_MAX_AMOUNT', 900812);
+define('EC_PAY_RECHARGE_MERCHANT_CODE_ERROR', 900813);
+define('EC_PAY_RECHARGE_MERCHANT_NOT_EXIST', 900816);
+define('EC_PAY_RECHARGE_PAY_TYPE_NOT_EXIST', 900817);
+define('EC_PAY_RECHARGE_AMOUNT_ERROR', 900818);
+define('EC_PAY_RECHARGE_ALREADY_PAY', 900819);
+define('EC_PAY_RECHARGE_CHANNEL_MERCHANT_NOT_EXIST', 900822);
+
+
+
+

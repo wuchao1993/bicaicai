@@ -1,0 +1,369 @@
+---------------------------------------------------------------
+[ 2018-01-06T09:44:01+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060303910700131' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:43:59') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:44:26+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.219000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060306554700010' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:44:25') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=77  WHERE  `urr_id` = 31239895 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:55:20+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.409000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060372017300130' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:55:20') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:55:28+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060372812100038' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:55:28') [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:55:36+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.126000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060373602600739' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:55:36') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:56:38+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.304000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060379764000386' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:56:37') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-06T09:56:53+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.082000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801060381300900262' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 09:56:53') [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=84  WHERE  `urr_id` = 31239903 [ RunTime:0.085000s ]
+---------------------------------------------------------------
+[ 2018-01-06T11:25:01+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.324000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_no` = '201801060494457097948' LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_is_first` = 1  AND `user_id` = 5351 LIMIT 1 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_trade_no`='20180106101544000000010352617802',`urr_trade_time`='1515204962',`urr_status`=1,`urr_confirm_time`='2018-01-06 11:25:00'  WHERE  `urr_id` = 31239940  AND `urr_status` = 0 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+1.500,`ue_discount_amount`=ue_discount_amount+0.50,`ue_recharge_amount`=ue_recharge_amount+1.00,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 5351 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_action_type`) VALUES (5351 , 31239940 , 2 , 1 , 1 , 2740.3 , 2741.3 , '在线充值' , 1) [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_account_record`  SET `uar_transaction_type`=2,`uar_amount`=0.5,`uar_after_balance`=2740.8,`uar_remark`='在线充值优惠'  WHERE  `uar_id` = 879721 [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_pay_platform`  SET `pp_recharge_amount`=pp_recharge_amount+1.00,`pp_recharge_count`=pp_recharge_count+1  WHERE  `pp_id` = 85 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-06T11:31:04+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.135000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_no` = '201801060494457097948' LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_is_first` = 1  AND `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_trade_no`='20180106101544000000010352617802',`urr_trade_time`='1515204962',`urr_status`=1,`urr_confirm_time`='2018-01-06 11:31:03'  WHERE  `urr_id` = 31239940  AND `urr_status` = 0 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+1.500,`ue_discount_amount`=ue_discount_amount+0.50,`ue_recharge_amount`=ue_recharge_amount+1.00,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 5351 [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_action_type`) VALUES (5351 , 31239940 , 2 , 1 , 1 , 2741.8 , 2742.8 , '在线充值' , 1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_account_record`  SET `uar_transaction_type`=2,`uar_amount`=0.5,`uar_after_balance`=2742.3,`uar_remark`='在线充值优惠'  WHERE  `uar_id` = 879846 [ RunTime:0.091000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_pay_platform`  SET `pp_recharge_amount`=pp_recharge_amount+1.00,`pp_recharge_count`=pp_recharge_count+1  WHERE  `pp_id` = 85 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T11:43:03+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.227000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801061018214200820' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 11:43:02') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=77  WHERE  `urr_id` = 31240234 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T12:04:23+08:00 ] 127.0.0.1 GET /api/Recharge/notify?outTradeNo=201801060494457097948&payCenterOrderNo=20180106101544000000010352617802&totalFee=1.00&tradeStatus=1&channelTradeNo=&payTime=1515204962&tradeDesc=&sign=9787a38459c133db797f83f230133db4
+[ sql ] [ DB ] CONNECT:[ UseTime:0.290000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_no` = '201801060494457097948' LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user_recharge_record` WHERE  `urr_is_first` = 1  AND `user_id` = 5351 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_trade_no`='20180106101544000000010352617802',`urr_trade_time`='1515204962',`urr_status`=1,`urr_confirm_time`='2018-01-06 12:04:22'  WHERE  `urr_id` = 31239940  AND `urr_status` = 0 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_extend` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT `ue_account_balance` FROM `ds_user_extend` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_extend`  SET `ue_account_balance`=ue_account_balance+1.500,`ue_discount_amount`=ue_discount_amount+0.50,`ue_recharge_amount`=ue_recharge_amount+1.00,`ue_recharge_count`=ue_recharge_count+1  WHERE  `user_id` = 5351 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_account_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_account_record` (`user_id` , `uar_source_id` , `uar_source_type` , `uar_transaction_type` , `uar_amount` , `uar_before_balance` , `uar_after_balance` , `uar_remark` , `uar_action_type`) VALUES (5351 , 31239940 , 2 , 1 , 1 , 2743.3 , 2744.3 , '在线充值' , 1) [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_account_record`  SET `uar_transaction_type`=2,`uar_amount`=0.5,`uar_after_balance`=2743.8,`uar_remark`='在线充值优惠'  WHERE  `uar_id` = 880018 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_platform` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_pay_platform`  SET `pp_recharge_amount`=pp_recharge_amount+1.00,`pp_recharge_count`=pp_recharge_count+1  WHERE  `pp_id` = 85 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-06T14:40:41+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.310000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.084000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062084047200847' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 14:40:40') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=81  WHERE  `urr_id` = 31241057 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T14:43:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.243000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062102672100366' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 14:43:46') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=83  WHERE  `urr_id` = 31241058 [ RunTime:0.116000s ]
+---------------------------------------------------------------
+[ 2018-01-06T14:47:39+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.295000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062125872400045' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 14:47:38') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=81  WHERE  `urr_id` = 31241059 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-06T15:45:40+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.133000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062473902800754' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 15:45:39') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 1 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=81  WHERE  `urr_id` = 31241063 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:07:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.136000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062606679300338' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:07:46') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = null LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=85  WHERE  `urr_id` = 31241068 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:07:52+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062607153700114' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:07:51') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = null LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=85  WHERE  `urr_id` = 31241069 [ RunTime:0.086000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:08:02+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.096000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062608130500950' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:08:01') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = null LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=85  WHERE  `urr_id` = 31241070 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:08:05+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.143000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.108000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.093000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062608433000397' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:08:04') [ RunTime:0.103000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.094000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = null LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=85  WHERE  `urr_id` = 31241071 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:10:30+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.251000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062622871800504' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:10:28') [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = null LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=85  WHERE  `urr_id` = 31241072 [ RunTime:0.088000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:10:46+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=7
+[ sql ] [ DB ] CONNECT:[ UseTime:0.129000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062624479100778' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:10:44') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 7 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = null LIMIT 1 [ RunTime:0.087000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:38:48+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.321000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062792766100035' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:38:47') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 1 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=83  WHERE  `urr_id` = 31241081 [ RunTime:0.084000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:42:47+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.224000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062816719300333' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:42:47') [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=83  WHERE  `urr_id` = 31241082 [ RunTime:0.089000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:43:47+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=1
+[ sql ] [ DB ] CONNECT:[ UseTime:0.132000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062822671900246' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:43:46') [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.089000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 1 LIMIT 1 [ RunTime:0.085000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=83  WHERE  `urr_id` = 31241084 [ RunTime:0.090000s ]
+---------------------------------------------------------------
+[ 2018-01-06T16:45:16+08:00 ] 127.0.0.1 GET /api/Recharge/pay?amount=50&payTypeId=24&bankId=3
+[ sql ] [ DB ] CONNECT:[ UseTime:0.249000s ] mysql:host=rm-j6cng8865pfylc1d9o.mysql.rds.aliyuncs.com;port=3306;dbname=kosun_net;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 0 LIMIT 1 [ RunTime:0.090000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_user` WHERE  `user_id` = 5351 LIMIT 1 [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_pay_config` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_pay_config` WHERE  `ul_id` = 2 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_user_recharge_record` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] INSERT INTO `ds_user_recharge_record` (`urr_no` , `user_id` , `urr_recharge_account_id` , `urr_type` , `urr_amount` , `urr_recharge_discount` , `urr_total_amount` , `urr_traffic_amount` , `urr_required_bet_amount` , `urr_client_ip` , `urr_status` , `urr_createtime`) VALUES ('201801062831541700225' , 5351 , 2 , 1 , 50 , 25 , 75 , 150 , 0 , '127.0.0.1' , 0 , '2018-01-06 16:45:15') [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_recharge_type` [ RunTime:0.086000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_recharge_type` WHERE  `recharge_type_id` = 24 LIMIT 1 [ RunTime:0.088000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `ds_bank` [ RunTime:0.087000s ]
+[ sql ] [ SQL ] SELECT * FROM `ds_bank` WHERE  `bank_status` = 1  AND `bank_id` = 3 LIMIT 1 [ RunTime:0.087000s ]
+[ sql ] [ SQL ] UPDATE `ds_user_recharge_record`  SET `urr_recharge_account_id`=83  WHERE  `urr_id` = 31241085 [ RunTime:0.086000s ]

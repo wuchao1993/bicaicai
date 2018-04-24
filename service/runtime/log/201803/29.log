@@ -1,0 +1,4063 @@
+---------------------------------------------------------------
+[ 2018-03-29T15:02:51+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA
+[ info ] kosun.com/admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA [运行时间：0.035000s][吞吐率：28.57req/s] [内存消耗：1,918.59kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8ab2be6d-7ab4-4710-816b-9e942ae1892b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------891303367889577853791513',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'payChannelId' => '11',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://11',
+  'account' => '1111',
+  'tag' => '11',
+  'terminal' => '111',
+  'desc' => '111',
+  'md5Key' => '11111',
+  'terminalId' => '1111',
+  'limitAmount' => '',
+  'rsaPriKey' => '2313213',
+  'rsaPublicKey' => '123123123213',
+  'orderIndex' => '',
+  'signType' => 'RSA',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:18:19+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.030000s][吞吐率：33.33req/s] [内存消耗：1,906.65kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9f320f85-0af7-4230-b14c-44083ad90b40',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------861833268259265507043413',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:18:35+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：1.187500s][吞吐率：0.84req/s] [内存消耗：2,973.55kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ba478434-446a-4b22-814f-d32e0855b98e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------457697730730407747085759',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:357]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:358]
+---------------------------------------------------------------
+[ 2018-03-29T15:19:15+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.538500s][吞吐率：1.86req/s] [内存消耗：2,881.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'baffa840-6a4f-4452-8171-a0289d9ac582',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------405707053903249607185606',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:20:22+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.588500s][吞吐率：1.70req/s] [内存消耗：2,917.66kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'da9afd30-67ff-4e08-9a7b-a808a5777d9d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------210550738784131771627079',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:357]
+---------------------------------------------------------------
+[ 2018-03-29T15:21:04+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.601000s][吞吐率：1.66req/s] [内存消耗：2,928.28kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '34ae2eeb-9519-4074-9220-c9a791cd8fd0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------711971553763591877219587',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:357]
+---------------------------------------------------------------
+[ 2018-03-29T15:22:05+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.580500s][吞吐率：1.72req/s] [内存消耗：2,887.21kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1ca99a82-635a-4c53-94a2-137f91b97caa',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------376154587358657061471762',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:22:22+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.500500s][吞吐率：2.00req/s] [内存消耗：2,935.97kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3fd790a7-be2d-4daa-ad55-4df5e285603b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------357825312785430228365965',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:22:43+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://&tag=1&status=1 [运行时间：0.473500s][吞吐率：2.11req/s] [内存消耗：2,937.65kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9ba64282-3922-451b-82e9-b7ce405f735e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------560254744700593424956930',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'weixin',
+  'qrCodeUrl' => 'http://',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:22:50+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1 [运行时间：0.586500s][吞吐率：1.71req/s] [内存消耗：2,937.99kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '67413512-98d5-4dad-a20a-9e93f1ab2486',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------704488614704252525897507',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'weixin',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:22:55+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.481000s][吞吐率：2.08req/s] [内存消耗：2,935.97kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c725edea-c229-4584-8c87-e888b56b41e5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------296257391450414698148530',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:24:13+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.860000s][吞吐率：1.16req/s] [内存消耗：2,889.78kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7b3523ee-d033-4bbb-830f-e89f1851f1d8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------911614477709074868062334',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:24:17+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=weixin&qrCodeUrl=http://baidu.com&tag=1&status=1 [运行时间：0.810000s][吞吐率：1.23req/s] [内存消耗：2,951.59kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'be30df87-21bb-4479-a57d-39493a40fff8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------660842093110312461928657',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'weixin',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:26:38+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.749000s][吞吐率：1.34req/s] [内存消耗：2,889.78kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f7a48fbf-8efb-4bd0-a9c1-f292b863d4ea',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------433781145682828687528585',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:29:05+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountTypeList [运行时间：1.334000s][吞吐率：0.75req/s] [内存消耗：2,920.95kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bdafb3cb-d84c-43d5-aae5-df2ab99af44d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------923013696205572868918885',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php:106]
+---------------------------------------------------------------
+[ 2018-03-29T15:29:35+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://&tag=1&status=1 [运行时间：0.673500s][吞吐率：1.48req/s] [内存消耗：2,883.87kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '813b2f72-7bac-48ae-9bd1-b004a0e1d38e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------068672218666356520492413',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:29:43+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1 [运行时间：0.682000s][吞吐率：1.47req/s] [内存消耗：2,884.01kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bbf2e70a-681d-4b6c-bfb5-fc1d251497a9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------460709588795770278135214',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:30:07+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.755000s][吞吐率：1.32req/s] [内存消耗：2,891.70kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a9dfad0e-4719-479f-a457-b98965a5c294',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------116896314403107642385298',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:37:32+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17
+[ info ] kosun.com/admin/PayCenterCompanyAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17 [运行时间：0.057000s][吞吐率：17.54req/s] [内存消耗：1,870.51kb] [文件加载：71]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'editFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e653ce28-3ed3-42b6-b30b-638049c5c3ac',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------293137981411195272625405',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '11111122',
+  'realName' => 'qqqq',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '11',
+  'status' => '1',
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:38:14+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17 [运行时间：7.006500s][吞吐率：0.14req/s] [内存消耗：2,884.45kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'editFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '64f3d6a0-87cf-48e3-ad4a-7f9d3a25081b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------904705480840087430389912',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '11111122',
+  'realName' => 'qqqq',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '11',
+  'status' => '1',
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->editFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:38:20+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.631000s][吞吐率：1.58req/s] [内存消耗：2,891.71kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6f4bb4b4-8602-4a55-9ea5-befee238ca5b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------590212433326359366134851',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:38:42+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.625500s][吞吐率：1.60req/s] [内存消耗：2,935.97kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5748f07d-5596-4253-9a3a-a4c78160d2b9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------856322106868502719393077',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:38:50+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17 [运行时间：0.532500s][吞吐率：1.88req/s] [内存消耗：2,975.81kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'editFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'dfc6fadc-6a96-4bae-9ab5-c44ffc03dd0b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------573070219950721816076196',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '11111122',
+  'realName' => 'qqqq',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '11',
+  'status' => '1',
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->editFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:39:29+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.746000s][吞吐率：1.34req/s] [内存消耗：2,973.75kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '37070fcc-6796-427a-b9da-1d173a9c7aeb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------854698489835870041857204',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:39:32+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.491500s][吞吐率：2.03req/s] [内存消耗：2,973.75kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5f069cfa-6147-458a-bfb1-2ca3575dca4d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------159890026131278581155872',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:39:34+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.491500s][吞吐率：2.03req/s] [内存消耗：2,973.75kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '30f10a25-fdf2-457d-8ad7-b11fc97dedcc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------646685881857599400479526',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:40:05+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.678500s][吞吐率：1.47req/s] [内存消耗：2,917.73kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '1c5627d4-73ab-46fd-a3ec-fa38c095a590',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------270456025468406891536294',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:40:32+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.691000s][吞吐率：1.45req/s] [内存消耗：2,918.23kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee317f71-5250-41d5-83d2-5092d6938e33',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------793209628701610996433975',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:357]
+---------------------------------------------------------------
+[ 2018-03-29T15:42:10+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：1.503500s][吞吐率：0.67req/s] [内存消耗：2,918.57kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2ebc0cb9-54f2-43f1-9344-09379ab3a10b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------362868225307928118476558',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: totalNum[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:42:20+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.627000s][吞吐率：1.59req/s] [内存消耗：2,936.70kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '43e75af4-aa7e-43e2-bfff-72505eb3528c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------034269577674149842531456',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:42:28+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1 [运行时间：0.699000s][吞吐率：1.43req/s] [内存消耗：2,976.11kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3a301896-ed2b-4ec9-9d58-dda7f10995af',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------462660269670319425893409',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:357]
+---------------------------------------------------------------
+[ 2018-03-29T15:42:32+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.636000s][吞吐率：1.57req/s] [内存消耗：2,936.70kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0e12309c-508f-474c-bd80-2e6ceacde886',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------353232737476137061470540',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:44:05+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.854500s][吞吐率：1.17req/s] [内存消耗：2,936.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ad4b2b77-a008-4a02-9d07-96cebcc7b084',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------879363309283264219699846',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:44:30+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.513500s][吞吐率：1.95req/s] [内存消耗：2,936.41kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0be5a10e-2d1c-4a84-bd87-16e3d102b981',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------229935174078797608396928',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:50:24+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1 [运行时间：2.354000s][吞吐率：0.42req/s] [内存消耗：2,976.94kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c58287c0-8f8e-4a41-b0e7-c700f916831a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------007129719593434221946087',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:360]
+---------------------------------------------------------------
+[ 2018-03-29T15:50:34+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.639000s][吞吐率：1.56req/s] [内存消耗：2,919.37kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd8d8fa13-94e8-458e-9e8b-ac4ff39f9cf9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------005050699712555378494672',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:356]
+---------------------------------------------------------------
+[ 2018-03-29T15:50:58+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.566000s][吞吐率：1.77req/s] [内存消耗：2,918.31kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4fe8a5ee-2ee1-433d-9770-eda923f916ca',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------652502366740330341234497',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+---------------------------------------------------------------
+[ 2018-03-29T15:51:03+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.489500s][吞吐率：2.04req/s] [内存消耗：2,936.74kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b5f8d284-43ee-4849-8be9-79b6fd4bf7a9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------073668413308348609226560',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:51:09+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/addFriendAccount?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1?account=111&realName=www&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=1&status=1 [运行时间：0.508000s][吞吐率：1.97req/s] [内存消耗：2,976.15kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'addFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a1f52ad1-e00a-4c3c-a740-05dfa276147b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------750373018863348619961955',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111',
+  'realName' => 'www',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '1',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->addFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:359]
+---------------------------------------------------------------
+[ 2018-03-29T15:51:13+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/editFriendAccount?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17?account=11111122&realName=qqqq&typeCode=wechat&qrCodeUrl=http://baidu.com&tag=11&status=1&id=17 [运行时间：0.501000s][吞吐率：2.00req/s] [内存消耗：2,976.59kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'editFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ce5b78e9-08dd-4a5c-8696-201945bcb83e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------273488096363808475208355',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '11111122',
+  'realName' => 'qqqq',
+  'typeCode' => 'wechat',
+  'qrCodeUrl' => 'http://baidu.com',
+  'tag' => '11',
+  'status' => '1',
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->editFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:359]
+---------------------------------------------------------------
+[ 2018-03-29T15:51:18+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.525500s][吞吐率：1.90req/s] [内存消耗：2,918.31kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cf0d86c1-6334-4a34-b484-eb6c5574e411',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------884367804953251225032949',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+---------------------------------------------------------------
+[ 2018-03-29T15:51:31+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.653000s][吞吐率：1.53req/s] [内存消耗：2,974.02kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c1170169-450d-4439-a220-beddc145be84',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------379015298748573369515471',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: list[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+---------------------------------------------------------------
+[ 2018-03-29T15:52:03+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/deleteFriendAccount?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/deleteFriendAccount?id=17 [运行时间：0.508500s][吞吐率：1.97req/s] [内存消耗：2,974.23kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'deleteFriendAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b3fc3127-5897-4395-b009-87488940176a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------173300334070568495601316',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->deleteFriendAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:359]
+---------------------------------------------------------------
+[ 2018-03-29T15:52:07+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.488000s][吞吐率：2.05req/s] [内存消耗：2,936.48kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'af91250c-21fe-4b1d-b852-174f36f56642',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------091369003312009386930460',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:52:35+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/changeFriendAccountStatus?id=14&status=0
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/changeFriendAccountStatus?id=14&status=0 [运行时间：0.600500s][吞吐率：1.67req/s] [内存消耗：2,974.39kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'changeFriendAccountStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b283dc7b-80e2-4c7f-8e1a-d2b8af803b38',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------119243638675166257302564',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->changeFriendAccountStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:359]
+---------------------------------------------------------------
+[ 2018-03-29T15:52:39+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.510000s][吞吐率：1.96req/s] [内存消耗：2,936.48kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a23161e1-3f8e-4b18-9162-85e91c42f000',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------267965459769275362162514',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T15:52:47+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountTypeList [运行时间：0.484000s][吞吐率：2.07req/s] [内存消耗：2,974.40kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '02d86ac9-0700-43c6-836f-854abd1baa4d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------308553625136318256324321',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php:106]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:359]
+---------------------------------------------------------------
+[ 2018-03-29T15:52:51+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountTypeList [运行时间：0.505500s][吞吐率：1.98req/s] [内存消耗：2,974.40kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '875ed0b0-5594-4715-a2f6-43553973c695',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------678747233609790684171814',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php:106]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:359]
+---------------------------------------------------------------
+[ 2018-03-29T15:53:31+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountTypeList [运行时间：0.530500s][吞吐率：1.89req/s] [内存消耗：2,921.65kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec3480a1-dff8-41e6-80a5-ba601ff5d78f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------557784273669665788956853',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php:106]
+---------------------------------------------------------------
+[ 2018-03-29T15:54:18+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.603500s][吞吐率：1.66req/s] [内存消耗：2,892.41kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5032bd2c-26a4-4818-bfde-86a4fd15aaf0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'cookie' => 'PHPSESSID=6o07a27gqb4jhrhb9rd2mc2930',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------724497233645151507893365',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T16:59:16+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：1.282500s][吞吐率：0.78req/s] [内存消耗：2,891.77kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0f56e992-571a-4dd9-9a03-724dd2197407',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------196017985666706678611444',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:00:56+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0
+[ info ] kosun.com/admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0 [运行时间：1.012500s][吞吐率：0.99req/s] [内存消耗：2,888.48kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'changePayTypeGroupStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '53dd5154-26b6-4940-ad21-24d64d4055bf',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------464085508961200855796454',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '5',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->changePayTypeGroupStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:03:37+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountBankList [运行时间：0.620000s][吞吐率：1.61req/s] [内存消耗：2,919.20kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountBankList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5c4867bf-36e2-4245-ab7d-2abe8ae7d82e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------627322638703651722107257',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountBankList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:108]
+---------------------------------------------------------------
+[ 2018-03-29T17:06:38+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.753000s][吞吐率：1.33req/s] [内存消耗：2,891.48kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5541c40e-db50-40f9-9112-72c4c06385b8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------419294748846640980117685',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:07:52+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.571500s][吞吐率：1.75req/s] [内存消耗：2,891.30kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5f538972-fca3-4303-8861-beb9b929099d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------956362711300117068798117',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:08:09+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.496000s][吞吐率：2.02req/s] [内存消耗：2,972.89kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '35260c10-e3f6-47c6-a6ad-7065786abe64',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------737289901567478363000182',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+---------------------------------------------------------------
+[ 2018-03-29T17:08:26+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.516000s][吞吐率：1.94req/s] [内存消耗：2,973.48kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '724432d9-ec42-4a5c-b438-990840352332',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------196288603515848306071486',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+---------------------------------------------------------------
+[ 2018-03-29T17:09:26+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：1.107500s][吞吐率：0.90req/s] [内存消耗：2,973.48kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ca18fc78-8e56-4579-8404-2396a2ec0386',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------993755239224455589541334',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义数组索引: data[D:\xampp\htdocs\service\application\admin\logic\PayCenter.php:355]
+---------------------------------------------------------------
+[ 2018-03-29T17:09:59+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getPayCenterFriendAccountList [运行时间：0.729000s][吞吐率：1.37req/s] [内存消耗：2,935.55kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getPayCenterFriendAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '209b1aa4-e542-4016-9116-8086ae56cb66',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------930866648334677275114130',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getPayCenterFriendAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:10:15+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=17 [运行时间：0.513500s][吞吐率：1.95req/s] [内存消耗：2,879.17kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd81105a8-51c9-4cd7-b559-cf1e59f4a209',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------185628745566078156989762',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:10:23+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=14
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=14 [运行时间：0.525000s][吞吐率：1.90req/s] [内存消耗：2,880.00kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3c02adca-60ff-47c3-8735-f2e58c65c292',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------968835516843225984323840',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:11:35+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=14
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountDetail?id=14 [运行时间：0.641500s][吞吐率：1.56req/s] [内存消耗：2,935.45kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountDetail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f98c624d-7607-4fd1-bf50-870994876024',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------702825527616689066659138',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '14',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountDetail[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:11:41+08:00 ] 127.0.0.1 POST /admin/PayCenterFriendPayAccount/getFriendAccountTypeList
+[ info ] kosun.com/admin/PayCenterFriendPayAccount/getFriendAccountTypeList [运行时间：0.486500s][吞吐率：2.06req/s] [内存消耗：2,972.71kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterFriendPayAccount',
+    2 => 'getFriendAccountTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'de9cdf3e-9185-451e-8255-2352d155b877',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------133674779544077797204294',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterFriendPayAccount->getFriendAccountTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterFriendPayAccount.php:106]
+---------------------------------------------------------------
+[ 2018-03-29T17:11:56+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayCenterPayTypeList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayCenterPayTypeList [运行时间：0.487000s][吞吐率：2.05req/s] [内存消耗：2,941.05kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayCenterPayTypeList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fc520393-ab07-40de-bff6-39b3facd1bc8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------905149567569239136451639',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayCenterPayTypeList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:12:38+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/getPayTypeGroupList
+[ info ] kosun.com/admin/PayCenterRechargeType/getPayTypeGroupList [运行时间：0.647500s][吞吐率：1.54req/s] [内存消耗：2,940.97kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'getPayTypeGroupList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '18907c63-6746-40df-a09f-8b0f1138222b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------081211397101041038796838',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->getPayTypeGroupList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000500s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:12:54+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1
+[ info ] kosun.com/admin/PayCenterRechargeType/addPayTypeGroup?groupName=www&status=1&orderIndex=1 [运行时间：0.474500s][吞吐率：2.11req/s] [内存消耗：2,941.34kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'addPayTypeGroup',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e3a33286-86a0-4e6a-b5fb-2a06bf6f47e9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------032696439760993661474408',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupName' => 'www',
+  'status' => '1',
+  'orderIndex' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->addPayTypeGroup[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:13:07+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0
+[ info ] kosun.com/admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0 [运行时间：0.497000s][吞吐率：2.01req/s] [内存消耗：2,941.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.004000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'changePayTypeGroupStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3e152e80-6e44-42fe-a99e-bba98f7d4d55',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------028037599033169840321645',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '5',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->changePayTypeGroupStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:13:12+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0
+[ info ] kosun.com/admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0 [运行时间：0.488500s][吞吐率：2.05req/s] [内存消耗：2,941.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'changePayTypeGroupStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '77205f77-5ced-4739-b3ac-aee30ba00ce4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------525993741559551328364488',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '5',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->changePayTypeGroupStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:13:29+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA
+[ info ] kosun.com/admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA [运行时间：0.484500s][吞吐率：2.06req/s] [内存消耗：2,947.90kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '17a8d83a-4d55-4e38-ad54-7db9b09c741e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------501386505725506917039929',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'payChannelId' => '11',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://11',
+  'account' => '1111',
+  'tag' => '11',
+  'terminal' => '111',
+  'desc' => '111',
+  'md5Key' => '11111',
+  'terminalId' => '1111',
+  'limitAmount' => '',
+  'rsaPriKey' => '2313213',
+  'rsaPublicKey' => '123123123213',
+  'orderIndex' => '',
+  'signType' => 'RSA',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:13:35+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId=
+[ info ] kosun.com/admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=11&payTypeId=11&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId= [运行时间：0.492000s][吞吐率：2.03req/s] [内存消耗：2,948.40kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd9eddd6e-ae80-4d03-95f0-a1a81494b21d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------535577539472822718221741',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'payChannelId' => '11',
+  'payTypeId' => '11',
+  'redirectDomain' => 'http://11',
+  'account' => '1111',
+  'tag' => '11',
+  'terminal' => '111',
+  'desc' => '111',
+  'md5Key' => '11111',
+  'terminalId' => '1111',
+  'limitAmount' => '',
+  'rsaPriKey' => '2313213',
+  'rsaPublicKey' => '123123123213',
+  'orderIndex' => '',
+  'signType' => 'RSA',
+  'channelMerchantId?payChannelId' => '11',
+  'channelMerchantId' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:13:52+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=1&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=11&payTypeId=1&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId=
+[ info ] kosun.com/admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=1&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=11&payTypeId=1&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId= [运行时间：0.739500s][吞吐率：1.35req/s] [内存消耗：2,948.40kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '616a3d5a-9bb1-471e-aa52-23af64757243',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------852327876542561126532650',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'payChannelId' => '11',
+  'payTypeId' => '1',
+  'redirectDomain' => 'http://11',
+  'account' => '1111',
+  'tag' => '11',
+  'terminal' => '111',
+  'desc' => '111',
+  'md5Key' => '11111',
+  'terminalId' => '1111',
+  'limitAmount' => '',
+  'rsaPriKey' => '2313213',
+  'rsaPublicKey' => '123123123213',
+  'orderIndex' => '',
+  'signType' => 'RSA',
+  'channelMerchantId?payChannelId' => '11',
+  'channelMerchantId' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:13:57+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=2&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=11&payTypeId=2&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId=
+[ info ] kosun.com/admin/PayCenterChannel/createChannelMerchant?payChannelId=11&payTypeId=2&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=11&payTypeId=2&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId= [运行时间：0.496500s][吞吐率：2.01req/s] [内存消耗：2,948.40kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d8a33be-7fc1-4997-9ea1-f6de16d09eeb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------305698595936135592951987',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'payChannelId' => '11',
+  'payTypeId' => '2',
+  'redirectDomain' => 'http://11',
+  'account' => '1111',
+  'tag' => '11',
+  'terminal' => '111',
+  'desc' => '111',
+  'md5Key' => '11111',
+  'terminalId' => '1111',
+  'limitAmount' => '',
+  'rsaPriKey' => '2313213',
+  'rsaPublicKey' => '123123123213',
+  'orderIndex' => '',
+  'signType' => 'RSA',
+  'channelMerchantId?payChannelId' => '11',
+  'channelMerchantId' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:14:33+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/createChannelMerchant?payChannelId=88&payTypeId=4&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=88&payTypeId=4&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId=
+[ info ] kosun.com/admin/PayCenterChannel/createChannelMerchant?payChannelId=88&payTypeId=4&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex&signType=RSA&channelMerchantId?payChannelId=88&payTypeId=4&redirectDomain=http://11&account=1111&tag=11&terminal=111&desc=111&md5Key=11111&terminalId=1111&limitAmount=&rsaPriKey=2313213&rsaPublicKey=123123123213&orderIndex=&signType=RSA&channelMerchantId= [运行时间：0.483000s][吞吐率：2.07req/s] [内存消耗：2,948.40kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'createChannelMerchant',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b77388b-1264-493f-a28a-4bf143688045',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------058740665346094372524006',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'payChannelId' => '88',
+  'payTypeId' => '4',
+  'redirectDomain' => 'http://11',
+  'account' => '1111',
+  'tag' => '11',
+  'terminal' => '111',
+  'desc' => '111',
+  'md5Key' => '11111',
+  'terminalId' => '1111',
+  'limitAmount' => '',
+  'rsaPriKey' => '2313213',
+  'rsaPublicKey' => '123123123213',
+  'orderIndex' => '',
+  'signType' => 'RSA',
+  'channelMerchantId?payChannelId' => '88',
+  'channelMerchantId' => '',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->createChannelMerchant[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:14:38+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0
+[ info ] kosun.com/admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0 [运行时间：0.482500s][吞吐率：2.07req/s] [内存消耗：2,941.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'changePayTypeGroupStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4e3a1ef5-19b9-434f-ae48-46b3794fb516',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------865574324700219741941138',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '5',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->changePayTypeGroupStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:14:40+08:00 ] 127.0.0.1 POST /admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0
+[ info ] kosun.com/admin/PayCenterRechargeType/changePayTypeGroupStatus?groupId=5&status=0 [运行时间：0.480500s][吞吐率：2.08req/s] [内存消耗：2,941.38kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterRechargeType',
+    2 => 'changePayTypeGroupStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '719e553a-c816-4289-a9ab-82583165256f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------343848994448873976802985',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '5',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterRechargeType->changePayTypeGroupStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterRechargeType.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:15:12+08:00 ] 127.0.0.1 POST /admin/PayCenterChannel/getChannelMerchantList?groupId=5&status=0
+[ info ] kosun.com/admin/PayCenterChannel/getChannelMerchantList?groupId=5&status=0 [运行时间：0.596500s][吞吐率：1.68req/s] [内存消耗：2,943.18kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterChannel',
+    2 => 'getChannelMerchantList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '32848d1c-be7a-499a-ba01-b80ebd615eb6',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------625428421953459515995390',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'groupId' => '5',
+  'status' => '0',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterChannel->getChannelMerchantList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterChannel.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:15:47+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.027000s][吞吐率：37.04req/s] [内存消耗：1,905.63kb] [文件加载：70]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd4a27ae7-00b4-4a00-bed1-9fafab23fbe0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------133256836611108433238522',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:15:54+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.594500s][吞吐率：1.68req/s] [内存消耗：2,934.96kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b1258668-fa98-4727-be2d-f3284e913d2c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------641535461046110738603923',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:15:57+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount [运行时间：0.474500s][吞吐率：2.11req/s] [内存消耗：2,934.84kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4c694761-260e-4e2e-b718-97caf2a60268',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------661517386755476226678013',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:16:09+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&userName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&userName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.536500s][吞吐率：1.86req/s] [内存消耗：2,936.39kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9c28d298-1947-4655-877b-529cbdcc7217',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------521988691875189171071751',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'userName' => '2222',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:16:18+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=2222&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.600000s][吞吐率：1.67req/s] [内存消耗：2,936.39kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '86cbb025-c0d9-496b-9fa7-65b2771f30fc',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------292120138581434126838457',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'realName' => '2222',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:16:24+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.580000s][吞吐率：1.72req/s] [内存消耗：2,936.52kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8754c857-a0fe-4b19-a6ac-47f60a8bf86d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------490752406882633930616145',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:17:14+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.837000s][吞吐率：1.19req/s] [内存消耗：2,954.11kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b632437f-a0b2-4186-99a0-90e81b096284',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------980408587952971431431226',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:23:09+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.897000s][吞吐率：1.11req/s] [内存消耗：2,882.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd6e6a813-278d-4f72-a7ce-79c0e6f0ce6c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------421713836187948497630046',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:23:15+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=111111212&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=111111212&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.678500s][吞吐率：1.47req/s] [内存消耗：2,882.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e3341e0-5268-4b5b-b735-f6eed8bbe3cb',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------594439821088382918342405',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111111212',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:23:22+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112121111&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112121111&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.657500s][吞吐率：1.52req/s] [内存消耗：2,882.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '95d3a029-f5b6-4a30-bcdb-2e0cbfc87c3b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------982088503079721868674197',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112121111',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:23:32+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111112121111aas&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111112121111aas&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.635000s][吞吐率：1.57req/s] [内存消耗：2,882.49kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd0becaa-7155-4352-8ecd-2c4f183bcec8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------647058073417530048834957',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111112121111aas',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:23:40+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=111111212111999999&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=111111212111999999&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.649500s][吞吐率：1.54req/s] [内存消耗：2,882.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ba4c833c-bef1-4c4b-8d8c-19a957a697ab',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------227979570205483934968824',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111111212111999999',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:24:08+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=111111212111999999352342352354&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=111111212111999999352342352354&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.728000s][吞吐率：1.37req/s] [内存消耗：2,882.55kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e1d57b81-16ad-4daf-b2ba-71ccb035027b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------622979188961680469370418',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111111212111999999352342352354',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:24:17+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=111111212111999999352342&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=111111212111999999352342&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.627000s][吞吐率：1.59req/s] [内存消耗：2,882.49kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f9c060bf-176a-4fa3-a119-49f5eb190923',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------769946437765456440973258',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '111111212111999999352342',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:24:21+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999999352342&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999999352342&tag=1&realName=%E5%93%88%E5%93%88&code=icbc&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.632500s][吞吐率：1.58req/s] [内存消耗：2,882.49kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c4d606d8-178d-4f08-94be-a61eb5f5f6da',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------436306931284424654196244',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111212111999999352342',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'icbc',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:24:45+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999999352342&tag=1&realName=%E5%93%88%E5%93%88&code=ccb&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999999352342&tag=1&realName=%E5%93%88%E5%93%88&code=ccb&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.618500s][吞吐率：1.62req/s] [内存消耗：2,882.49kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.005000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6ccaa0b3-6d72-4593-b0d9-a5ec028626d9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------418565830379710824619888',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111212111999999352342',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'ccb',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:24:51+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999&tag=1&realName=%E5%93%88%E5%93%88&code=ccb&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999&tag=1&realName=%E5%93%88%E5%93%88&code=ccb&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.634000s][吞吐率：1.58req/s] [内存消耗：2,882.52kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9002022d-64c6-4d28-abeb-587ab42904a2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------756426663640748209012738',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111212111999',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'ccb',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:25:00+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.636000s][吞吐率：1.57req/s] [内存消耗：2,894.08kb] [文件加载：77]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c04a1be0-2c30-4719-8ac8-22dedac6b2c8',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------337574251053965303503724',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:25:11+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountBankList [运行时间：0.959500s][吞吐率：1.04req/s] [内存消耗：2,917.90kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountBankList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '425e0095-946e-4be3-9443-a2b453612924',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------052997628947390279617169',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountBankList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:108]
+---------------------------------------------------------------
+[ 2018-03-29T17:25:41+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountBankList [运行时间：0.612500s][吞吐率：1.63req/s] [内存消耗：2,917.90kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountBankList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '32226101-7357-4f88-96b8-480cc5b29b9f',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------131504549423277940824730',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountBankList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:108]
+---------------------------------------------------------------
+[ 2018-03-29T17:27:00+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountBankList [运行时间：0.725500s][吞吐率：1.38req/s] [内存消耗：2,933.19kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountBankList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6d2691b3-291f-4cde-81bd-940b978e9cf7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------675812698123897958714782',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountBankList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:108]
+---------------------------------------------------------------
+[ 2018-03-29T17:28:37+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountBankList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountBankList [运行时间：0.609000s][吞吐率：1.64req/s] [内存消耗：2,972.53kb] [文件加载：83]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.003000s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountBankList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0233bc4e-b381-4655-abd5-48cf6aac29e3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------199835347179308126921615',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountBankList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: params[D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php:108]
+---------------------------------------------------------------
+[ 2018-03-29T17:29:01+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999&tag=1&realName=%E5%93%88%E5%93%88&code=psbs&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=1111212111999&tag=1&realName=%E5%93%88%E5%93%88&code=psbs&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.479500s][吞吐率：2.09req/s] [内存消耗：2,936.61kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '7994e51f-4128-4549-821a-cd240e234d91',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------034524318298708840092600',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '1111212111999',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'psbs',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:29:20+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/getBankAccountList
+[ info ] kosun.com/admin/PayCenterCompanyAccount/getBankAccountList [运行时间：0.501000s][吞吐率：2.00req/s] [内存消耗：2,935.05kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'getBankAccountList',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '16fe7c32-24f9-4600-9586-479f08b708b9',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------337926369151539458475371',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.001000s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->getBankAccountList[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:29:47+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/addBankAccount?account=34567244&tag=1&realName=%E5%93%88%E5%93%88&code=psbs&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/addBankAccount?account=34567244&tag=1&realName=%E5%93%88%E5%93%88&code=psbs&address=%E5%8C%97%E4%BA%AC&limitAmount=1000&status=1 [运行时间：0.588000s][吞吐率：1.70req/s] [内存消耗：2,936.61kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'addBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b235bb0f-7290-4822-bc8e-e99e1ac0f3fe',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------718604481048745644021603',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'account' => '34567244',
+  'tag' => '1',
+  'realName' => '哈哈',
+  'code' => 'psbs',
+  'address' => '北京',
+  'limitAmount' => '1000',
+  'status' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->addBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:30:00+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/editBankAccount?id=1
+[ info ] kosun.com/admin/PayCenterCompanyAccount/editBankAccount?id=1 [运行时间：0.492500s][吞吐率：2.03req/s] [内存消耗：2,935.13kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'editBankAccount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c0bde034-3dcc-4c0d-a50b-86a076c573ee',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------107941837655079750428515',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->editBankAccount[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-03-29T17:30:06+08:00 ] 127.0.0.1 POST /admin/PayCenterCompanyAccount/changeBankAccountStatus
+[ info ] kosun.com/admin/PayCenterCompanyAccount/changeBankAccountStatus [运行时间：0.469000s][吞吐率：2.13req/s] [内存消耗：2,935.15kb] [文件加载：80]
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_init [ RunTime:0.002500s ]
+[ info ] [ LANG ] D:\xampp\htdocs\service\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'PayCenterCompanyAccount',
+    2 => 'changeBankAccountStatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '461792cd-bdaf-4023-874c-9621e765433d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'kosun.com',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------846203814962455533020728',
+  'content-length' => '387',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'playTypeId' => '1',
+  'betLimit' => '0',
+  'matchLimit' => '5000',
+)
+[ info ] [ BEHAVIOR ] Run app\common\behavior\SwitchIdentity @module_init [ RunTime:0.000500s ]
+[ info ] [ BEHAVIOR ] Run app\admin\behavior\Auth @action_begin [ RunTime:0.000000s ]
+[ info ] [ RUN ] app\admin\controller\PayCenterCompanyAccount->changeBankAccountStatus[ D:\xampp\htdocs\service\application\admin\controller\PayCenterCompanyAccount.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ BEHAVIOR ] Run app\common\behavior\Cross @app_end [ RunTime:0.000000s ]
+[ info ] [ LOG ] INIT File
