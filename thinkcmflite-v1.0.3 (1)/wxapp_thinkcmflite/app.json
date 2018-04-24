@@ -1,0 +1,46 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/my/my",
+        "pages/user/setEmail",
+        "pages/user/setMobile",
+        "pages/about/update",
+        "pages/article/article",
+        "pages/favorite/index",
+        "pages/comment/comment",
+        "pages/demo/demo"
+    ],
+    "window": {
+        "backgroundTextStyle": "white",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTitleText": "币猜猜",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#666666",
+        "selectedColor": "#333333",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "#eeeeee",
+        "list": [
+            {
+                "text": "首页",
+                "pagePath": "pages/index/index",
+                "iconPath": "images/icons/home.png",
+                "selectedIconPath": "images/icons/home_selected.png"
+            },
+            {
+               "text": "排行榜",
+               "pagePath": "pages/demo/demo",
+               "iconPath": "images/icons/paiming.png",
+               "selectedIconPath":"images/icons/paiming_selected.png"
+            },
+            {
+                "text": "我的",
+                "pagePath": "pages/my/my",
+                "iconPath": "images/icons/my.png",
+                "selectedIconPath": "images/icons/my_selected.png"
+            }
+        ]
+    },
+    "debug": true
+}

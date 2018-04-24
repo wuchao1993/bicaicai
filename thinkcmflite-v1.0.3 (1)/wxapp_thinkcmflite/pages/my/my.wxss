@@ -1,0 +1,7 @@
+.user-nickname{
+    font-size: 14px;
+}
+
+.weui-cells:before{
+    /*border-top: none;*/
+}

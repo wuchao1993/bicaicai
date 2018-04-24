@@ -1,0 +1,49 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.6.4",
+	"appid": "wx6198a9462de4827c",
+	"projectname": "%E5%B8%81%E7%8C%9C%E7%8C%9C",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "评论页面",
+					"pathName": "pages/comment/comment",
+					"query": "object_id=39&table_name=portal_post"
+				},
+				{
+					"id": -1,
+					"name": "文章页面",
+					"pathName": "pages/article/article",
+					"query": "id=43"
+				}
+			]
+		}
+	}
+}
